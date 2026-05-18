@@ -13,9 +13,9 @@ SSR provides **"Shadow Intelligence"**: we identify structural bifurcations **be
 
 **Current Active Fronts**
 
-- **Front A — Hormuz:** The Beijing Summit (May 15) failed the "Physical Implementation Test." S2→S3跃迁已确认，HEI处于S3中高强度区间，Path Beta深化。L2 Report →
-- **Front B — AI Supply Chain:** Samsung mediation countdown (May 21) locks in the HBM cost-transmission loop. L2 Report →
-- **Front C — Transformer/Water:** US data center buildout faces "supply chain hallucination" — not global shortage, but Western manufacturing collapse. L2 Report →
+- **Front A — Hormuz:** The Beijing Summit (May 15) failed the "Physical Implementation Test." S2→S3跃迁已确认，HEI处于S3中高强度区间，Path Beta深化。[L2 Report →](./Public_Audit_L2/Hormuz_Strategic_Framework_Redacted.md)
+- **Front B — AI Supply Chain:** Samsung mediation countdown (May 21) locks in the HBM cost-transmission loop. [L2 Report →](./Public_Audit_L2/AI_Investment_Paradox_1.0.md)
+- **Front C — Transformer/Water:** US data center buildout faces "supply chain hallucination" — not global shortage, but Western manufacturing collapse.  [L2 Report →](./Public_Audit_L2/AI_DataCenter_Thirst_1.0.md)→
 
 **Latest Audit**: `2026-05-18` | **Next Window**: `2026-05-20`
 
