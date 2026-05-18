@@ -294,7 +294,7 @@ We maintain active surveillance on scenario-collapse triggers across all fronts.
 **Transformer/Water:** US tariff policy reversal on Chinese transformers, domestic US transformer factory groundbreaking announcements, BESS substitution rate for diesel generators breaking 30%, Malaysia Johor power supply saturation.
 
 Detailed deconstruction and hedge calibration available in L2 Redacted reports.
-
+因部分框架调整，报告在05/18 21：00时发布
 ---
 _Last Updated: 2026-05-17_  
 _Next Audit Window: 2026-05-20_
