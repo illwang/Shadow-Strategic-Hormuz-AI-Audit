@@ -17,8 +17,8 @@ SSR provides **"Shadow Intelligence"**: we identify structural bifurcations **be
 **Current Active Fronts**
 
 - **Front A — Hormuz:** The Beijing Summit (May 15) failed the "Physical Implementation Test." S2→S3跃迁已确认，HEI处于S3中高强度区间，Path Beta深化。[L2 Report →](./Public_Audit_L2/Hormuz_Strategic_Framework_Redacted.md)
-- **Front B — AI Supply Chain:** Samsung mediation countdown (May 21) locks in the HBM cost-transmission loop. [L2 Report →](./Public_Audit_L2/AI_Paradox_1.0_Redacted.md)
-- **Front C — Transformer/Water:** US data center buildout faces "supply chain hallucination" — not global shortage, but Western manufacturing collapse.  [L2 Report →](./Public_Audit_L2/AI_DataCenter_Thirst_1.0.md)→
+- **Front B — AI Supply Chain:** Four-layer bottleneck cascade (HBM→Optical→Diesel→Materials) deepens. Samsung warm-down losses irreversible; 2026 HBM capacity sold out across all three majors; H200 "US-approved, China-blocked" stalemate; MATCH Act faces Dutch protest. [L2 Report →](./Public_Audit_L2/AI_Investment_Paradox_1.0.md)
+- **Front C — Transformer/Water:** US data center buildout faces "supply chain hallucination" — not global shortage, but Western manufacturing collapse. [L2 Report →](./Public_Audit_L2/AI_DataCenter_Thirst_1.0.md)
 
 **Latest Audit**: `2026-05-18` | **Next Window**: `2026-05-20`
 
@@ -224,6 +224,8 @@ _价值点：证明我们的 OSINT 处理引擎是科学且严密的。_
 
 👉 **查阅时间溢价审计：** [Time_Premium_Audit.md](./Methodology/Time_Premium_Audit.md)
 
+👉 **查阅四层瓶颈模型：** [Four_Layer_Bottleneck_Model.md](./Methodology/Four_Layer_Bottleneck_Model.md)
+
 👉 **查阅 OSINT 边界协议：** [OSINT_Boundary_Protocol.md](./Methodology/OSINT_Boundary_Protocol.md)
 
 ### **L2: 战略审计 (Redacted Reports)**
@@ -329,9 +331,9 @@ If you reference this framework in your research, media coverage, or investment 
 
 We maintain active surveillance on scenario-collapse triggers across all fronts.
 
-**Hormuz:** Shadow inventory drawdown acceleration, Iran tactical capitulation under domestic pressure, demand-cliff oil pricing below $[REDACTED]. S3→S4跃迁触发条件：美以打击启动 / 核红线耦合 / 域外扩散升级。监测窗口：未来7-10日。
+**Hormuz:** Shadow inventory drawdown acceleration, Iran tactical capitulation under domestic pressure, demand-cliff oil pricing below $[REDACTED]. S3→S4跃迁触发条件：美以打击启动 / 核红线耦合 / 域外扩散升级。监测窗口：未来7-10日。 **跨战线联动：** 霍尔木兹航运受阻直接影响L4氦气供应链，进而传导至L1 HBM制造成本。
 
-**AI Supply Chain:** Demand-validation failure (ARR scissor-gap reversal), legislative stall (HR 8283 suspension >[REDACTED] days), HBM overshoot via Micron HBM3E validation, full-chain inflation decoupling.
+**AI Supply Chain:** Four-layer bottleneck cascade deepening. Samsung warm-down losses confirmed irreversible; all three majors (SK Hynix, Samsung, Micron) 2026 HBM capacity sold out; H200 "US-approved, China-blocked" stalemate hardens; MATCH Act faces Dutch formal protest, multilateral binding uncertain. Demand-validation window: Q2 earnings (Jul-Aug). **跨战线联动：** 霍尔木兹危机通过氦气供应链向L4材料层传导。
 
 **Transformer/Water:** US tariff policy reversal on Chinese transformers, domestic US transformer factory groundbreaking announcements, BESS substitution rate for diesel generators breaking 30%, Malaysia Johor power supply saturation.
 
