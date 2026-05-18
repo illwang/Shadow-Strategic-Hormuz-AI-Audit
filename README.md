@@ -1,5 +1,8 @@
-# AI Audit State framework: analyzing capital, energy & labor constraints for systemic risk.
-## Shadow Strategic Research (SSR)
+# Shadow Strategic Research (SSR)
+
+![Last Audit](https://img.shields.io/badge/Last%20Audit-2026--05--17-blue)
+![Next Window](https://img.shields.io/badge/Next%20Window-2026--05--20-orange)
+![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)
 
 > **Multidimensional Risk Accounting | Physical Constraint Auditing | OSINT Global Monitoring**
 >
