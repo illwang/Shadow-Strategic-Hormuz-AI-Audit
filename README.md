@@ -42,12 +42,19 @@ SR provides **"Shadow Intelligence"**: we identify structural bifurcations **bef
 
 ### Front B — AI Supply Chain
 
-- **Supply Trigger:** 40,000+ workers registered for strike (May 21). SK Hynix 2026 HBM capacity 100% sold out.
-- **Sanction Paradigm:** MATCH Act passed committee 36-8; HR 8283 pending floor vote.
-- **Competitive Coexistence:** Beijing Summit confirms "Constructive Strategic Stability" framework; AI Safety Protocol negotiation launched; H200 export approved with revenue-share cap and unit ceiling.
-- **Full-Chain Inflation:** Bottlenecks expanded from single-point HBM to four-layer木桶效应 (Optical/EML, Diesel Generator, Helium/ABF Substrate). Q3 helium physical shortage impact window confirmed.
-- **Cross-Front Linkage:** Hormuz disruption directly impacts L4 helium supply chain, cascading to L1 HBM manufacturing costs.
-- **Projected Window:** Legislative acceleration window Q2-Q4 2026; Demand-validation scissor-gap to be tested in Q2 earnings (Jul-Aug). **[DATA REDACTED]**
+Track 3: AI Investment Paradox (Four-Layer Bottleneck | May 20, 2026)
+Status: Active monitoring | Revision triggered May 20, 21:35 CST
+Framework: Four-Layer Bottleneck-Conduction Model × Stakeholder Decision Matrix
+Latest Update: Full Report (CN) | May 20, 2026
+Trigger Event: Samsung Electronics labor situation — Dynamic revision executed
+13:31 CST: Mediation collapsed, strike confirmed (Anchor: Xinhua, AP, China News Service)
+21:35 CST: Tentative agreement reached, strike postponed, member vote May 23–28 (Revised Anchor: Cailianshe, CCTV International)
+Key Judgments:
+HBM Layer: Samsung strike risk deferred to member vote window (May 23–28); SK Hynix & Micron 2026 capacity fully sold out (independent variable)
+H200 Layer: "US-approved, China-blocked" stalemate continues; MATCH Act faces Dutch formal protest
+Demand Validation Layer: Alibaba AI ARR 35.8B yuan; Baidu AI revenue 52% of core business
+Efficiency Hedge Layer: DeepSeek V4 full-stack migration to Huawei Ascend CANN
+Next Review Trigger: NVIDIA FY2027 Q1 earnings (May 20 after-hours) | Samsung member vote result (May 23–28)
 
 ### Front C — Transformer/Water
 
