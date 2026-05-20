@@ -10,6 +10,10 @@
 
 * * *
 
+今日更新 [动力电池产业链供需格局](./动力电池产业链供需格局.pdf)
+
+* * *
+
 ## What We Do
 
 SSR provides **"Shadow Intelligence"**: we identify structural bifurcations **before market consensus forms**, using only publicly available information processed through a four-layer closed-loop architecture.
@@ -338,7 +342,7 @@ We maintain active surveillance on scenario-collapse triggers across all fronts.
 **Transformer/Water:** US tariff policy reversal on Chinese transformers, domestic US transformer factory groundbreaking announcements, BESS substitution rate for diesel generators breaking 30%, Malaysia Johor power supply saturation.
 
 ## Detailed deconstruction and hedge calibration available in L2 Redacted reports.
-今日更新 [动力电池产业链供需格局](./动力电池产业链供需格局.pdf)
 
-_Last Updated: 2026-05-18_  
-_Next Audit Window: 2026-05-20_
+
+_Last Updated: 2026-05-20_  
+_Next Audit Window: 2026-05-22_
