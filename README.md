@@ -42,19 +42,17 @@ SR provides **"Shadow Intelligence"**: we identify structural bifurcations **bef
 
 ### Front B — AI Supply Chain
 
-Track 3: AI Investment Paradox (Four-Layer Bottleneck | May 20, 2026)
-Status: Active monitoring | Revision triggered May 20, 21:35 CST
-Framework: Four-Layer Bottleneck-Conduction Model × Stakeholder Decision Matrix
-Latest Update: Full Report (CN) | May 20, 2026
-Trigger Event: Samsung Electronics labor situation — Dynamic revision executed
-13:31 CST: Mediation collapsed, strike confirmed (Anchor: Xinhua, AP, China News Service)
-21:35 CST: Tentative agreement reached, strike postponed, member vote May 23–28 (Revised Anchor: Cailianshe, CCTV International)
-Key Judgments:
-HBM Layer: Samsung strike risk deferred to member vote window (May 23–28); SK Hynix & Micron 2026 capacity fully sold out (independent variable)
-H200 Layer: "US-approved, China-blocked" stalemate continues; MATCH Act faces Dutch formal protest
-Demand Validation Layer: Alibaba AI ARR 35.8B yuan; Baidu AI revenue 52% of core business
-Efficiency Hedge Layer: DeepSeek V4 full-stack migration to Huawei Ascend CANN
-Next Review Trigger: NVIDIA FY2027 Q1 earnings (May 20 after-hours) | Samsung member vote result (May 23–28)
+**Publication: AI Investment Paradox — Full-Chain Inflation, Demand Validation & Strategic Conduction (V1)**
+- **Platform:** GitHub (github.com/illwang/osint)
+- **Language:** Chinese
+- **Framework:** Four-Layer Bottleneck-Conduction Model × Stakeholder Decision Matrix
+- **Core Trigger Event:** Samsung strike confirmation (13:31)
+- **Key Judgments:**
+  1. HBM Layer: Samsung strike escalates supply uncertainty; SK Hynix/Micron 2026 capacity fully sold out
+  2. H200 Layer: "US-approved, China-blocked" stalemate continues; MATCH Act faces Dutch formal protest
+  3. Demand Validation Layer: Alibaba AI ARR 35.8B yuan; Baidu AI revenue 52% of core business
+  4. Efficiency Hedge Layer: DeepSeek V4 full-stack migration to Huawei Ascend CANN
+- **Next Review Trigger:** NVIDIA FY2027 Q1 earnings (May 20 after-hours) or Samsung strike development
 
 ### Front C — Transformer/Water
 
