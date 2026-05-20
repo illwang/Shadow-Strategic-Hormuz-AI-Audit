@@ -224,7 +224,7 @@ _情报的价值在于领先于共识的"对账成功"。_
 
 _价值点：证明我们的 OSINT 处理引擎是科学且严密的。_
 
-👉 **查阅霍尔木兹方法论：** [`Methodology/HEI_Framework.md`](./Methodology/HEI_Framework.md)（已升级至 **5.2 业务风险校准版**）[`Methodology/hormuz/Hormuz_Crisis_V11_20260520.md`](Methodology/hormuz/Hormuz_Crisis_V11_20260520.md)
+👉 **查阅霍尔木兹方法论：** [`Methodology/HEI_Framework.md`](./Methodology/HEI_Framework.md)（已升级至 **5.2 业务风险校准版**）[`Methodology/Hormuz_Crisis_V11_20260520.md`](Methodology/Hormuz_Crisis_V11_20260520.md)
 
 👉 **查阅 AI 供应链方法论：** [`Methodology/AI_Supply_Chain_Framework.md`](./Methodology/AI_Supply_Chain_Framework.md)
 
