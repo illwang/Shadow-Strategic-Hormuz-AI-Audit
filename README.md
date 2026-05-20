@@ -339,5 +339,6 @@ We maintain active surveillance on scenario-collapse triggers across all fronts.
 
 ## Detailed deconstruction and hedge calibration available in L2 Redacted reports.
 今日更新 [动力电池产业链供需格局](./动力电池产业链供需格局.pdf)
+
 _Last Updated: 2026-05-18_  
 _Next Audit Window: 2026-05-20_
