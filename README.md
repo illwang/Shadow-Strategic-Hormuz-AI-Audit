@@ -31,37 +31,55 @@ SR provides **"Shadow Intelligence"**: we identify structural bifurcations **bef
 
 ## ⚡ Current Strategic Alert: Triple Front Active
 
-### Front A — Hormuz (HEI 5.2 深度融合框架)
+## 1. Core Methodology / 核心方法论
+SSR operates an auditable, discrete-state geopolitical and supply-chain auditing model. We do not engage in market speculation, "narrative chasing," or temporal forecasting. Instead, we map physical constraints, capital flows, and regulatory bottlenecks to identify systemic state transitions.
 
-- **State Confirmation:** S2→S3跃迁已不可逆。伊朗PGSA（波斯湾海峡管理局）5月18日正式运转，分级收费制度确立。
-- **HEI Calibration:** F=0.85 | M=0.87 | D=0.35 → **HEI=0.71** (S3中高强度区间下沿)。
-- **Core Structure:** F-D脱钩成为S3阶段核心HEI特征。制度轨道与外交轨道并行，信号矛盾削弱D值可靠性。
-- **Path Beta Deepening:** 美以打击概率≈25%，窗口期5月19-25日。存在信息矛盾（NYT报道vs以色列核设施爆炸传闻），需P0级跟踪。
-- **Business Risk Mapping:** 合规悖论（OFAC制裁警示 vs PGSA缴费通行）+ 保险双轨制 + 能源成本跳升三重挤压。
-- **Reflexivity Warning:** HEI指数若被主要航运公司/行业组织广泛采纳，可能提前引发船东集体改道与运力紧张，形成自我实现风险。
-- **Projected Window:** S4跃迁最高风险窗口持续至5月25日。WTI testing historical inflation-adjusted resistance by mid-June. **[DATA REDACTED]**
+SSR 运行一套可审计、离散状态的地缘政治与供应链审计模型。我们不参与市场炒作、不追踪舆论噪音、不进行时间点预测。相反，我们通过对物理约束、资金流向和监管瓶颈的建模，来识别系统性状态的非线性跃迁。
 
-### Front B — AI Supply Chain
+### Three-Tier Information Taxonomy / 三级信息分类法
+- **【锚】(Anchor):** Primary, verifiable, and timestamped open-source facts. No single-sourced rumors.  
+  **【锚】(事实锚点):** 经过时间戳验证、可公开交叉检索的一级事实。拒绝任何未证实的单一信源谣言。
+- **【推】(Inference):** Deductive logic mapped against physical constraints and institutional boundaries.  
+  **【推】(逻辑推断):** 基于物理硬约束和地缘合规边界的结构化演绎推理。
+- **【演】(Scenario):** Conditional "what-if" stress-testing matrices with explicit falsifiability rules.  
+  **【演】(条件推演):** 带有明确事前证伪规则的条件式"压力测试"情景矩阵。
 
-**Publication: AI Investment Paradox — Full-Chain Inflation, Demand Validation & Strategic Conduction (V1)**
-- **Platform:** GitHub (github.com/illwang/osint)
-- **Language:** Chinese
-- **Framework:** Four-Layer Bottleneck-Conduction Model × Stakeholder Decision Matrix
-- **Core Trigger Event:** Samsung strike confirmation (13:31)
-- **Key Judgments:**
-  1. HBM Layer: Samsung strike escalates supply uncertainty; SK Hynix/Micron 2026 capacity fully sold out
-  2. H200 Layer: "US-approved, China-blocked" stalemate continues; MATCH Act faces Dutch formal protest
-  3. Demand Validation Layer: Alibaba AI ARR 35.8B yuan; Baidu AI revenue 52% of core business
-  4. Efficiency Hedge Layer: DeepSeek V4 full-stack migration to Huawei Ascend CANN
-- **Next Review Trigger:** NVIDIA FY2027 Q1 earnings (May 20 after-hours) or Samsung strike development
+---
 
-### Front C — Transformer/Water
+## 2. Active Fronts / 活跃战线 (As of May 22, 2026 / 截至 2026年5月22日)
 
-- **Supply Chain Hallucination:** The so-called "global transformer shortage" is in fact Western manufacturing collapse masked as resource scarcity. China delivery cycle: ~4 months. US/EU cycle: 120+ weeks.
-- **Physical Constraint:** ~50% of US planned data center projects facing delay/cancellation. 12 GW planned, only ~1/3 under construction.
-- **GOES Reality:** China GOES output ~3.35 million tons, ~65% of global consumption. New capacity under construction >6 million tons. Structural oversupply, not scarcity.
-- **Time Premium Audit:** Orders already in production with <2 months remaining delivery carry "time option value" under 120-week constraint.
-- **Projected Window:** Q2-Q3 2026 US import surge verification; Malaysia Johor 280MW energization timeline; Kazakhstan Data Center Valley Phase 1 physical verification via Sentinel-2 (2027 H1).
+### ■ Front A: Strait of Hormuz Crisis / 霍尔木兹海峡危机 (S3 State | HEI 0.72 ± 0.08)
+- **Status / 状态:** High-Friction Institutional Rule Competition / 高摩擦制度化规则竞争。
+- **Focus / 焦点:** Tracking the newly operational Iranian PGSA boundaries, the dual-compliance OFAC sanctions loophole, and maritime assets re-flagging under physical pressure.  
+  追踪全新运转的伊朗波斯湾管理局（PGSA）管制边界、美美双重合规地缘漏洞（OFAC制裁警告），以及在物理压力下商船的紧急变更船籍行为。
+- **L2 Public Report / L2脱敏报告:** `reports/Hormuz_Crisis_V11_L2.md`
+
+### ■ Front B: AI & Semiconductor Supply Chain / AI与半导体供应链 (Path Alpha | Strike Averted)
+- **Status / 状态:** Institutional Labor Arbitrage & Capacity Lock-in / 制度化劳工博弈与产能锁定。
+- **Focus / 焦点:** Calibrating the physical impact of the Samsung Electronics wage deal, tracking the Q3 semiconductor-grade Helium physical shortages, and monitoring US MATCH Act capital barriers.  
+  测算三星电子天价工资协议达成后的物理影响、跟踪Q3半导体级液氦（Helium）的物理断供窗口，以及评估美方 MATCH Act 带来的资本壁垒。
+- **L2 Public Report / L2脱敏报告:** `reports/Samsung_Strike_Calibration_V2.md`
+
+### ■ Front C: Battery & Lithium Supply Chain / 电池与锂电供应链 (Basis Overhang Model)
+- **Status / 状态:** Warehouse Inventory Saturation & Margin Compression / 交易库容饱和与利润极度压缩。
+- **Focus / 焦点:** Tracking GACC raw imports vs. GFEX warehouse receipts accumulation, and stress-testing midstream cathode manufacturers' balance sheets ahead of H1 reporting season.  
+  追踪海关总署（GACC）锂原矿/盐进口数据与广期所（GFEX）仓单累积的偏离度，在H1中报季到来前，对中游正极材料厂进行"存货跌价准备"财务压力测试。
+
+---
+
+## 3. Engagement & OPSEC Protocol / 联络与安全协定
+SSR operates strictly on a **Written-Only, Asynchronous Communication** basis. We do not participate in live Zoom calls, webinars, or non-disclosed verbal briefings.  
+
+SSR 严格在**"纯书面、异步沟通"**的机制下运行。我们不参加任何形式的实时视频/电话会议（Zoom/Teams）、线上公开宣讲或非留痕的口语吹风会。
+
+- **Independent Analysts / PMs:** For L3 Full Parametric Access, custom portfolio stress-testing, or expert written audits, please contact our administrative desk: `scanwang@gmail.com`.  
+  **独立分析师与基金经理（PM）:** 如需获取 L3 级完整量化参数表、定制化投资组合压力测试或专家级书面审计底稿，请直接联络我们的合规与行政席位：`scanwang@gmail.com`。
+- **KYC & Independence:** We maintain zero financial positions in any securities/futures covered in our active fronts. All institutional onboarding is handled via asynchronous compliance audits.  
+  **合规与独立性:** 我们在自身研究覆盖的任何标的（包含能源期货、航运股票、半导体行业及相关ETF）中均保持**"零仓位"**。所有机构投资者的准入与对接，均通过异步的书面合规审计完成。
+
+---
+*Verified & Maintained by SSR. Cryptographic signatures and commit history represent our immutable ledger of research integrity.*  
+*由 SSR 事实验证并维护。加密签名与 Commit 历史记录构成了我们不可篡改的研究诚信账本。*
 
 ---
 
