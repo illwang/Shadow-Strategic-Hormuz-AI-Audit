@@ -75,7 +75,7 @@ A policy impact quantification framework for cross-border logistics capacity ass
 ## Core Files / 核心文件
 
 ### Methodology / 方法论
-- [HEI 5.3 Methodology](/Methodology/HEI_5.3_Methodology.md) — Discrete state machine & structured expert judgment framework / 离散状态机与结构化专家评分框架
+- [HEI 5.3 Methodology](/Methodology/HEI_5.3_Methodology.md) 
 - [产业链OSINT战略分析框架](/Methodology/OSINT_Framework_v1.0.md)
 
 ### Case Studies / 实证案例
