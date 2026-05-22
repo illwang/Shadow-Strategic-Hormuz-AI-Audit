@@ -1,383 +1,100 @@
-# Shadow Strategic Research (SSR)
+# SSR Open-Source Risk Lab
 
 ![Last Audit](https://img.shields.io/badge/Last%20Audit-2026--05--17-blue)
 ![Next Window](https://img.shields.io/badge/Next%20Window-2026--05--20-orange)
 ![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)
 
-> **Multidimensional Risk Accounting | Physical Constraint Auditing | OSINT Global Monitoring**
->
-> **基于公开可获取信息的逻辑驱动审计 | 物理约束优于外交修辞 | 逻辑可复现，证据全开源**
 
-* * *
-2026.06.21-06.24 仅更新部分内容
 
-2026.06.20 更新 [电池行业供需格局技术迭代与补能逻辑](./电池行业供需格局技术迭代与补能逻辑20260520.pdf)
-
-* * *
-
-## What We Do
-
-SR provides **"Shadow Intelligence"**: we identify structural bifurcations **before market consensus forms**, using only publicly available information processed through a four-layer closed-loop architecture.
-
-**Current Active Fronts**
-
-- **Front A — Hormuz:** The Beijing Summit (May 15) failed the "Physical Implementation Test." S2→S3跃迁已确认，HEI处于S3中高强度区间，Path Beta深化。 [L2 Report →](./Public_Audit_L2/Hormuz_Strategic_Framework_Redacted_V11.md)
-- **Front B — AI Supply Chain:** Four-layer bottleneck cascade (HBM→Optical→Diesel→Materials) deepens. Samsung warm-down losses irreversible; 2026 HBM capacity sold out across all three majors; H200 "US-approved, China-blocked" stalemate; MATCH Act faces Dutch protest. [L2 Report →](./Public_Audit_L2/AI_Investment_Paradox_1.0.md)
-- **Front C — Transformer/Water:** US data center buildout faces "supply chain hallucination" — not global shortage, but Western manufacturing collapse. [L2 Report →](./Public_Audit_L2/AI_DataCenter_Thirst_1.0.md)
-
-**Latest Audit**: `2026-05-20` | **Next Window**: `2026-05-22`
+&gt; **An Independent, Non-Profit Academic Project dedicated to Cyber-Physical Risk Quantification**
+&gt; **致力于网络-物理风险量化与开源数据科学建模的独立、非营利学术研究项目**
 
 ---
 
-## ⚡ Current Strategic Alert: Triple Front Active
+## Our Mission: Open-Source Methodology Learning / 我们的使命：开源方法论学习与验证
 
-## 1. Core Methodology / 核心方法论
-SSR operates an auditable, discrete-state geopolitical and supply-chain auditing model. We do not engage in market speculation, "narrative chasing," or temporal forecasting. Instead, we map physical constraints, capital flows, and regulatory bottlenecks to identify systemic state transitions.
+This repository is maintained as an **independent, open-source academic laboratory**. Our primary goal is to study, build, and test quantitative risk-monitoring models using purely public, verifiable datasets (OSINT).
 
-SSR 运行一套可审计、离散状态的地缘政治与供应链审计模型。我们不参与市场炒作、不追踪舆论噪音、不进行时间点预测。相反，我们通过对物理约束、资金流向和监管瓶颈的建模，来识别系统性状态的非线性跃迁。
+All published works are developed strictly as **methodological case studies** to validate the accuracy of discrete-state modeling under open-source information constraints. We do not provide any form of commercial investment advice, nor do we handle any non-public material non-public information (MNPI).
 
-### Three-Tier Information Taxonomy / 三级信息分类法
-- **【锚】(Anchor):** Primary, verifiable, and timestamped open-source facts. No single-sourced rumors.  
-  **【锚】(事实锚点):** 经过时间戳验证、可公开交叉检索的一级事实。拒绝任何未证实的单一信源谣言。
-- **【推】(Inference):** Deductive logic mapped against physical constraints and institutional boundaries.  
-  **【推】(逻辑推断):** 基于物理硬约束和地缘合规边界的结构化演绎推理。
-- **【演】(Scenario):** Conditional "what-if" stress-testing matrices with explicit falsifiability rules.  
-  **【演】(条件推演):** 带有明确事前证伪规则的条件式"压力测试"情景矩阵。
+本仓库是一个**独立的、非营利的开源学术实验室**。我们的核心目标是利用 100% 公开、可验证的公共数据集（OSINT），进行数据科学、物理约束与地缘风险量化模型的学习、构建与测试。
+
+本实验室产出的所有分析报告，均严格定位为**"用于验证开源数据建模精准度"的学术实证案例分析（Case Studies）**。我们不提供任何形式的商业投资建议，不接触任何未公开数据（Non-MNPI）。
 
 ---
 
-## 2. Active Fronts / 活跃战线 (As of May 22, 2026 / 截至 2026年5月22日)
+## Core Frameworks / 核心方法论框架
 
-### ■ Front A: Strait of Hormuz Crisis / 霍尔木兹海峡危机 (S3 State | HEI 0.72 ± 0.08)
-- **Status / 状态:** High-Friction Institutional Rule Competition / 高摩擦制度化规则竞争。
-- **Focus / 焦点:** Tracking the newly operational Iranian PGSA boundaries, the dual-compliance OFAC sanctions loophole, and maritime assets re-flagging under physical pressure.  
-  追踪全新运转的伊朗波斯湾管理局（PGSA）管制边界、美美双重合规地缘漏洞（OFAC制裁警告），以及在物理压力下商船的紧急变更船籍行为。
-- **L2 Public Report / L2脱敏报告:** `reports/Hormuz_Crisis_V11_L2.md`
+### HEI 5.3 — Discrete Geopolitical State Machine
+A structured expert judgment (SEJ) framework for quantifying crisis escalation under open-source intelligence constraints. Current case study: Front A (Hormuz Strait institutionalized passage control).
 
-### ■ Front B: AI & Semiconductor Supply Chain / AI与半导体供应链 (Path Alpha | Strike Averted)
-- **Status / 状态:** Institutional Labor Arbitrage & Capacity Lock-in / 制度化劳工博弈与产能锁定。
-- **Focus / 焦点:** Calibrating the physical impact of the Samsung Electronics wage deal, tracking the Q3 semiconductor-grade Helium physical shortages, and monitoring US MATCH Act capital barriers.  
-  测算三星电子天价工资协议达成后的物理影响、跟踪Q3半导体级液氦（Helium）的物理断供窗口，以及评估美方 MATCH Act 带来的资本壁垒。
-- **L2 Public Report / L2脱敏报告:** `reports/Samsung_Strike_Calibration_V2.md`
+**Status**: Active validation. HEI = 0.67 ± 0.08 (S3: Institutionalized Rule Competition).
 
-### ■ Front C: Battery & Lithium Supply Chain / 电池与锂电供应链 (Basis Overhang Model)
-- **Status / 状态:** Warehouse Inventory Saturation & Margin Compression / 交易库容饱和与利润极度压缩。
-- **Focus / 焦点:** Tracking GACC raw imports vs. GFEX warehouse receipts accumulation, and stress-testing midstream cathode manufacturers' balance sheets ahead of H1 reporting season.  
-  追踪海关总署（GACC）锂原矿/盐进口数据与广期所（GFEX）仓单累积的偏离度，在H1中报季到来前，对中游正极材料厂进行"存货跌价准备"财务压力测试。
+### Five-Layer Bottleneck Model
+An industrial supply chain analysis framework mapping resource → materials → manufacturing → equipment/recycling → policy compliance. Current case study: Global power battery supply chain (2026 Q2).
+
+**Status**: Methodology validation in progress. 15+ falsifiable predictions under observation.
+
+### PCFI (Policy-Capacity Friction Index)
+A policy impact quantification framework for cross-border logistics capacity assessment. Current case study: De minimis threshold adjustments on air cargo.
+
+**Status**: Methodology design phase.
 
 ---
 
-## 3. Engagement & OPSEC Protocol / 联络与安全协定
-SSR operates strictly on a **Written-Only, Asynchronous Communication** basis. We do not participate in live Zoom calls, webinars, or non-disclosed verbal briefings.  
+## Three-Tier Output Structure / 三层输出结构
 
-SSR 严格在**"纯书面、异步沟通"**的机制下运行。我们不参加任何形式的实时视频/电话会议（Zoom/Teams）、线上公开宣讲或非留痕的口语吹风会。
-
-- **Independent Analysts / PMs:** For L3 Full Parametric Access, custom portfolio stress-testing, or expert written audits, please contact our administrative desk: `scanwang@gmail.com`.  
-  **独立分析师与基金经理（PM）:** 如需获取 L3 级完整量化参数表、定制化投资组合压力测试或专家级书面审计底稿，请直接联络我们的合规与行政席位：`scanwang@gmail.com`。
-- **KYC & Independence:** We maintain zero financial positions in any securities/futures covered in our active fronts. All institutional onboarding is handled via asynchronous compliance audits.  
-  **合规与独立性:** 我们在自身研究覆盖的任何标的（包含能源期货、航运股票、半导体行业及相关ETF）中均保持**"零仓位"**。所有机构投资者的准入与对接，均通过异步的书面合规审计完成。
-
----
-*Verified & Maintained by SSR. Cryptographic signatures and commit history represent our immutable ledger of research integrity.*  
-*由 SSR 事实验证并维护。加密签名与 Commit 历史记录构成了我们不可篡改的研究诚信账本。*
+| Tier | Nature | Distribution |
+|------|--------|------------|
+| **L1** | Public Methodology & Framework / 公开逻辑层 | This repository (GitHub) |
+| **L2** | De-sensitized Case Study Samples / 战略审计脱敏版 | Academic trust circle / Smartkarma |
+| **L3** | Institutional Customized Worksheets / 核心决策对账单 | Bilateral NDA only / 不公开 |
 
 ---
 
-## Recent Verification Log
+## OSINT Compliance Declaration / 开源情报合规声明
 
-| Date | Claim | Source | Status |
-|------|-------|--------|--------|
-| 2026-05-16 | Samsung mediation scheduled May 18 10:00 | Asia Daily / Yonhap | ✅ Verified |
-| 2026-05-16 | SK Hynix 2026 HBM capacity sold out | TrendForce | ✅ Verified |
-| 2026-05-16 | MATCH Act passed committee 36-8 | Ministry of Commerce PRC | ✅ Verified |
-| 2026-05-16 | Helium spot price surged >490% | CCTV News / Mysteel | ✅ Verified |
-| 2026-05-16 | Beijing Summit: "Constructive Strategic Stability" | Xinhua / People's Daily | ✅ Verified |
-| 2026-05-16 | 伊朗新通行管理机制宣布（S2→S3跃迁事件） | CCTV / 伊朗媒体 | ✅ Verified |
-| 2026-05-16 | 美以备战信号释放 | NYT / 中文媒体 | ✅ Verified |
-| 2026-05-17 | China transformer delivery ~4 months vs US/EU 120+ weeks | CCTV (2026-04-15) | ✅ Verified |
-| 2026-05-17 | US ~50% data center projects delayed/cancelled | Bloomberg via TechRadar (Apr 2026) | ✅ Verified |
-| 2026-05-17 | TBEA order backlog >80B RMB, scheduled to 2027 year-end | Phoenix Finance / East Money | ✅ Verified |
-| 2026-05-17 | 阿联酋核电站遭无人机袭击（域外扩散） | AP / IAEA | ✅ Verified |
-| 2026-05-18 | 中国船东油轮遇袭（外交部确认） | 外交部官网 | ✅ Verified |
-| 2026-05-18 | 全球石油供应累计减少[REDACTED] | 新华社/沙特阿美 | ✅ Verified |
-| 2026-05-18 | 美国SPR释放[REDACTED] | 中时/东方财富 | ✅ Verified |
-| 2026-05-18 | 韩国燃煤发电大幅上升 | fx678/vietnam.vn | ✅ Verified |
-| 2026-05-18 | Flex LNG费率飙升 | 航运界/中国网 | ✅ Verified |
-| 2026-05-18 | 切尼尔能源上调全年指引 | OilPrice/TipRanks | ✅ Verified |
-| 2026-05-20 | 伊朗PGSA正式运转，分级收费制度确立 | CCTV/伊朗媒体 | ✅ Verified |
-| 2026-05-20 | 特朗普与内塔尼亚胡通话讨论动武选项 | 央广军事/以色列媒体 | ✅ Verified |
-| 2026-05-20 | 布伦特原油收于109-110美元/桶区间 | 中银国际/MarketScreener | ✅ Verified |
-
-> **Active bounties:** Samsung strike impact >15%? (Verify by May 21) | Hormuz reopening by Q2-end? (Verify by June 30) | Transformer secondary market premium >50%? (Verify by Q3) | 美以"下周打击"是否启动? (Verify by May 25) | 伊朗新机制实施细则公布? (Verify by May 25)
+- **100% Public Data**: All anchor facts sourced from publicly verifiable channels (Reuters, EIA, official gazettes, industry databases). No proprietary or classified intelligence subscriptions.
+- **No MNPI**: We do not handle, request, or infer any material non-public information.
+- **No Financial Positions**: The maintainer holds no financial positions in any analyzed entities.
+- **Structured Expert Judgment (SEJ)**: All quantitative outputs reflect structured subjective judgment under uncertainty, not statistical predictions.
+- **Falsifiable Track Record**: Every prediction includes explicit falsification conditions and post-hoc audit trails. Errors are preserved in version history with attribution.
 
 ---
 
-## ⚠️ 免责声明
+## Current Case Studies / 当前实证案例
 
-本仓库所有公开内容均为基于公开可获取信息的产业与地缘政治分析框架， **不构成任何证券、期货、能源贸易、半导体投资或军事决策的建议**。全部数据来源于公开可获取渠道，部分数值由工具辅助整理与估算。单一数据点的数值精确性不作绝对保证，所有结论应在 **结构层面与趋势方向层面** 理解。国家间私下交易、企业内部经营数据、芯片交付排期、产线实际产能等原则上超出公开信息直接验证能力，已在报告中诚实标注为不可知维度。
-
----
-
-## 1. 核心信条：逻辑先于定价 (Logic Precedes Pricing)
-
-SSR 提供 **"Shadow Intelligence"**：以公开可获取信息为基底，经四层闭环架构处理，在主流市场定价之前识别结构性分叉。
-
-### 第一层：输入层 —— 信源分级与三级信息清单
-
-所有分析始于公开可获取信息，按可靠性强制分级：
-
-| 信源级别 | 定义 | 使用方式 |
-|----------|------|----------|
-| **可核实** | 官方财报、政府公告、知名通讯社、上市公司披露 | 直接引用，作为逻辑链锚定点 |
-| **方向确认** | 多家媒体报道交叉一致，但细节可能存在偏差 | 用于判断趋势方向，不用于精确数值 |
-| **单方宣称** | 仅有一方声明，未获独立验证 | 标注为"据XX称"，不作为逻辑链必要支点 |
-| **估算** | 基于公开信息的逻辑推算 | 明确标注为[估算]，不作绝对保证 |
-
-**信息内容等级（三级信息清单）：**
-
-| 等级 | 标注 | 定义 |
-|------|------|------|
-| **锚** | 【锚】 | 多源交叉验证的可核实事实 |
-| **推** | 【推】 | 基于锚点事实的合理推断 |
-| **演** | 【演】 | 条件式逻辑推演，"如果A且B，则可能C" |
-
-**诚实边界**：制度层面的具体条款细节超出公开信息直接验证能力，已按 [估算] 或 [方向确认] 分级处理。
-
-### 第二层：处理层 —— 三轨并行逻辑审计
-
-输入信息进入三条并行处理轨道：
-
-**轨道一：制度信号追踪**
-
-- **处理对象**：立法程序节点、劳资博弈公告、出口管制政策披露、制度化规则竞争中的机构运转状态
-- **处理规则**：不追踪"条款内容"（不可知），追踪"程序推进"（可验证）——如委员会投票是否完成、排期是否公布、工会动员率是否突破阈值、制度化机构是否正式运转
-- **输出标准**：程序节点的"完成/未完成"二元状态 + 方向性判断（推进/停滞/逆转）
-
-**轨道二：逻辑对账**
-
-- **处理对象**：政策声明 vs 执行行动、资本开支 vs 营收增速、公开订单 vs 真实产能、外交信号 vs 制度行动
-- **处理规则**：识别"结构性落差"——当两个本应同步的变量出现背离时，标记为"执行熵 (Execution Entropy, EE)"或"剪刀差"
-- **输出标准**：落差的方向（扩大/收敛）+ 落差的性质（暂时性/结构性）
-
-**轨道三：专家评分校准 (SEJ)**
-
-- **处理对象**：轨道一与轨道二无法直接闭合的推断缺口
-- **处理规则**：内部校准流程，对趋势方向、概率区间、时间窗口进行结构化评分
-- **输出标准**：论证强度分级（见第三层）
-
-### 第三层：输出层 —— 论证强度分级与不可知维度标注
-
-所有结论必须经过双重标注才能输出：
-
-**标注一：论证强度**
-
-| 级别 | 定义 | 使用场景 |
-|------|------|----------|
-| **确认性判断** | 基于多源可核实事实，逻辑链完整，无显著跳跃 | 已发生事件、官方声明、财报数据 |
-| **方向性判断** | 基于方向确认的事实，但存在不确定性 | 趋势推演、政策走向、框架性概括 |
-| **推测性观察** | 基于有限信号，逻辑链未闭合 | 早期信号、尾部风险、待验证假设 |
-| **分析性推断** | 基于市场结构的逻辑推断，与直接事实区分 | 框架性解释、定价机制分析 |
-
-**标注二：不可知维度**
-
-- 每个方向性判断和推测性观察必须附带"不可知清单"——明确列出该结论依赖但无法验证的变量
-- 示例："HBM替代加速"方向性判断的不可知维度包括：中国本土HBM良率、华为昇腾实际推理效率、下一代模型对带宽的真实需求变化
-
-### 第四层：反馈层 —— 证伪条件与回溯验证
-
-**证伪条件（事前设定）**
-
-- 每个方向性判断和推测性观察在输出时必须附带"证伪条件"——何种公开信号出现即可推翻该判断
-- 示例："制裁立法加速"的证伪条件 = HR 8283在规则委员会搁置超90天 / 关键共和党议员公开反对
-
-**回溯验证（事后审计）**
-
-- 所有预判在事实发生前均有载体记录（内部备忘录、仓库草稿、分析笔记）
-- 事实发生后，将预判与结果进行交叉验证，更新 `Proof_of_Timestamp/Track_Record.md`
-- 验证失败不删除记录，而是标注"预判偏差原因"，纳入下一轮SEJ校准
-
-### 应用示例
-
-| 层级 | 具体应用 |
-|------|----------|
-| **输入层** | 三星工会动员公告、SK海力士产能售罄报道、云厂商提价公告、立法委员会投票媒体报道、伊朗PGSA设立公告、OFAC制裁警示 |
-| **处理层** | MATCH Act 36-8通过委员会（程序完成）→ HR 8283排期未公布（程序停滞）→ 立法加速方向确认；阿里ARR突破358亿元 vs FCF净流出466亿元 → 剪刀差确认"重资产消耗"阶段；伊朗外长表态"给外交机会" vs 最高国安委已宣布PGSA运转 → F-D脱钩确认 |
-| **输出层** | 确认性判断：三星罢工5月21日启动、SK海力士2026年产能售罄、PGSA 5月18日正式运转；方向性判断：HBM替代加速、竞争性共存框架确立、S3制度化规则竞争固化；推测性观察：马斯克-OpenAI判决重塑行业治理、美以5月19-25日窗口期打击 |
-| **反馈层** | 证伪条件：若三星罢工未启动或实际产能损失<<5% → 削减罢工相关对冲仓位；若5月25日后无美以打击启动 → 下调S4概率权重；回溯验证：5月21日后更新Track Record |
-
-**诚实边界**：本报告不涉及卫星影像、AIS轨迹、港口拥堵、海关清关等物理指纹维度。所有可核实事实均标注信源路径；所有框架性概括均标注论证强度与不可知维度。
-
-**所有推论均可基于本仓库提供的开源证据链进行复现与审计。**
+| Case Study | Framework | Status | Last Updated |
+|-----------|-----------|--------|--------------|
+| Hormuz Strait Crisis (Front A) | HEI 5.3 + S0-S4 State Machine | Active monitoring | 2026-05-22 |
+| Power Battery Supply Chain | Five-Layer Bottleneck Model | Validation phase | 2026-05-22 |
+| Cross-Border Logistics Policy | PCFI (Policy-Capacity Friction Index) | Methodology design | 2026-05-20 |
 
 ---
 
-## 2. 跨行业 OSINT 监控矩阵 (Analytical Coverage)
+## Core Files / 核心文件
 
-利用公开源数据对跨行业变量进行高频对账：
+### Methodology / 方法论
+- [HEI 5.3 Methodology](docs/HEI_5.3_Methodology.md) — Discrete state machine & structured expert judgment framework / 离散状态机与结构化专家评分框架
 
-- **⚓ 航运与能源:** 追踪霍尔木兹海峡实时流量与 WTI 远期曲线。当前S3状态——制度化规则竞争，F-D脱钩特征显著。HEI 5.2深度融合框架已校准。
-- **💾 AI 供应链:** 监控三星电子工会动态、HBM 产能物理限制、先进封装瓶颈、制裁立法程序节点、全链通胀传导。
-- **⚡ 电力基建:** 变压器交付周期、GOES 产能-价格剪刀差、数据中心 energization 进度、液冷转型摩擦成本。
-- **🚜 农业通胀:** 监测天然气价格对全球化肥贸易流向的滞后性冲击。粮农组织已警告2026下半年至2027年作物减产风险。
-- **💳 支付与结算:** 跨境能源贸易结算路径的 **替代性溢价监测**（非 SWIFT 通道的结算成本偏离度）。PGSA加密货币支付 vs OFAC制裁警示形成合规悖论。
-- **🔒 其他领域:** 接受机构定向审计委托（邮件沟通）。
+### Case Studies / 实证案例
+- [Hormuz Crisis V15 (L2)](reports/2026-05-22_Hormuz_V15_L2.md) — De-sensitized case study sample / 霍尔木兹危机战略审计脱敏版
 
----
+### Validation Records / 验证记录
+- [2026 Judgement Log](Proof_of_Timestamp/2026_Judgement_Log.md) — Falsifiable prediction records & intuition narratives / 可证伪预测记录与判断日志
+- [Track Record](Proof_of_Timestamp/Track_Record.md) — Post-hoc audit, error preservation & version history / 事后审计、错误保留与版本历史
 
-## 3. 逻辑验证记录 (Historical Track Record)
-
-_情报的价值在于领先于共识的"对账成功"。_
-
-见 [`Proof_of_Timestamp/Track_Record.md`](./Proof_of_Timestamp/Track_Record.md)
-
-> **历史对账存证**：本仓库 `Proof_of_Timestamp/` 目录保留预判时间戳与事实链的交叉验证记录。
+### Methodology Migration Tests / 方法论迁移实验
+- [Front B Experiment](notes/Front_B_Experiment.md) — Cross-domain methodology migration test (AI supply chain) / 跨领域方法论迁移实验（AI供应链）
 
 ---
 
-## 4. 情报分级与获取 (Intelligence Tiers)
+## Support & Academic Sponsorship / 支持方式
 
-### **L1: 公开逻辑 (Open Methodology)**
+This laboratory operates as a **non-profit academic exploration**. We accept **research grants** and **knowledge subscriptions** from global institutional researchers to support our independent open-source methodology research.
 
-公开 HEI 指数三因子架构、执行熵 (EE) 概念定义、GZI/GDS/VXI 刻度含义、双轨制分析框架、HBM 脆弱四角模型、制裁范式转移定义、竞争性共存框架、潮汐轮回概念、全链通胀模型、三层穿透法、CPS 传导链、时间溢价审计框架、**S系数（沉默系数）**、**机制效率反向预警**、**反身性修正系数**。
-
-_价值点：证明我们的 OSINT 处理引擎是科学且严密的。_
-
-👉 **查阅霍尔木兹方法论：** [`Methodology/HEI_Framework.md`](./Methodology/HEI_Framework.md)（已升级至 **5.2 业务风险校准版**）[`Methodology/Hormuz_Crisis_V11_20260520.md`](Methodology/Hormuz_Crisis_V11_20260520.md)
-
-👉 **查阅 AI 供应链方法论：** [`Methodology/AI_Supply_Chain_Framework.md`](./Methodology/AI_Supply_Chain_Framework.md)
-
-👉 **查阅三层穿透法：** [`Methodology/Three_Layer_Penetration.md`](./Methodology/Three_Layer_Penetration.md)
-
-👉 **查阅 CPS 传导链：** [`Methodology/CPS_Model.md`](./Methodology/CPS_Model.md)
-
-👉 **查阅时间溢价审计：** [`Methodology/Time_Premium_Audit.md`](./Methodology/Time_Premium_Audit.md)
-
-👉 **查阅四层瓶颈模型：** [`Methodology/Four_Layer_Bottleneck_Model.md`](./Methodology/Four_Layer_Bottleneck_Model.md)
-
-👉 **查阅 OSINT 边界协议：** [`Methodology/OSINT_Boundary_Protocol.md`](./Methodology/OSINT_Boundary_Protocol.md)
-
-### **L2: 战略审计 (Redacted Reports)**
-
-针对特定事件与产业周期的深度 OSINT 审计。 **核心参数已脱敏 (Redacted)**，保留完整逻辑骨架与事实链。
-
-👉 **下载最新 L2 报告：** [`Public_Audit_L2/Hormuz_Strategic_Framework_Redacted_V11.md`](./Public_Audit_L2/Hormuz_Strategic_Framework_Redacted_V11.md)（**HEI 5.2 深度融合框架，V11版，三版本一致性声明**）
-
-👉 **下载最新 L2 报告：** [`Public_Audit_L2/SGR_1.4_Redacted.md`](./Public_Audit_L2/SGR_1.4_Redacted.md)（专题报告，V3版，基于上级框架）
-
-👉 **下载最新 L2 报告：** [`Public_Audit_L2/AI_Investment_Paradox_1.0.md`](./Public_Audit_L2/AI_Investment_Paradox_1.0.md)
-
-👉 **下载最新 L2 报告：** [`Public_Audit_L2/AI_DataCenter_Thirst_1.0.md`](./Public_Audit_L2/AI_DataCenter_Thirst_1.0.md)
-
-**内容包含**：
-
-- HEI 5.2业务风险校准版在霍尔木兹局势中的深度融合应用
-- 离散模型S3状态定义与"灰区秩序"制度化分析
-- F-D脱钩作为S3核心HEI特征的实证链
-- 执行熵(EE)在D-F脱钩中的解释框架
-- 伪收敛风险识别（S3专用）
-- **S系数（沉默系数）——捕捉无声崩塌**
-- **机制效率反向预警——成功导致冲突升级**
-- **反身性修正系数——HEI的自我实现风险**
-- 五级 Variable Rents 体系的分层架构（金额脱敏）
-- 保险双轨制作为灰区秩序"软法律"的实证链
-- 中国成本临界点逻辑架构（阈值脱敏）
-- 富查伊拉溢价归零的实时偏移分析
-- HBM 脆弱四角模型的校准应用
-- 制裁范式转移的时间分层与 MATCH Act 三重升级
-- 资本开支潮汐轮回的证伪条件矩阵
-- "竞争性共存"框架的三层操作含义
-- 全链通胀四层木桶效应与需求侧效率弹性对冲
-- 变压器"供应链幻觉"解构与 GOES 产能-价格剪刀差
-- 时间溢价审计与 A 股估值迁移逻辑
-- **业务风险敞口映射与自评表**（大宗商品贸易、航运、再保险、主权基金）
-- **时间漏斗与决策时钟**（策略选项数量坍缩趋势）
-- **三级信息清单完整版**（锚/推/演全目录）
-
-### **L3: 核心决策对账单 (Full Parametric — Private)**
-
-L3 reports contain the complete parametric boundaries, quantified falsification thresholds, and hedge calibration logic underlying our L2 frameworks.
-
-**Scope includes:**
-
-01. **Physical fuse window anchoring:** Global refinery inventory hard-constraint dates (based on inventory turnover model).
-02. **Incentive thresholds:** Financial/inflation临界点 triggering security commitment escalation.
-03. **Legislative D-Day projection:** MATCH Act / HR 8283 floor vote timeline (based on congressional procedure model).
-04. **Capital-revenue scissor-gap switching thresholds:** Financial triggers for "demand-validation success/lag/failure" path switching.
-05. **HBM alternative chain mapping:** Specific risk-premium directions and hedge calibration logic.
-06. **Strike scenario damage quantification:** Duration-to-capacity-loss mapping for Samsung labor action.
-07. **Full-chain inflation transmission coefficients:** Elasticity coefficients and cross-impact multipliers across four bottleneck layers.
-08. **Transformer time-premium quantification:** Secondary market premium thresholds, order backlog optionality pricing, and tariff absorption elasticity models.
-09. **CPS transmission coefficients:** Capacity-Price-Share elasticity mapping for GOES and transformer成品 markets.
-10. **S3→S4跃迁触发阈值:** HEI精确突破点、美以打击时间窗口、核红线耦合系数。
-11. **F-D脱钩量化判定标准:** D系数"质量折扣"参数、执行熵(EE)阈值。
-12. **伪收敛识别算法:** 外交信号与制度行动的背离度量化指标。
-13. **业务连续性预案激活阈值:** 各业务线（贸易/航运/再保险/主权基金）的HEI分项触发阈值与行动清单。
-14. **反身性校准参数:** α系数触发条件与HEI_adj修正公式。
-
-**Distribution:** Private access only. Subject to brief alignment on use case.
-
-**Contact:** `scanwang@gmail.com`
+**Contact**: scanwang@gmail.com (Non-urgent matters, 48-72h response cycle)
 
 ---
 
-## 5. 合作与订阅 (Collaboration)
-
-SSR 提供基于"白标逻辑"的影子内参服务。我们不提供新闻，我们提供新闻背后的 **"物理结算单"**。
-
-- **Email:** `scanwang@gmail.com`
-- **目标:** 寻求与宏观对冲基金、能源贸易商、半导体产业资本、电力基建产业资本、顶级财经深度媒体的长期逻辑交易。
-- **结算:** 支持多币种对公结算（详情邮件沟通）。
-
----
-
-🎬 **达人/内容创作者合作入口**（点击展开）
-
-**合作模式：影子主笔（White-labeling）**
-
-- 你出镜，我出底层逻辑与数据骨架
-- 交付物：3分钟脚本框架 + 关键事实核查清单 + 禁语红线
-- 内容方向：霍尔木兹局势、AI供应链、地缘通胀传导、制裁立法追踪、电力基建时间溢价
-
-**案例规格**：
-
-- 脚本含"事实锚点→逻辑推导→结论边界"三段式结构
-- 附赠"反打脸清单"：哪些话绝对不能说、哪些数据必须标注信源
-- 可选：实时事件触发时的6小时紧急更新包
-
-**联系方式**： `scanwang@gmail.com`，邮件主题备注"内容合作"
-
----
-
-## 📋 Citation & Access Protocol
-
-**L2 Public Audit**: The reports in this repository are redacted per distribution protocol.
-
-**L3 Full Quantitative**: Available via private access only.
-
-If you reference this framework in your research, media coverage, or investment memo, please use the citation button on the right sidebar or cite as:
-
-> **Professional Note**: This repository is a non-commercial OSINT research project
-> for personal logic training and methodological discipline demonstration.
-> For cybersecurity consulting inquiries: `scanwang@gmail.com` https://github.com/illwang/osint
-
-**Unauthorized commercial adaptation or derivative redistribution is prohibited.**
-
----
-
-## 🔁 Reverse Paths Monitoring
-
-We maintain active surveillance on scenario-collapse triggers across all fronts.
-
-**Hormuz:** Shadow inventory drawdown acceleration, Iran tactical capitulation under domestic pressure, demand-cliff oil pricing below $[REDACTED]. S3→S4跃迁触发条件：美以打击启动 / 核红线耦合 / 域外扩散升级。监测窗口：未来7-10日。 **跨战线联动：** 霍尔木兹航运受阻直接影响L4氦气供应链，进而传导至L1 HBM制造成本。
-
-**AI Supply Chain:** Four-layer bottleneck cascade deepening. Samsung warm-down losses confirmed irreversible; all three majors (SK Hynix, Samsung, Micron) 2026 HBM capacity sold out; H200 "US-approved, China-blocked" stalemate hardens; MATCH Act faces Dutch formal protest, multilateral binding uncertain. Demand-validation window: Q2 earnings (Jul-Aug). **跨战线联动：** 霍尔木兹危机通过氦气供应链向L4材料层传导。
-
-**Transformer/Water:** US tariff policy reversal on Chinese transformers, domestic US transformer factory groundbreaking announcements, BESS substitution rate for diesel generators breaking 30%, Malaysia Johor power supply saturation.
-
-**Detailed deconstruction and hedge calibration available in L2 Redacted reports.**
-
----
-
-_Last Updated: 2026-05-20 (V11 Framework Sync)_
-
-_Next Audit Window: 2026-05-22_
+*Disclaimer: All outputs are methodological case studies for academic validation purposes only. They do not constitute legal, compliance, or investment advice.*
