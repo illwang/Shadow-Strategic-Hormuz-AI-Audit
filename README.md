@@ -75,17 +75,17 @@ A policy impact quantification framework for cross-border logistics capacity ass
 ## Core Files / 核心文件
 
 ### Methodology / 方法论
-- [HEI 5.3 Methodology](。/Methodology/HEI_5.3_Methodology.md) — Discrete state machine & structured expert judgment framework / 离散状态机与结构化专家评分框架
+- [HEI 5.3 Methodology](/Methodology/HEI_5.3_Methodology.md) — Discrete state machine & structured expert judgment framework / 离散状态机与结构化专家评分框架
 
 ### Case Studies / 实证案例
-- [Hormuz Crisis V15 (L2)](。/Public_Audit_L2/2026-05-22_Hormuz_V15_L2.md) — De-sensitized case study sample / 霍尔木兹危机战略审计脱敏版
+- [Hormuz Crisis V15 (L2)](/Public_Audit_L2/2026-05-22_Hormuz_V15_L2.md) — De-sensitized case study sample / 霍尔木兹危机战略审计脱敏版
 
 ### Validation Records / 验证记录
 - [2026 Judgement Log](Proof_of_Timestamp/2026_Judgement_Log.md) — Falsifiable prediction records & intuition narratives / 可证伪预测记录与判断日志
 - [Track Record](Proof_of_Timestamp/Track_Record.md) — Post-hoc audit, error preservation & version history / 事后审计、错误保留与版本历史
 
 ### Methodology Migration Tests / 方法论迁移实验
-- [Front B Experiment](notes/Front_B_Experiment.md) — Cross-domain methodology migration test (AI supply chain) / 跨领域方法论迁移实验（AI供应链）
+- [Front B Experiment](/Methodology/Front_B_Experiment.md) — Cross-domain methodology migration test (AI supply chain) / 跨领域方法论迁移实验（AI供应链）
 
 ---
 
