@@ -81,6 +81,9 @@ A policy impact quantification framework for cross-border logistics capacity ass
 ### Case Studies / 实证案例
 - [Hormuz Crisis V15 (L2)](/Public_Audit_L2/2026-05-22_Hormuz_V15_L2.md) — De-sensitized case study sample / 霍尔木兹危机战略审计脱敏版
 - [动力电池产业链v1.0](/Public_Audit_L2/OSINT_动力电池_机构版_20260522.md) -动力电池产业链OSINT战略审计报告（机构版）
+- [SGR 1.4 战略审计报告](/Public_Audit_L2/SGR_1.4_Redacted.md) —SGR 1.4 战略审计报告（脱敏版 / Level 2）
+- [数字基础设施的地缘韧性](/Public_Audit_L2/CPR_1.0_Cyber_Physical_Resilience_Audit.md) -数字基础设施的地缘韧性——从代码漏洞到变压器断供的完整风险光谱
+- [AI 投资悖论] (/Public_Audit_L2/AI_Investment_Paradox_1.0.md) -全链通胀、需求验证与战略传导推演
 
 ### Validation Records / 验证记录
 - [2026 Judgement Log](Proof_of_Timestamp/2026_Judgement_Log.md) — Falsifiable prediction records & intuition narratives / 可证伪预测记录与判断日志
