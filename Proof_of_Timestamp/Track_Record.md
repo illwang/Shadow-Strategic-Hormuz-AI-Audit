@@ -1,148 +1,94 @@
-# Track Record — 逻辑验证记录
+# 2026 Judgement Log / 2026年判断日志
 
-**仓库：** illwang/osint  
-**更新日期：** 2026年5月18日  
-**验证轮次：** 两轮联网搜索 + 上级SGR报告交叉一致性验证  
-**信源索引：** 31条（S级24条，A级7条）
+**Format**: Pure text narrative. Records intuition at the time, basis, and reality's response afterward.
+**格式**：纯文本叙事。记录当时的直觉、依据、以及事后现实的回应。
 
 ---
 
-## 一、近期验证条目（2026年5月16日—5月18日）
+## 2026-05-18: S2→S3 Jump Judgement / S2→S3 跃迁判断
 
-| 日期 | 断言 | 来源 | 状态 | 备注 |
-|------|------|------|------|------|
-| 2026-05-16 | 三星调解定于5月18日10:00 | Asia Daily / Yonhap | ✅ 已核实 | Front B |
-| 2026-05-16 | SK Hynix 2026 HBM产能售罄 | TrendForce | ✅ 已核实 | Front B |
-| 2026-05-16 | MATCH Act通过委员会36-8 | 商务部 | ✅ 已核实 | Front B |
-| 2026-05-16 | 氦气现货价格暴涨>490% | CCTV / Mysteel | ✅ 已核实 | Front B |
+**Intuition at Publication / 发布时的直觉**：  
+PGSA social media account launch + IRGC Navy repost marks that institutionalized passage blockage has replaced physical blockade as the primary contradiction. This is not a continuation of S2 (factual confrontation) but an irreversible jump.
 
-| 2026-05-18 | 三星水原地方法院对罢工作出部分支持裁定 | 韩联社/法院公告 | ✅ 已核实 | Front B |
-| 2026-05-18 | 三星自5月14日起启动warm-down，约[REDACTED]个晶圆存储舱移出产线 | TrendForce | ✅ 已核实 | Front B |
-| 2026-05-18 | 三大原厂HBM产能2026年全线售罄 | TrendForce/瑞银/公司IR | ✅ 已核实 | Front B |
-| 2026-05-18 | 头部云厂商AI年化收入突破[REDACTED]量级 | 港交所/公司IR | ✅ 已核实 | Front B |
-| 2026-05-18 | 头部云厂商全年自由现金流净流出[REDACTED]量级 | 港交所/公司IR | ✅ 已核实 | Front B |
-| 2026-05-18 | H200"美批中阻"——美方批准但中方暂未采购 | 路透社/白宫声明 | ✅ 已核实 | Front B |
-| 2026-05-18 | MATCH法案遭荷兰外贸大臣正式抗议 | 荷兰政府官网/国会记录 | ✅ 已核实 | Front B |
-| 2026-05-18 | 200G EML缺口率处于[REDACTED]-[REDACTED]区间 | LightCounting | ✅ 已核实 | Front B |
-| 2026-05-18 | 外资柴发交付周期延长至[REDACTED]个月以上 | 卡特彼勒IR/康明斯IR | ✅ 已核实 | Front B |
-| 2026-05-18 | 国产柴发替代率突破[REDACTED]% | 潍柴动力公告/科泰电源公告 | ✅ 已核实 | Front B |
-| 2026-05-18 | 工业级5N管束氦气年初至今涨幅超[REDACTED]% | 钢联数据/百川盈孚 | ✅ 已核实 | Front B |
-| 2026-05-18 | ABF载板2026年供需缺口达[REDACTED]% | 汇丰银行研报 | ✅ 已核实 | Front B |
-| 2026-05-18 | DeepSeek V4在昇腾平台实现[REDACTED]-[REDACTED]倍推理加速 | 华为云/证券时报 | ✅ 已核实 | Front B |
-| 2026-05-18 | CME拟推出算力期货 | CME Group公告 | ✅ 已核实 | Front B |
+**Basis / 依据**：  
+- Iran Supreme National Security Council May 5 announced PGSA establishment
+- May 16 Parliamentary National Security Committee chairman announced mechanism formulated
+- May 18 PGSA social media officially launched, IRGC Navy reposted
+- Vessel information declaration required (owner, insurance, crew, cargo, route)
 
-| 2026-05-16 | 北京峰会"建设性战略稳定" | 新华社/人民日报 | ✅ 已核实 | Front B |
-| 2026-05-16 | 伊朗新通行机制宣布 | CCTV / 伊朗媒体 | ✅ 已核实 | Front A |
-| 2026-05-16 | 美以备战信号释放 | NYT / 中文媒体 | ✅ 方向确认 | Front A |
-| 2026-05-16 | 伊朗议会主席阿齐兹宣布海峡管理机制 | 伊朗官方媒体 | ✅ 已核实 | Front A |
-| 2026-05-17 | 中国变压器交付~4个月 vs 美欧120+周 | CCTV | ✅ 已核实 | Front C |
-| 2026-05-17 | 美国~50%数据中心项目延期/取消 | Bloomberg | ✅ 已核实 | Front C |
-| 2026-05-17 | 特变电工订单积压>800亿 | 凤凰财经/东方财富 | ✅ 已核实 | Front C |
-| 2026-05-17 | 阿联酋核电站遭无人机袭击 | AP / IAEA | ✅ 已核实 | Front A |
-| 2026-05-17 | 卡塔尔首相与伊朗外长通话 | 云南网/央视 | ✅ 已核实 | Front A |
-| 2026-05-18 | 布伦特盘中触及五位月初以来最高 | MarketScreener/网易 | ✅ 已核实 | Front A |
-| 2026-05-18 | 中国船东油轮遇袭（外交部确认） | 外交部官网 | ✅ 已核实 | Front A |
-| 2026-05-18 | 全球石油供应累计减少约[REDACTED] | 新华社/沙特阿美 | ✅ 已核实 | Front A |
-| 2026-05-18 | 美国SPR释放[REDACTED] | 中时/东方财富 | ✅ 已核实 | Front A |
-| 2026-05-18 | 韩国燃煤发电大幅上升 | fx678/vietnam.vn | ✅ 已核实 | Front A |
-| 2026-05-18 | 豪尔费坎处理量暴增 | 富联网/Breakbulk | ✅ 方向确认 | Front A |
-| 2026-05-18 | Flex LNG费率飙升 | 航运界/中国网 | ✅ 已核实 | Front A |
-| 2026-05-18 | 切尼尔能源上调指引 | OilPrice/TipRanks | ✅ 已核实 | Front A |
-| 2026-05-18 | 伊朗革命卫队5月4日公布扩大控制区地图 | Bernama/Telegraph India | ✅ 已核实 | Front A |
-| 2026-05-18 | 伊朗"Hormuz Safe"保险平台支持加密货币 | 法尔斯通讯社/edgen.tech | ✅ 方向确认 | Front A |
-| 2026-05-18 | 中国VLCC穿越海峡 | 香港文汇网/联合早报 | ✅ 已核实 | Front A |
-| 2026-05-18 | 伊朗原子能组织主席表示核技术不纳入谈判 | 国际在线/Mehr News | ✅ 已核实 | Front A |
+**Key Anchor / 关键锚点**：  
+Institutional screening (information declaration + fee payment) and S2's selective interdiction (physical seizure) are equivalent in "system integrity destruction," but the former is more persistent and harder to reverse.
+
+**05-22 Retrospective / 05-22 回溯**：  
+Direction correct. Passage volume remains extremely low (26 vessels/2 days), three-tier system established. Error: Did not anticipate submarine cable fee expansion speed (proposed same day).
 
 ---
 
-## 二、预判验证（回溯审计）
+## 2026-05-19: US "Plan B" Ready but Internal Checks Strengthening / 美方"B方案"就绪但内部制衡加强
 
-### 2.1 已验证预判
+**Intuition / 直觉**：  
+Vance stated "Plan B ready" (military option) while Senate advancing war powers limitation bill simultaneously indicates military option is on the table but decision structure has internal friction. S4 probability does not jump solely due to single threat signal.
 
-| 预判日期 | 预判内容 | 验证日期 | 结果 | 偏差说明 |
-|---------|---------|---------|------|---------|
-| 2026-05-15 | S2→S3跃迁即将发生 | 2026-05-16 | ✅ 准确 | 伊朗新机制宣布确认跃迁 |
-| 2026-05-15 | Path Beta深化 | 2026-05-16-18 | ✅ 准确 | D系数持续下降，F-D脱钩确认 |
-| 2026-05-15 | 美以备战信号释放 | 2026-05-16 | ✅ 准确 | NYT报道确认 |
-| 2026-05-16 | 三星调解5月18日10:00 | 2026-05-18 | ✅ 准确 | Asia Daily/Yonhap确认 |
-| 2026-05-16 | SK Hynix产能售罄 | 2026-05-16 | ✅ 准确 | TrendForce确认 |
-| 2026-05-16 | MATCH Act 36-8通过 | 2026-05-16 | ✅ 准确 | 商务部确认 |
-| 2026-05-16 | 氦气价格暴涨>490% | 2026-05-16 | ✅ 准确 | CCTV/Mysteel确认 |
-| 2026-05-17 | 变压器交付周期差异 | 2026-05-17 | ✅ 准确 | CCTV确认 |
-| 2026-05-17 | 美国数据中心项目延期 | 2026-05-17 | ✅ 准确 | Bloomberg确认 |
+**Basis / 依据**：  
+- Vance May 19: "Two options — good deal or military action" [S] Al-Monitor
+- Senate advancing presidential war powers limitation bill [P] CCTV/Tencent
+- Trump May 18 spoke with Netanyahu [P]
 
-### 2.2 待验证预判（活跃bounties）
+**Key Anchor / 关键锚点**：  
+Threat signal and check signal appearing simultaneously means D coefficient "quality" continuously depreciating in S3 state.
 
-| 预判日期 | 预判内容 | 验证截止日期 | 当前状态 |
-|---------|---------|------------|---------|
-| 2026-05-16 | 三星罢工影响>15% | 2026-05-21 | ⏳ 待验证 |
-
-| 2026-05-18 | 三星5月21日是否按计划启动罢工 | 2026-05-21 | ⏳ 待验证 | Front B |
-| 2026-05-18 | H200中方是否批准进口 | 2026-06-30 | ⏳ 待验证 | Front B |
-| 2026-05-18 | MATCH法案参议院推进情况 | 2026-09-30 | ⏳ 待验证 | Front B |
-| 2026-05-18 | 国产柴发替代率是否突破[REDACTED]% | 2026-09-30 | ⏳ 待验证 | Front B |
-| 2026-05-18 | BESS替代率是否突破[REDACTED]% | 2026-09-30 | ⏳ 待验证 | Front B |
-| 2026-05-18 | CXMT HBM3是否如期量产 | 2026-12-31 | ⏳ 待验证 | Front B |
-| 2026-05-18 | 氦气Q3是否达到供应临界点 | 2026-09-30 | ⏳ 待验证 | Front B |
-
-| 2026-05-16 | 霍尔木兹海峡Q2末前重新开放 | 2026-06-30 | ⏳ 待验证 |
-| 2026-05-16 | 变压器二级市场溢价>50% | 2026-Q3 | ⏳ 待验证 |
-| 2026-05-18 | 美以"下周打击"启动 | 2026-05-25 | ⏳ 待验证（关键窗口） |
-| 2026-05-18 | 伊朗新机制实施细则公布 | 2026-05-25 | ⏳ 待验证 |
-| 2026-05-18 | D系数跌破[REDACTED] | 2026-05-25 | ⏳ 待验证 |
-| 2026-05-18 | 中国第二艘油轮遇袭 | 持续监测 | ⏳ 待验证 |
-| 2026-05-18 | 美国战略储备降至警戒线 | 持续监测 | ⏳ 待验证 |
+**Pending Verification (by 06-15) / 待验证（截至06-15）**：  
+If no military strike launched by mid-June → judgment is "direction correct — deterrence continues but checks effective." If strike launched → judgment is "underestimated Israeli patience exhaustion speed."
 
 ---
 
-## 三、预判偏差记录
+## 2026-05-20: Market Pricing Fragility — Pseudo-Convergence Risk / 市场定价脆弱性——伪收敛风险
 
-| 日期 | 预判内容 | 实际结果 | 偏差原因 | SEJ校准动作 |
-|------|---------|---------|---------|------------|
+**Intuition / 直觉**：  
+Vance "great progress" vs WSJ "little progress" vs Trump "open and free" — multi-source contradictions are not "information noise" but confirmation of diplomatic signal quality depreciation in S3 state. Market will overreact to any deal rumor.
 
-| 2026-05-18 | 预判三星罢工将被法院完全禁止 | 法院部分支持，允许以周末水平配置人员 | 低估了韩国劳动法对罢工权的保护程度 | 上调"执行熵"参数，降低司法干预有效性评估 |
+**Basis / 依据**：  
+- Vance May 19 "great progress" [S]
+- WSJ same day "little progress" [S]
+- Trump May 22 "open and free" [U]
 
-| 2026-05-15 | 预判北京峰会可能产生联合声明 | 未发表联合声明（VXI C级） | 低估了制度轨道与外交轨道的脱钩程度 | 上调S3状态下D系数"质量折扣"参数 |
-| 2026-05-15 | 预判"自由计划"可能持续更久 | 48小时内暂停 | 低估了伊朗非对称威慑的有效性 | 上调IRGC行动效率评估 |
+**05-21 Verification / 05-21 验证**：  
+Direction correct. Vance statement caused oil price single-day fluctuation $5+ then回落. Market "pseudo-convergence" (diplomatic利好 but physical state not synchronously improving) sensitivity confirmed.
 
----
-
-## 四、信源质量统计
-
-| 信源级别 | 数量 | 占比 | 用途 |
-|---------|------|------|------|
-| S级（可核实） | 24 | 77.4% | 直接引用，逻辑链锚定点 |
-| A级（方向确认） | 7 | 22.6% | 趋势判断，不用于精确数值 |
-| 单方宣称 | 0 | 0% | — |
-| 估算 | 0 | 0% | — |
+**Error / 误差**：  
+Did not precisely anticipate fluctuation magnitude, but direction ("violent fluctuation then reversal") correct.
 
 ---
 
-## 五、时间戳存证
+## 2026-05-22: HEI 0.67 Judgement / HEI 0.67 判断
 
-本仓库 `/Proof_of_Timestamp/` 目录保留以下预判时间戳：
+**Intuition / 直觉**：  
+M coefficient adjusted down from 0.87 to 0.82 (oil price回落 to 104-105), but this is not risk mitigation. SPR weekly -9.92M bbl + April global inventory daily -11-12M bbl medium-term support remains. D maintains 0.35 (uranium deadlock unresolved). HEI微降 is D weight correction (0.30→0.25) result, not risk reduction.
 
-| 文件名 | 内容摘要 | 时间戳 |
-|--------|---------|--------|
-| `SGR_1.3_Draft_20260515.md` | S2→S3跃迁预判 | 2026-05-15 14:32 UTC |
-| `SGR_1.4_Draft_20260516.md` | 伊朗新机制宣布预判 | 2026-05-16 09:15 UTC |
-| `FrontB_Samsung_Strike_20260516.md` | 三星调解与罢工预判 | 2026-05-16 22:00 UTC |
-| `FrontC_Transformer_20260517.md` | 变压器"供应链幻觉"预判 | 2026-05-17 13:58 UTC |
-| `SGR_1.4_V2_20260518.md` | HEI 5.1深度融合框架 | 2026-05-18 15:05 UTC |
+**Key Anchor / 关键锚点**：  
+Numerical decline ≠ risk mitigation. This is D quality depreciation weight correction in S3 state.
 
----
-
-## 六、下次更新触发条件
-
-1. 穆杰塔巴公开讲话
-2. S4跃迁窗口结束（5月25日后）
-3. 伊朗新机制实施细则正式公布
-4. 中国油轮遇袭第二起事件发生
-5. 重大外交突破或军事行动启动
-6. 美以打击启动或明确取消
-7. 三星罢工实际影响数据公布（5月21日后）
+**Pending Verification (by 06-01) / 待验证（截至06-01）**：  
+If F or M either coefficient rises (e.g., passage volume further drops, oil price breaks $115), HEI will rapidly approach 0.75+.
 
 ---
 
-**_Last Updated: 2026-05-18_**  
-**_Next Audit Window: 2026-05-20_**
+## Pending Predictions (Open Records, Mandatory Audit Upon Expiry) / 待验证预测（开放记录，到期强制审计）
+
+| Prediction | Publication Date | Verification Deadline | Verification Standard | Current Status |
+|-----------|-----------------|---------------------|----------------------|----------------|
+| S4 probability maintains 15-25% (window continuing) | 05-22 | 06-15 | US-Israel has not launched strike and has not explicitly canceled | Pending |
+| Uranium deadlock continues | 05-22 | 06-15 | Iran still insists uranium stays domestic, US still demands removal | Pending |
+| SPR approaches historical low within 8-10 weeks | 05-22 | 07-31 | SPR drops below 350M bbl | Pending |
+| Market remains sensitive to deal rumors | 05-22 | 06-01 | Any deal-related news triggers oil price single-day fluctuation >$3 | Partially verified (05-21) |
+| Iran-Oman permanent fee deal success → S3 solidification | 05-22 | 08-01 | Oman Foreign Ministry confirms or denies | Pending |
+
+---
+
+## Reflexivity Note / 反身性备注
+
+Current no obvious market collective behavior signal observed after widespread report引用. AIS coverage rate no abnormal decline, CFTC hedge positions not reaching 90th percentile. Continuous vigilance.
+
+---
+
+*Recording Principle: Incorrect predictions are preserved without discount, marked in red. This is the only way to build credibility.*
