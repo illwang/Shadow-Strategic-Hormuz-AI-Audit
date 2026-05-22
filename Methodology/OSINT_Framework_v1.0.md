@@ -1,3 +1,258 @@
+# OSINT Strategic Analysis Framework for Industrial Chains v1.0
+
+**Methodology Statement**: This framework operates on a four-layer closed-loop OSINT architecture:
+- **Input Layer**: Source hierarchy & classification
+- **Processing Layer**: Three-track parallel logical audit
+- **Output Layer**: Argument strength grading
+- **Feedback Layer**: Falsification & backtracking
+
+---
+
+## I. Framework Overview
+
+### 1.1 Core Model: Five-Layer Bottleneck-Conduction Chain
+
+Any industrial chain can be decomposed into five bottleneck layers:
+
+| Layer | Function | Typical Congestion Points | Resilience Dimension |
+|---|---|---|---|
+| L1 Upstream Resources | Critical raw material availability | Resource nationalism, price volatility, logistics disruption | Supply Stability (40% weight) |
+| L2 Midstream Materials | Material processing & conversion | Processing fee compression, tech-route substitution, inventory impairment | Substitution Speed (30% weight) |
+| L3 Manufacturing/Product | Core capacity & delivery | Line retrofit, yield ramp-up, delivery cycle | Cost Absorbability (30% weight) |
+| L4 Equipment/Recycling | Capital goods & reverse logistics | Equipment lead time, tech-generation leapfrogging, channel pre-emption | Tech-gap Crossing Ability |
+| L5 Policy/Compliance | Institutional access & cost | Carbon footprint, tariffs, export controls, entity lists | Compliance Maturity |
+
+**Conduction Chain Logic**:
+- **Upward Chain**: L1 price/supply change → L2 follow-up → L3 cost transmission → L4 equipment demand/recycling volume → L5 compliance cost overlay
+- **Congestion Transfer Law**: After physical bottlenecks (L3) ease, congestion shifts to L1 (resource prices) and L5 (policy compliance)
+- **Downward Chain**: L1 price collapse → upstream profit reversal → long-term contract default → midstream inventory impairment → terminal price war → full-chain margin squeeze
+
+### 1.2 Temporal Framework: Three-Horizon Growth Matrix
+
+| Horizon | Time Window | Decision Nature | Output Format |
+|---|---|---|---|
+| H1 Defend & Monetize | 0-12 months | Tactical Execution | Decision Quick-Reference Card + P0 Action List |
+| H2 Expand & Position | 1-3 years | Strategic Investment | P1 Action List + Framework Agreements |
+| H3 Breakthrough & Disrupt | 3-5 years+ | Paradigm Shift | P2/P3 Action List + Capital Planning |
+
+**Internal Monitoring Mode**: Resilience-state driven. When leading indicators trigger alert thresholds, related risks immediately escalate from baseline monitoring to jump-response, unconstrained by calendar years.
+
+### 1.3 Competitive Species Classification
+
+Participants in an industrial chain can be classified into non-comparable "species" by business model:
+
+| Species Type | Pricing Mechanism | Customer Relationship | Profit Independence | Valuation Logic |
+|---|---|---|---|---|
+| Platform Independent Supplier | Market quotation | Supplier relationship | Independent profit center | PE/PEG |
+| Vertically Integrated Organ | Internal transfer price | Competitor relationship | Group profit adjustment tool | Segment valuation/Strategic premium |
+| Tier-2 Breakthrough Player | Bid/differentiated quotation | Alternative supplier | Cash flow under pressure | Option value/Distressed reversal |
+
+**Core Insight**: Tier-2 players are trapped between two incompatible business models; their technological breakthrough is the only path to break the prisoner's dilemma.
+
+---
+
+## II. OSINT Source & Argumentation System
+
+### 2.1 Source Coding System
+
+| Code | Type | Credibility Benchmark | Usage Rules |
+|---|---|---|---|
+| [S-Financial] | Listed company announcements | High | Priority use; watch for accounting policy adjustments |
+| [S-Official] | Government/regulatory announcements | Highest | Preferred source for trigger-condition verification |
+| [S-Industry] | Industry association/exchange data | Medium-High | Used for market口径 calibration |
+| [S-Media] | Mainstream media reports | Medium | Requires cross-verification; watch for press releases |
+| [S-Estimate] | Broker research/third-party models | Medium-Low | Model assumptions must be explicitly stated |
+| [S-Pending] | Single source/AI-generated | Low | Must be listed in pending-verification inventory |
+
+### 2.2 Information Conflict Arbitration Rules
+
+When multi-source information conflicts, apply the following priority:
+1. Exchange/regulatory official announcements
+2. Listed company formal disclosures
+3. Industry association statistical data
+4. Broker research/third-party estimates
+5. Media reports
+6. Industry oral accounts
+
+**Peer Conflict Resolution**: Prioritize sources with more recent publication dates; if dates are identical, prioritize primary sources (direct quotes/raw data) over secondary interpretations.
+
+### 2.3 Argument Strength Grading
+
+| Grade | Definition | Confidence | Application Scenario |
+|---|---|---|---|
+| Confirmatory Judgment | Cross-verified by two or more independent primary sources | ≥90% | Strategic premises, trigger conditions |
+| Directional Judgment | Single or limited sources, pending cross-verification | 60-85% | Trend projection, probability allocation |
+| Speculative Observation | Pieced together from fragmented information | ≤60% | Risk early-warning, scenario construction |
+
+### 2.4 Resilience Quantification Standard
+
+Based on three-dimensional weighted scoring (Supply Stability 40%, Substitution Speed 30%, Cost Absorbability 30%):
+
+| Score | Grade | Meaning |
+|---|---|---|
+| ≥12 | ★★★★★ | High Resilience |
+| 9-11 | ★★★★ | Relatively High Resilience |
+| 6-8 | ★★★ | Medium Resilience |
+| 3-5 | ★★ | Relatively Low Resilience |
+| 1-2 | ★ | Extremely Low Resilience |
+
+---
+
+## III. Replicable Verification Protocol Design
+
+### 3.1 Verification Protocol Design Principles
+
+Every core judgment must be accompanied by an **independent verification protocol** containing:
+- **Steps**: Executable operation sequence (download → statistics → calculation → comparison)
+- **Variables**: Input parameters and output indicators for each step
+- **Decision Rules**: Threshold-to-conclusion mapping
+- **Verification Date**: Specific date for first verification
+- **Falsification Conditions**: What results would overturn the current judgment
+
+### 3.2 Institutional Replication Template (Example: Capacity Bottleneck Verification)
+
+**Steps**:
+1. Download regulatory announcements → Count target enterprise配套条目数 (N)
+2. Extract technical parameters from announcements → Weighted average key indicator (Avg_X)
+3. Estimated monthly installation = N × Avg_X / unit conversion coefficient
+4. Retrieve enterprise monthly sales data → Calculate theoretical demand (Y)
+5. Calculate coverage ratio = Estimated installation / Theoretical demand × 100%
+
+**Decision Rules**:
+- <50%: Severe capacity shortage
+- 50%-70%: Ramp-up in progress; maintain directional judgment
+- >70%: Falsify current judgment; bottleneck resolved
+
+### 3.3 Falsification Condition Design Template
+
+Every core assumption must preset **observable falsification conditions**:
+
+| Assumption | Falsification Condition | Post-Trigger Action | Probability Linkage |
+|---|---|---|---|
+| (Example) Capacity bottleneck exists | MoM sales growth <20% AND配套条目 growth <30% | Judgment delayed; full-year pressure | Beta path upward adjustment |
+| (Example) Price trend upward | Spot falls below threshold AND inventory indicators rise consecutively | Bearish logic validated | Alpha path downward adjustment |
+
+---
+
+## IV. Scenario Planning & Probability Management
+
+### 4.1 Baseline Probability Allocation Template
+
+| Path | Baseline Probability | Core Assumption | Adjustment Rule |
+|---|---|---|---|
+| Alpha (Smooth Evolution) | 45% | Capacity ramp-up smooth + prices moderate + policy clear | Trigger met → upward 10-15pct |
+| Beta (Systemic Rupture) | 35% | Price collapse + policy blockade + tech failure | Cumulative trigger weight ≥50% → jump |
+| Gamma (Black Swan) | 20% | Resource hard interruption / tech-generation leap / geopolitical fracture | Single black swan → upward to 35% |
+
+**Probability Adjustment Principle**: When a single trigger condition is met, the corresponding path probability increases by 10-15 percentage points, with remaining paths adjusted proportionally downward. When multiple trigger conditions are met simultaneously, path probabilities may undergo jump-style adjustment.
+
+### 4.2 Red Team Challenge Mechanism
+
+Every core inference must withstand a **Red Team challenge**:
+
+**Challenge Format**:
+- Red Team Challenge N: "(Disruptive challenge to core assumption)"
+- Premise Assumption: "(Conditions required for challenge to hold)"
+- If Valid: "(Disruptive consequence to current inference)"
+- Defense: "(Why current judgment still holds)"
+- Defense Logic Pending Verification: "(When and with what data to verify)"
+
+---
+
+## V. Role Slicing & Action Templates
+
+### 5.1 Role Classification
+
+| Role | Layer | Function | Time Window |
+|---|---|---|---|
+| Strategy Department | External Monitoring | Intelligence assessment, competitor tracking, exogenous variable scanning | H1-H3 |
+| Procurement Director | Internal Execution | Raw material strategy, supplier management, inventory optimization | H1-H2 |
+| Compliance Director | Internal Execution | Policy interpretation, certification management, risk contingency | H1-H2 |
+| CTO | Internal Execution | Technology route assessment, equipment selection, alternative solutions | H2-H3 |
+| CEO/Board | Strategic Investment | CAPEX decisions, capital planning, M&A cooperation | H2-H3 |
+
+### 5.2 Action Priority Encoding
+
+| Code | Meaning | Decision Horizon | Resource Input |
+|---|---|---|---|
+| P0 | Execute Immediately | 0-30 days | Low-Medium |
+| P1 | Near-term Planning | 1-6 months | Medium |
+| P2 | Mid-term Positioning | 6-18 months | Medium-High |
+| P3 | Long-term Strategy | 18 months+ | High |
+
+### 5.3 Action List Template Fields
+
+| Role | P0 Action | Precondition | Verification Signal | Next Review Date |
+|---|---|---|---|---|
+| (Example) Procurement Director | Suspend fixed-price long-term contracts | Spot price in range-bound fluctuation | Inventory indicator rises ≥10% for 4 consecutive weeks | (Specific date) |
+
+---
+
+## VI. Temporal Cones & Milestone Management
+
+### 6.1 Temporal Cone Structure
+
+**Temporal Cone One: H1 (0-12 months)**
+- Highest priority variables: Capacity release, price direction, policy windows
+- Verification signals: Regulatory announcements, enterprise sales bulletins, customs data
+
+**Temporal Cone Two: H2 (1-3 years)**
+- Highest priority variables: Technology substitution, channel pre-emption, compliance landing
+- Verification signals: Product catalogs, bidding data, certification status
+
+**Temporal Cone Three: H3 (3-5 years+)**
+- Highest priority variables: Paradigm shift, scaled mass production, closed-loop systems
+- Verification signals: Pilot line data, capacity utilization rates, supply chain agreements
+
+### 6.2 Key Milestone Summary Template
+
+| Date | Event | Argument Strength | Source Type | Verification Status |
+|---|---|---|---|---|
+| (Date) | (Event description) | Confirmatory/Directional/Speculative | [S-Type] | Verified/Pending |
+
+---
+
+## VII. Exogenous Variable Matrix Template
+
+### 7.1 Resource Country Dimension
+
+| Resource | Supply Region | Latest Development | Risk Level | Source |
+|---|---|---|---|---|
+| (Example) Critical Mineral A | Resource Country A | Export policy tightening | 🔴Extremely High | [S-Official] |
+
+### 7.2 Shipping Channel Dimension
+
+| Channel | Current Status | Risk Level | Verification Source |
+|---|---|---|---|
+| (Example) Shipping Channel A | Traffic volume plummeted | 🟠High | Maritime security agency official website |
+
+### 7.3 Demand-side Policy Dimension
+
+| Policy | Effective Date | Impact Path | Risk Level |
+|---|---|---|---|
+| (Example) Export tax rebate reduction | 2026.04.01 | Direct overseas profit cut | 🔴Extremely High |
+
+---
+
+## VIII. Pending Verification Data Inventory Template
+
+| Data Point | Issue Description | Recommended Verification Path | Source Code | Verification Deadline |
+|---|---|---|---|---|
+| (Example) Monthly output | Single-source projection only | Regulatory announcement + enterprise sales bulletin | [S-Pending] | (Date) |
+
+---
+
+## IX. Compliance & Methodology Statement
+
+1. **OSINT Boundary**: This analytical framework is strictly limited to publicly available information (Open Source Intelligence) and does not involve any non-public data or insider information.
+2. **Reproducibility Commitment**: All core judgments possess observable, quantifiable, and reproducible independent verification paths.
+3. **Framework Validity Period**: Any strategic framework must set a validity period (recommended not exceeding 6 months) and preset re-evaluation trigger conditions.
+4. **Perspective Bias Statement**: The focus of analytical perspective inevitably entails systematic underestimation; the report must explicitly label underestimated variables (e.g., Tier-2/3 player single-point breakthroughs, cross-sector disruptors, technology route mutations).
+
+---
+
+**Framework Usage Guide**: Replace the (Example) placeholders in this template with specific variables of the target industrial chain to generate a complete OSINT strategic analysis report. It is recommended to review framework applicability quarterly and upgrade the methodology version annually.
+
 # 产业链OSINT战略分析框架 v1.0
 
 **方法论声明**：本框架基于四层闭环OSINT架构（输入层信源分级→处理层三轨并行逻辑审计→输出层论证强度分级→反馈层证伪与回溯）
