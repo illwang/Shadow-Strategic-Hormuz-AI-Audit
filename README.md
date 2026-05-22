@@ -15,11 +15,11 @@
 
 This repository is maintained as an **independent, open-source academic laboratory**. Our primary goal is to study, build, and test quantitative risk-monitoring models using purely public, verifiable datasets (OSINT).
 
-All published works are developed strictly as **methodological case studies** to validate the accuracy of discrete-state modeling under open-source information constraints. We do not provide any form of commercial investment advice, nor do we handle any non-public material non-public information (MNPI).
+All published works are developed strictly as **methodological case studies** to validate the accuracy of discrete-state modeling under open-source information constraints. We do not provide any form of commercial investment advice, non-public material non-public information (MNPI).
 
 本仓库是一个**独立的、非营利的开源学术实验室**。我们的核心目标是利用 100% 公开、可验证的公共数据集（OSINT），进行数据科学、物理约束与地缘风险量化模型的学习、构建与测试。
 
-本实验室产出的所有分析报告，均严格定位为**"用于验证开源数据建模精准度"的学术实证案例分析（Case Studies）**。我们不提供任何形式的商业投资建议，不接触任何未公开数据（Non-MNPI）。
+本实验室产出的所有分析报告，均严格定位为**"用于验证开源数据建模精准度"的学术实证案例分析（Case Studies）**。不接触任何未公开数据（Non-MNPI）。
 
 ---
 
