@@ -80,6 +80,7 @@ A policy impact quantification framework for cross-border logistics capacity ass
 
 ### Case Studies / 实证案例
 - [Hormuz Crisis V15 (L2)](/Public_Audit_L2/2026-05-22_Hormuz_V15_L2.md) — De-sensitized case study sample / 霍尔木兹危机战略审计脱敏版
+- [动力电池产业链v1.0](/Public_Audit_L2/OSINT_动力电池_机构版_20260522.md) -动力电池产业链OSINT战略审计报告（机构版）
 
 ### Validation Records / 验证记录
 - [2026 Judgement Log](Proof_of_Timestamp/2026_Judgement_Log.md) — Falsifiable prediction records & intuition narratives / 可证伪预测记录与判断日志
