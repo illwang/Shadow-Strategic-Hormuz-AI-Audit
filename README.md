@@ -49,6 +49,14 @@ Status: v2.0 baseline delivered. Active monthly calibration. AIPI = 0.64 ± 0.08
 | **L2** | De-sensitized Case Study Samples / 战略审计脱敏版 | Academic trust circle / Smartkarma |
 | **L3** | Institutional Customized Worksheets / 核心决策对账单 | Bilateral NDA only / 不公开 |
 
+# OSINT Strategic Analysis Framework for Industrial Chains v1.0
+
+A structured expert judgment (SEJ) framework for quantifying industrial supply-chain strategic pressure and demand-validation endgames under open-source intelligence constraints. Integrates five-layer bottleneck cartography (L1–L5), multi-polar competitive speciation analysis, three-horizon growth matrix (H1/H2/H3), and falsifiable scenario planning with replicable verification protocols.
+
+**Current case study:** Global EV battery supply chain (May 2026) — Full-chain bottleneck migration analysis from manufacturing capacity (L3) to resource pricing (L1) and regulatory compliance (L5).
+
+**Status:** v1.0 baseline delivered. Active quarterly calibration. Framework valid through 30 September 2026. 11 falsifiable conditions under observation. Base-case probability distribution: Alpha (Steady Evolution) 45% / Beta (Systemic Rupture) 35% / Gamma (Black Swan) 20%.
+
 ---
 
 ## OSINT Compliance Declaration / 开源情报合规声明
