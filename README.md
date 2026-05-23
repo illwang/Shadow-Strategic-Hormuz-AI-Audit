@@ -30,15 +30,13 @@ A structured expert judgment (SEJ) framework for quantifying crisis escalation u
 
 **Status**: Active validation. HEI = 0.67 ± 0.08 (S3: Institutionalized Rule Competition).
 
-### Five-Layer Bottleneck Model
-An industrial supply chain analysis framework mapping resource → materials → manufacturing → equipment/recycling → policy compliance. Current case study: Global power battery supply chain (2026 Q2).
 
-**Status**: Methodology validation in progress. 15+ falsifiable predictions under observation.
+**AIPI 2.0 — Seven-Layer Strategic Pressure Architecture**
+A structured expert judgment (SEJ) framework for quantifying AI supply-chain strategic pressure and demand-validation endgames under open-source intelligence constraints. Integrates seven-layer bottleneck cartography, multi-polar bidirectional game-theoretic equilibrium analysis, and falsifiable scenario planning.
 
-### PCFI (Policy-Capacity Friction Index)
-A policy impact quantification framework for cross-border logistics capacity assessment. Current case study: De minimis threshold adjustments on air cargo.
+Current case study: Front D (AI Investment Paradox) — Full-chain inflation vs. efficiency deflation strategic传导 (May 2026).
 
-**Status**: Methodology design phase.
+Status: v2.0 baseline delivered. Active monthly calibration. AIPI = 0.64 ± 0.08 (Moderate Pressure). 20+ falsifiable conditions under observation.
 
 ---
 
