@@ -1,476 +1,314 @@
-# AI投资悖论：全链通胀、需求验证与战略传导推演
+# AI投资悖论：供应链通胀与需求验证的战略评估
+# AI Investment Paradox: Strategic Assessment of Supply-Chain Inflation and Demand Validation
 
-**L2 战略审计版 · OSINT纯开源情报框架报告**
+## 机构版 · L2战略审计 · OSINT开源情报
+## Institutional Edition · L2 Strategic Audit · OSINT-Sourced
 
-**报告日期：** 2026年5月20日  
-**密级：** 公开（基于纯OSINT交叉验证，所有结论均可通过公开搜索引擎/数据库复现）  
-**核心分析模型：** 四层瓶颈-传导链条模型 × 利益相关方决策空间矩阵 × 地缘经济弹性模型（以🔄图标标注）  
-**L2声明：** 本版本保留完整事实链、公开数据与逻辑骨架。涉及SSR专有框架结构（如弹性评分具体权重算法、L3级量化边界、内部对冲校准参数）已按分发协议脱敏处理，标记为 **[FRAMEWORK REDACTED]**。
-
----
-
-## 第〇章：战略分析前提
-
-本章旨在阐明本报告进行战略推演与分析时所依赖的所有前提、假设、边界条件与立场声明，以确保分析框架的严谨性与结论的可解释性。
-
-### 前提一：情报基准前提
-
-本报告是一份严格基于开源情报（OSINT）的战略分析文件。这意味着报告中所有用于支撑判断的事实、数据及事件，均来源于任何个人或机构均可通过公开、合法渠道访问的信息源。本报告不包含、也不依赖任何非公开、内幕或特权信息。所有结论的可信度均建立在公开信息的可复现性之上。
-
-### 前提二：分析视角前提
-
-本报告的默认分析视角为"中立第三方战略顾问"，旨在为多元化的利益相关方（包括但不限于企业决策者、供应链管理者、政策研究者及投资者）提供一个结构化的风险与机遇图谱。报告将从不同决策者角色（如CIO、供应链总监、政策研究官）的切片视角出发，提供分层级的策略建议，但不预设任何单一实体的特定立场。
-
-### 前提三：地缘政治前提
-
-本报告的分析基准时间窗口为2026年5月20日。所有地缘政治、宏观经济及产业政策的推断均基于该时间点已公开的态势。核心地缘假设包括：
-
-1. 中美科技博弈将持续，且在高端AI领域存在"小院高墙"式的长期竞争。本报告不假设任何一方会主动发起旨在造成全面脱钩的颠覆性行动，但将基于公开立法进程（如MATCH法案）和行政命令，推演博弈升级的可能路径。
-2. 主要区域冲突（如中东局势对霍尔木兹海峡航运的影响）短期内不会根本性解决，但也不会无限升级。报告将此类事件视为具有显著概率的外生冲击，并进行情景分析。
-3. 全球供应链的区域化与冗余化建设是确定性趋势。各国和企业均在寻求建立更具韧性的供应体系，本报告将此视为评估弹性策略有效性的关键背景。
-
-### 前提四：经济学前提
-
-1. 市场并非完全有效，供需错配和信息不对称是常态。本报告正是基于此前提，通过识别"四层瓶颈"中的信息差和供给侧刚性，来发现非均衡状态下的战略机会。
-2. 技术效率的提升是长期内对冲资源稀缺和成本上涨的根本性力量。本报告将"模型效率提升"（如DeepSeek V4样本）视为与算力堆叠同等重要的需求侧核心变量，并将其作为评估"需求验证"能否成功的关键对冲项。
-
-### 前提五：弹性策略可行性前提
-
-报告中提出的所有🔄弹性策略（如锁定长协、建立战略库存、双源验证）均基于以下假设：
-
-1. 执行主体具备相应的财务和决策能力。
-2. 市场存在可替代的供应商或替代方案，尽管可能面临成本、性能或时间的权衡。
-3. 提出的策略在法律和商业契约框架内具有可操作性。报告不推荐任何违反现行国际法规或商业道德的投机行为。
-
-### 前提六：论证强度与不确定性声明
-
-报告严格遵循预先定义的"论证强度分级"体系，对所有判断进行标注。这是对分析本身所固有的不确定性的正式承认。涉及未来预测的内容，均为AI基于上述前提和公开信息的推理生成，仅供战略参考，不应被视为对未来的确定性预言。
-
-**方法声明：** 本报告严格遵守纯OSINT原则，所有事实、数据及推断均来源于可公开访问的信息渠道。四层瓶颈模型负责识别风险；地缘经济弹性模型（🔄）负责提供基于公开信息的应对框架。两者独立运作，交叉引用。本报告不包含任何非公开渠道获取的信息。所有关键事实的信源标注统一收录于附录二，正文中不再重复注明来源。
-
-**论证强度分级：** "确认性判断"（多源公开核实，置信度≥85%）、"方向性判断"（60-85%）、"推测性观察"（≤60%）、"分析性推断"（逻辑推演）。
-
-**弹性等级量化标准：** 基于供应稳定性（1-5分）、替代速度（1-5分）、成本可承受度（1-5分）三维度加权 **[FRAMEWORK REDACTED]**。综合得分≥12→★★★★★，9-11→★★★★，6-8→★★★，3-5→★★，1-2→★。
-
-**成本等级说明：** 基于公开价格趋势、机构研报、公司财报毛利率变化进行的定性推断，所有成本推断均可追溯至附录二公开信源。
-
-**数据诚实声明：** 全部关键事实均可通过附录二提供的检索路径独立验证。本次联网更新时间为2026年5月20日，已对多个关键节点进行联网交叉验证。涉及未来预测的内容由AI基于公开信息推理生成，仅供战略参考。
+**报告日期 / Report Date:** 2026年5月23日 / May 23, 2026  
+**密级 / Classification:** 公开（基于纯OSINT交叉验证）/ Open Source (OSINT-Cross-Validated)  
+**分发对象 / Distribution:** 机构风险委员会、主权基金筛选部门、供应链治理层 / Institutional Risk Committees, Sovereign-Fund Screening, Supply-Chain Governance  
+**版本 / Version:** v2.0-Institutional-L2
 
 ---
 
-## 执行摘要（战略精简版）
+## 机构分发声明 / Institutional Distribution Statement
 
-### 三句话结论
+本文件完全基于开源情报（OSINT）推导的战略审计框架。所有事实断言、数据节点及事件引用均可通过公开搜索引擎、监管申报文件及官方贸易统计独立复现。不依赖任何非公开、特权或内幕信息。
+*This document is a strategic audit framework derived exclusively from open-source intelligence (OSINT). All factual assertions, data points, and event references are independently reproducible via public search engines, regulatory filings, and official trade statistics. No non-public, privileged, or insider information is relied upon.*
 
-1. **四层瓶颈：** HBM（产能售罄至2027年）→光模块（EML需求超供应30%）→柴发（外资交付8-18个月）→材料（氦价冲高回落但仍处高位）。中国电力充裕，柴发紧迫性远低于欧美；海外（美欧新）电力紧张，柴发是硬约束。
-2. **中美博弈僵持：** H200"美批中阻"持续，美商务部已批约10家中企出口许可但中方尚未批准采购；MATCH法案遇荷兰正式抗议，双方均有时间压力。
-3. **需求侧拐点依赖剪刀差：** 阿里AI ARR 358亿元但FCF净流出466亿元，百度AI收入占比首破52%；DeepSeek V4全面适配昇腾是核心效率对冲。
+**本报告不构成投资建议、交易邀约或政策建议。** 战略压力指数（AIPI）、终局情景及证伪条件仅为结构化风险审议的分析工具。各机构在依据任何供应链或资本配置启示采取行动前，须自行开展尽职调查并遵守适用司法管辖区的法规。
+*This report does not constitute investment advice, a solicitation to trade, or a policy recommendation. The strategic pressure index (AIPI), endgame scenarios, and falsification conditions are analytical instruments for structured risk deliberation only. Each institution must conduct its own due diligence and comply with applicable jurisdictional regulations before acting on any supply-chain or capital-allocation implication drawn herein.*
 
-### 关键半衰期与弹性窗口（区分中国/海外）
-
-| 决策半衰期 | 关闭条件 | 弹性窗口 | 推荐弹性动作 | 适用区域 | 弹性等级 |
-|------------|----------|----------|--------------|----------|----------|
-| H200审批 | MATCH法案生效+VEU审计 | 3个月 | 双源算力验证 | 中国 | ★★★ |
-| 柴发国产替代 | 电网协议锁定+品牌信任固化 | 6个月 | 立即锁定国产柴发产能 | 海外 | ★★★★★ |
-| 柴发（中国） | 不适用 | — | 按新国标方向前瞻性设计 | 中国 | ★★★★ |
-| HBM产能锁定 | 开启2028年定价 | 1个月 | 与SK海力士/美光签2027长协 | 全球 | ★★★★★ |
+**如需L3完整量化权限**（实时AIPI校准、利益相关方特定后悔值最小化表及定向情景建模）：scanwang@gmail.com
+*For L3 Full Quantitative Access (real-time AIPI calibrations, stakeholder-specific regret-minimization tables, and directed scenario modeling): scanwang@gmail.com*
 
 ---
 
-## 核心判定
+## 执行摘要 / Executive Summary
 
-### 判定一：三星劳资调解破裂，工会宣布5月21日启动全面罢工，HBM供给不确定性急剧升高
+**AIPI战略压力读数：0.64 ± 0.08（中度压力区间中上沿）**
+*AIPI Strategic Pressure Reading: 0.64 ± 0.08 (Moderate Pressure, upper-mid range)*
 
-（⚠️ 2026年5月20日重大更新）
+全球AI算力供应链正经历风险构成的结构性转移：压力正从L1硅片瓶颈向L4材料地缘博弈与L0地理集中度迁移。
+*The global AI compute supply chain is experiencing a structural shift in risk composition: pressure is migrating from Layer-1 silicon bottlenecks toward Layer-4 material geopolitics and Layer-0 geographic concentration.*
 
-【锚】5月20日上午，三星电子与最大工会就奖金发放上限标准等进行了第三轮事后调解会议，但双方未能达成协议，谈判最终破裂。工会宣布，将按原计划于5月21日启动全面罢工，罢工计划持续18天至6月7日。
+三大动态主导当前窗口：
+*Three dynamics dominate the current window:*
 
-【锚】本次劳资调解的最终破裂发生在5月18日水原地方法院作出部分支持三星电子临时处分申请裁定之后。法院虽然要求工人必须维持关键生产和安全岗位的正常人员配置、且罢工不得导致生产原料变质或报废，但工会代表律师指出法院裁决在人员编制问题上实际上站在工会一方，允许以周末或节假日水平配置人员（约不足7,000人），对罢工几乎不构成实际障碍。
+1. **供应链通胀已从行业性演变为系统性。** 瓶颈现已横跨七层——从先进制程地理集中（L0）到环境合规（L5）——跨层级级联风险无法通过单点缓解对冲。
+   *Supply-chain inflation has become systemic, not sectoral. Bottlenecks now span seven layers—from advanced-process geographic concentration (L0) to environmental compliance (L5)—with cross-layer cascade risks that defy single-point mitigation.*
 
-【锚】在法院裁决后，劳资双方于5月18日起连续三天通过事后调解程序进行磋商。工会方表示已于19日同意韩国雇佣劳动部旗下中央劳动委员会提出的协调方案，但公司方面拒绝接受，导致相关调解程序宣告结束。三星电子声明称，谈判破裂是因为"工会坚持提出的过分要求可能破坏公司管理基本原则"。公司方面表示，资方大部分接受劳方涉绩效奖金诉求，但工会坚持要求对亏损部门发放难以被社会接受的绩效奖金，若公司接受相关要求，会动摇公司的基本经营原则。
+2. **地缘裂度正在超越商业对冲速度。** 中日材料相互脆弱性已从威慑进入近断供状态。2026年3月海湾数据中心物理安全事件标志着超大规模云基础设施首次在军事行动中被打击，引入了全新的外生冲击类别。
+   *Geopolitical fracture is outpacing commercial hedging. Japan-China mutual material vulnerability has moved from deterrence to near-embargo conditions. The Gulf data-center physical-security incident (March 2026) marks the first confirmed military strike against hyperscale cloud infrastructure, introducing a new class of exogenous shock.*
 
-【锚】据统计，约48,000名工会成员已表达参与罢工意愿，这将是三星电子史上最大规模罢工。总统办公室对谈判破裂表示"深切遗憾"，雇佣劳动部表示将动用"一切可能手段"在罢工启动前维持劳资对话。
-
-【推】三星自5月14日起已在部分晶圆厂启动"warm-down"预防性降载，约15,000个晶圆存储舱被移出产线，产能损失已部分发生。若全面罢工实际执行且持续至6月7日，累计产能损失可能远超此前估计。韩国媒体援引Jefferies预估，罢工将导致记忆体供应进一步吃紧。
-
-#### 🔄 弹性策略（更新）
-
-- **全球通用冗余度：** 鉴于三星罢工已从"概率事件"升级为"确定性事件"（确认性判断），建议将HBM长协锁定优先级提至最高。弹性评分：稳定性3/5（三星罢工形成下行风险），替代速度2/5，成本3/5 → 综合8分 → ★★★ / 成本等级：中 / ROI：短期+中期 / 适用区域：全球
-- **中国特定替代路径：** 加速CXMT HBM3联合验证，目标2026年底替代30%训练负载。弹性评分：★★★★ / 成本等级：高 / ROI：中期 / 适用区域：中国
-- **海外特定评估：** 若三星罢工持续超72小时，应将2027年HBM订单向SK海力士和美光倾斜。适用区域：海外。
+3. **需求验证仍呈两极分化。** 闭源模型商业化（Anthropic、OpenAI、Google）正产生强劲的ARR信号，但北美超大规模云商CAPEX增速（+70%+）持续超越云收入增速，资本-收入剪刀差仍在扩大。开源模型效率提升（DeepSeek V4、Qwen 3.5、Kimi K2.6集群）构成了最大的未定价战略不确定性。
+   *Demand validation remains bifurcated. Closed-source model commercialization (Anthropic, OpenAI, Google) is generating strong ARR signals, yet North American hyperscaler CAPEX growth (+70%+) continues to outpace cloud-revenue growth, widening the capital-to-revenue scissors. Open-source model efficiency gains (DeepSeek V4, Qwen 3.5, Kimi K2.6 clusters) represent the largest unpriced strategic uncertainty.*
 
 ---
 
-### 判定二：三大原厂HBM产能2026年全线售罄，存储器进入卖方市场，罢工事件进一步收紧供给
+## 本期五大焦点（当前窗口）/ Five Critical Developments (Current Window)
 
-【锚】SK海力士2026年的DRAM、NAND和HBM产能已全部售罄。公司明确指出，2026年的HBM产能分配已成定局，很难在2026年对HBM和标准型DRAM的产线进行有意义的调整。由于标准型DRAM目前的供需极度紧张，这种局面甚至可能为2027年的HBM业务谈判带来更有利的条款。SK海力士DRAM及NAND库存仅剩约4周，且没有任何客户能完全满足需求。
-
-【锚】美光2026年HBM产能已全部售罄，且价格和销量均已锁定。美光CEO警告，全行业正面临"结构性短缺"，其目前仅能满足核心客户约一半至三分之二的订单需求。美光已将HBM市场规模预期上调至2028年达到1,000亿美元。美光Q2营收239亿美元（同比增长196%），HBM4已量产出货。
-
-【推】包括三星、SK海力士和美光在内的主要供应商均已售罄2026年产能。模组厂普遍面临颗粒短缺与下游配货压力，大型模组厂实际取得的颗粒仅有原先需求的30%至50%；手机与PC等传统应用被排至后段，多数品牌厂今年仅能取得原本50%至70%的货量。
-
-【推】三星罢工事件影响评估：三星在全球HBM市场占据约40%份额，若5月21日全面罢工实际发生，即便有关键岗位强制令保护，以"周末水平"配置人员仍将导致产能利用率大幅下降。叠加已发生的约15,000个晶圆存储舱warm-down产能损失，全球HBM供给将进一步收紧（分析性推断）。
-
-【锚】英伟达将于美东时间5月20日盘后发布FY2027 Q1财报，市场普遍预期营收约791亿美元，同比增长近80%。AI供应链业者更预估首季营收可达820亿美元，Q2财测估能再拉升至900亿美元。Blackwell已占数据中心营收三分之二，Vera Rubin平台将在2026年下半年升级为HBM4。英伟达FY2026全年营收2159亿美元。
-
-#### 🔄 弹性策略（更新）
-
-- **全球通用冗余度：** 云厂商与SK海力士/美光签订2027年框架协议，锁定70%需求。鉴于三星罢工已确认，优先保障非三星产能。弹性评分：13分 → ★★★★★ / 成本中 / ROI短期 / 适用区域：全球
-- **中国特定制度性防御：** 将HBM纳入国家战略储备。
+| 焦点 / Focus | 事件 / Event | 含义 / Implication | 观察窗口 / Observation Horizon |
+|-------------|-------------|-------------------|------------------------------|
+| 三星劳资仲裁 / Samsung Labor Arbitration | 5月20日罢工叫停；5月27日具有约束力投票 / Strike suspended May 20; binding vote May 27 | 决定HBM供应轨迹 / HBM supply trajectory determined | 1–4周 / 1–4 weeks |
+| 中日材料恶化 / Japan-China Material Deterioration | 双方实施两用物项出口管制；镓、锗对日出口归零（2026年1–2月）/ Dual-use export controls enacted by both sides; gallium/germanium flows to Japan at zero (Jan–Feb 2026) | 相互脆弱性进入活跃阶段 / Mutual vulnerability now in active phase | 即时 / Immediate |
+| Anthropic商业化 / Anthropic Commercialization | 第三方估算显示ARR快速增长及毛利率扩张；预计Q2盈利 / Third-party estimates indicate rapid ARR growth and gross-margin expansion; Q2 profitability anticipated | “软着陆”需求路径的最强信号 / Strongest signal for "soft landing" demand path | 1–3月 / 1–3 months |
+| 海湾数据中心物理安全 / Gulf Data-Center Physical Security | 3月1日伊朗无人机打击AWS设施（阿联酋/巴林）；威胁清单扩至29处科技设施；5月18日宣布海底光缆制度 / Iranian drone strikes on AWS facilities (UAE/Bahrain, Mar 1); threat list expanded to 29 tech facilities; subsea cable regime declared May 18 | 超大规模基础设施首次军事化 / First militarization of hyperscale infrastructure | 持续中 / Ongoing |
+| Rubin-HBM4成本结构 / Rubin-HBM4 Cost Structure | HBM占系统BOM比重 reportedly 大幅上升；首年供应集中于韩系厂商 / HBM share of system BOM reportedly rising sharply; first-year supply concentration in Korean suppliers | 利润池从GPU逻辑芯片向HBM存储器迁移 / Profit-pool migration from GPU logic to HBM memory | 6–12月 / 6–12 months |
 
 ---
 
-### 判定三：需求验证多节点确认——阿里AI ARR突破358亿元，百度AI收入占比首次超过52%
+## 第一部分：七层战略压力架构（L0–L5）/ Part I: Seven-Layer Strategic Pressure Architecture (L0–L5)
 
-【锚】阿里巴巴5月13日发布的2026财年Q4财报及分析师电话会确认：CEO吴泳铭宣布AI已跨越初期投入阶段，正式迈入商业化回报周期。本季度AI相关产品收入达89.71亿元，连续十一个季度实现三位数同比增长，年化收入突破358亿元。这是阿里首次在财报中明确披露AI收入占比，也是行业第一次看到中国互联网巨头AI真实年化收入。6月份季度包含百炼MaaS平台在内的AI模型与应用服务ARR将突破100亿元，年底将突破300亿元。AI相关产品收入占阿里云外部商业化收入的比例首次突破30%，预计未来一年AI相关产品收入占比将突破50%。
+### L0 地理集中度：台湾海峡单点故障 / L0 Geographic Concentration: Taiwan Strait Single-Point-of-Failure
 
-【锚】阿里云外部商业化收入同比增速提升至40%。吴泳铭在分析师电话会上表示，"现在我们的服务器内，几乎没有一张卡是空的。在未来3-5年内需求下，我们大量投入的AI数据中心建设投资回报是非常确定的"。
+全球约90%的先进制程逻辑芯片（7nm以下）由中国台湾省的台积电制造。2026年Q1已兑现两重物理风险：75年来最严重干旱（新竹黄色警戒）及2月地震导致月产能减少16%。海外分散化（亚利桑那3nm提前至2027年；熊本二厂升级至3nm）相对于本岛产能（~18K片/月至2027年底）仍属杯水车薪。
+*Approximately 90% of advanced-process logic (sub-7nm) is manufactured by TSMC in Taiwan Province of China. Two physical risks materialized in Q1 2026: the most severe drought in 75 years (Hsinchu yellow alert) and a February earthquake reducing monthly capacity by 16%. Overseas diversification (Arizona 3nm advanced to 2027; Kumamoto second fab upgraded to 3nm) remains marginal relative to island capacity (~18K wafers/month by end-2027).*
 
-【推】然而，2026财年全年自由现金流净流出466.09亿元（Q4单季净流出173亿元，上年同期为净流入37.43亿元），净利润同比下降19%至1021亿元。这一落差揭示了AI投资正处于"重资产消耗"阶段，ROI验证需要真实ARR持续超越Token成本涨幅。
+**双向脆弱性：** 中国AI训练芯片需求同样高度依赖台积电先进节点，这在近期形成了事实上的相互威慑均衡。
+*Bidirectional vulnerability: China’s AI training-chip demand is equally dependent on TSMC advanced nodes, creating a de facto mutual deterrence equilibrium in the near term.*
 
-【锚】百度5月18日发布的2026年Q1财报显示：季度总营收321亿元，百度一般性业务收入260亿元，同比增长2%，超出市场预期。AI业务收入136亿元，占百度一般性业务收入的52%，已连续多个季度增长。AI云收入88亿元，同比增长79%；GPU云收入同比增长184%。归属百度的净利润为34亿元，同比下降55%，体现AI基础设施投入对短期利润的侵蚀。
+### L1 核心硅片与先进封装 / L1 Core Silicon & Advanced Packaging
 
-#### 🔄 弹性策略
+**HBM供应：** 三星罢工已叫停，但5月27日投票前仍悬而未决。三大HBM供应商均报告2026年产能全部售罄；SK海力士表示三年需求超越产能。NVIDIA Vera Rubin HBM4爬坡 reportedly 推动HBM占系统成本比重显著上升，首年供应集中于韩系厂商，一家主要美系供应商 reportedly 被排除。
+*HBM Supply: Samsung strike suspended but unresolved until May 27 vote. All three major HBM suppliers report 2026 capacity fully booked; SK Hynix indicates three-year demand exceeds supply. NVIDIA Vera Rubin HBM4 ramp reportedly driving HBM share of system cost significantly higher, with first-year supply concentration in Korean vendors and one major U.S. supplier reportedly excluded.*
 
-- **替代路径：** DeepSeek V4适配华为昇腾，底层代码从CUDA全面转向华为CANN Next框架，端到端延迟降35%。适配的华为昇腾新款推理芯片采购价格仅为英伟达芯片的四分之一，单卡算力较英伟达对华特供版提升2.87倍。弹性评分：10分 → ★★★★ / 成本中 / ROI中期 / 适用区域：中国
-- **政策协同：** 全国约七成智能计算算力已纳入统一监测调度，全国一体化算力网建设加速推进。
+**先进封装（CoWoS）：** 台积电产能扩张持续滞后需求。三星I-Cube与英特尔EMIB尚未实现有效替代。中国Chiplet路线（长电、通富）正在加速，但2.5D/3D封装产能受限于2027年底，构成国产AI芯片量产的物理上限。
+*Advanced Packaging (CoWoS): TSMC capacity expansion continues to lag demand. Samsung I-Cube and Intel EMIB have not yet achieved effective substitution. Chinese Chiplet routes (JCET, Tongfu) are accelerating, yet 2.5D/3D packaging capacity is constrained through end-2027, forming a physical ceiling on domestic AI-chip volume production.*
 
----
+**CXMT HBM3：** 研发进度 reportedly 落后于计划；尚未确认量产订单。2026年量产概率仍不确定。
+*CXMT HBM3: Development timeline reportedly behind plan; mass-production orders not yet confirmed. 2026 volume probability remains uncertain.*
 
-### 判定四：H200出口"美批中阻"博弈持续，MATCH法案面临荷兰正式抗议
+### L2 高速互联 / L2 High-Speed Interconnect
 
-【锚】美国商务部已批准约10家中国企业采购英伟达H200芯片，获准购买的公司包括阿里巴巴、腾讯、字节跳动、京东，以及联想集团、鸿海科技等通路与代工伙伴。每家获批客户最多可购买7.5万颗H200芯片，既可向英伟达直接采购，也可通过授权分销商购买。联想已确认获准在中国销售H200。
+EML芯片需求超供应约30%；预计2026年底缓解。800G/1.6T光模块出货量预计2026年翻倍，硅光子渗透率预计50–70%。AI集群向10万卡以上规模演进，推动网络+光学资本开支占比升至15%以上，数据中心架构从计算中心转向网络中心。
+*EML chip demand exceeds supply by approximately 30%; relief expected by end-2026. 800G/1.6T optical module shipments are expected to double in 2026, with silicon-photonics penetration projected at 50–70%. AI clusters scaling toward 100K+ card configurations are elevating network-plus-optical capex share above 15%, shifting data-center architecture from compute-centric to network-centric.*
 
-【锚】然而，尽管美国商务部已核发相关出口许可，中方尚未批准采购H200芯片。英伟达CEO黄仁勋近期表示，"中国尚未批准采购H200芯片，因为他们选择不这么做，他们希望发展自己的技术"。据知情人士透露，部分中国公司在接获订单后被告知无法完成采购。英伟达FY2027 Q1财报中H200中国市场营收贡献预估为零。
+### L3 机电基础设施与物理安全 / L3 Electromechanical Infrastructure & Physical Security
 
-【锚】MATCH法案的最新阻力：荷兰政府已正式提出反对。荷兰外贸与发展合作大臣舍尔茨玛在致美国立法者的书面答复中明确表示，荷兰内阁反对MATCH法案所固有的"域外管辖"效力。法案要求阿斯麦（ASML）不得向中国出口关键浸润式DUV光刻机，并禁止对中国现有设备的售后服务和零部件支持。荷兰政府强调每个国家都有权制定并执行本国出口管制法规，警告这种笼统而宽泛的限制可能对包括ASML在内的荷兰半导体企业的收入和市场地位造成严重冲击。荷兰的正式抗议使法案在参议院推进面临重大不确定性。
+**柴油发电机与变压器：** 海外柴发交付周期超18个月；中国国内交付周期2–3个月，成本低20–30%。2026年前两月中国发电机出口激增131.81%。美国变压器交付周期已延长至5年；PJM容量拍卖电价飙升近800%。中国对美变压器出口 reportedly 大幅上升，美国进口依赖度升高。
+*Diesel Generators & Transformers: Overseas diesel-generator lead times exceed 18 months; Chinese domestic delivery cycles are 2–3 months at 20–30% lower cost. Chinese generator exports surged 131.81% in Jan–Feb 2026. U.S. transformer lead times have extended to five years; PJM capacity-auction prices spiked nearly 800%. China-to-U.S. transformer exports reportedly rose sharply, with U.S. import dependence elevated.*
 
-#### 🔄 弹性策略（更新）
+**海湾数据中心物理安全：** 2026年3月1日，伊朗无人机打击阿联酋和巴林的3处AWS数据中心，服务中断超24小时。后续伊朗革命卫队将威胁清单扩至29处科技设施，并于5月18日宣布对穿越霍尔木兹海峡的海底光缆实施许可/收费制度。这是超大规模云基础设施首次在军事行动中成为打击目标。
+*Gulf Data-Center Physical Security: On March 1, 2026, Iranian drones struck three AWS data centers in UAE and Bahrain, causing &gt;24-hour service outages. The IRGC subsequently expanded threat lists to 29 technology facilities and, on May 18, declared a licensing/regime for subsea fiber-optic cables traversing Hormuz. This is the first confirmed instance of hyperscale cloud infrastructure being targeted in a military action.*
 
-- **替代路径：** 以"不批准H200"为筹码，换取美方在成熟制程DUV维保上的静默容忍，同时加速昇腾生态软件适配。DeepSeek V4已率先完成从CUDA到CANN的全栈迁移，标志着国产大模型与国产算力正式迈进深度协同新阶段。弹性评分：8分 → ★★★ / 成本中 / ROI中期 / 适用区域：中国
-- **制度性防御：** CXMT HBM3量产纳入国家级专项。昇腾950PR已批量出货，2026年计划出货75万片。
+### L4 半导体材料与被动元件 / L4 Semiconductor Materials & Passive Components
 
----
+**氦气：** 5月价格从4月高点回落至约310–360元/立方米（上海分销商区间）。俄罗斯货源部分到货，但出口管制持续至2027年底。长期紧张未解。
+*Helium: Prices retreated from April highs to approximately 310–360 CNY/m³ in May (Shanghai distributor range). Russian supply partially arrived, but export controls extend through end-2027. Long-term tightness persists.*
 
-## 第一部分：四层瓶颈深度分析
+**中日材料相互脆弱性：**
+*Japan-China Mutual Material Vulnerability:*
 
-### L1 核心芯片层——HBM
+- **日本：** 2023年7月对23类半导体制造设备实施出口管制；2019年7月对韩国实施3类材料（光刻胶、氟化氢、聚酰亚胺）管制。2025年12月市场传闻可能扩大对华材料出口限制，但截至2026年5月23日，日本经产省未发布正式的23类材料出口管制令。
+  *Japan: Controls on 23 categories of semiconductor manufacturing equipment (July 2023); historical 2019 curbs on three material categories (photoresist, hydrogen fluoride, polyimide) against South Korea. Market reports in December 2025 indicated potential expansion of material-export restrictions toward China, but as of May 23, 2026, METI has not issued a formal 23-category material export control order.*
 
-（详见核心判定一、二）
+- **中国：** 2026年1月6日实施对日两用物项全面出口管制。据贸易统计，2026年1–2月中国对日镓、锗出口降至零。
+  *China: Comprehensive dual-use export controls against Japan enacted January 6, 2026. Per trade statistics, gallium and germanium exports to Japan fell to zero in January–February 2026.*
 
-#### 🔄 弹性策略汇总
+**ABF载板：**  reportedly Q3涨价；供需缺口预计持续至2027年底。
+*ABF Substrates: Reported price increases for Q3 2026; supply gap expected through end-2027.*
 
-- **全球锁定SK海力士/美光长协（★★★★★），中国加速CXMT验证（★★★★），海外跟踪三星罢工进展（方向性）。** 鉴于三星罢工已于5月20日确认启动，建议将全球HBM锁单优先级提至P0。
+**被动元件（MLCC）：** 三星电机、村田、国巨宣布2026年6月起调价， targeting AI服务器高容型号。AI服务器MLCC用量 reportedly 为传统服务器3倍以上，电极材料（镍、铜、银钯）成本持续高企。
+*Passive Components (MLCC): Samsung Electro-Mechanics, Murata, and Yageo announced price adjustments effective June 2026, targeting AI-server-grade high-capacitance models. AI servers reportedly require 3× MLCC volume versus traditional servers, while electrode-material costs (nickel, copper, silver-palladium) remain elevated.*
 
----
+**碳纤维（T800+）：** 日本东丽、帝人、三菱化学在T800及以上级别碳纤维全球份额 estimated 70%+。该材料用于半导体设备精密部件（晶圆搬运机器人、光刻机运动平台、封装设备）。若与光刻胶、氟化氢、硅晶圆的主导地位 combined，协调限制情景的冲击将远超单一材料禁运。
+*Carbon Fiber (T800+): Japanese suppliers (Toray, Teijin, Mitsubishi Chemical) hold an estimated 70%+ global share in T800-and-above carbon fiber. Used in precision semiconductor-equipment components (wafer-handling robotics, lithography motion platforms, packaging equipment). If combined with photoresist, hydrogen fluoride, and silicon-wafer dominance, a coordinated restriction scenario would exceed the impact of any single-material embargo.*
 
-### L2 高速互联层——光模块/光芯片：EML需求超供应30%，短缺预计2026年底前缓解
+### L5 环境合规与液冷 / L5 Environmental Compliance & Liquid Cooling
 
-【锚】根据LightCounting 2026年5月最新公开报告，当前光连接需求持续超预期，2026年以太网光模块预计增长65%，但增长受到磷化铟EML和激光芯片产能的限制，当前需求超过供应约30%。不过，LightCounting预计短缺情况应在2026年底前消失，届时需求也可能有所放缓，从而有助于恢复供应链平衡。LightCounting预测显示市场将实现"软着陆"，但供应链平衡往往依靠市场修正来实现。
-
-【推】招商证券研报指出，高端产能被海外巨头垄断，InP光芯片供需缺口持续扩大。CW-Laser硅光方案在高速率光模块中渗透率预计将超过50%，成为主流选择。
-
-#### 🔄 弹性策略
-
-- **全球通用冗余度：** 与2-3家光模块供应商签长协，建立6个月EML库存。弹性评分：8分 → ★★★ / 成本中 / ROI短期
-- **中国特定制度性防御：** 将200G EML列入国产化攻关专项。弹性评分：5分 → ★★ / 成本高 / ROI长期
-
----
-
-### L3 机电基础设施层——柴油发电机：外资交付周期8-18个月，国产替代加速，区域电力差异显著
-
-【锚】数据中心柴油发电机组持续构成AI基础设施建设的核心"卡点"。全球主流柴发品牌厂家供货周期持续在8到12个月，传统外资柴发巨头如康明斯、卡特彼勒等订单排至2026-2027年，交付周期拉长至18个月以上，纯外资机组价格已超300万元/台。据行业统计，全国2025年数据中心柴发需求约为5,600-6,000台，缺口明显。
-
-【锚】国产设备优势进一步凸显。国产大功率柴发部分产品单机功率达4.2兆瓦，为传统机型的2倍，交付周期缩短至2-3个月（外资需8-12个月），成本较国际品牌低20%-30%。头部企业加速布局国四电喷、高压共轨、远程监控等技术，油耗较传统机型降低8%-12%，满足国四及欧美排放标准。交期的差异客观上推动了国产替代的进程，让很多用户作出了选用国产品牌的选择。2026年前两月，我国发电机组出口额达129.01亿元，同比激增49.66%，其中数据中心专用大功率柴油机组出口增长131.81%。
-
-【推】值得注意的是，储能系统（BESS）对柴发的替代是值得追踪的证伪变量。BESS正在成为数据中心柴油备用发电的可靠替代方案，尤其适用于支撑AI工作负载的快速、大幅度功率变化场景。MarketsandMarkets预测全球BESS市场规模将从2025年的508.1亿美元增长至2030年底的1,059.6亿美元；BloombergNEF报告称储能领域强劲投资推动2025年新增装机达112吉瓦。若头部数据中心项目中BESS替代柴发比例突破30%，L3瓶颈将被显著削弱。
-
-#### 电力供需的区域异质性
-
-**中国市场：电力整体充裕。** 高盛预测到2030年中国将拥有约400吉瓦的备用电力容量，相当于全球数据中心预期需求量的3倍以上，为持续扩张提供充足空间。彭博新能源财经预测2026至2030年中国将新增超过3.4太瓦发电容量。国家能源局等四部门已联合发布《关于促进人工智能与能源双向赋能的行动方案》。正在修编的国家标准GB50174《数据中心设计标准（征求意见稿）》已于2026年1月由住建部发布，意见反馈截止时间为2026年2月11日。该征求意见稿共有12项大的改动及2个附录，涵盖选址、建设、电气、制冷等方面，并新增多项液冷相关条款。
-
-**海外核心市场：电力供给紧张，柴发成为硬约束。** 美国高盛预计数据中心电力需求将从2025年的31GW增长至2026年的41GW，并在2027年升至66GW。CBRE报告显示约50%计划建设的数据中心已延期或取消。欧洲Rabobank报告指出电网是限制数据中心发展的首要因素，主要枢纽新增10MW以上电力连接的平均等待时间已延长至4-5年。新加坡将数据中心总电力消耗上限定为1.4GW。
-
-#### 🔄 弹性策略（分层，更新）
-
-| 适用区域 | 弹性动作 | 弹性评分 | 成本 | ROI | 优先级 |
-|----------|----------|----------|------|-----|--------|
-| 海外 | 立即锁定国产柴发产能，建立双源采购 | 15分→★★★★★ | 低 | 立即 | P0 |
-| 海外 | 在新建数据中心预留BESS接口（替代路径） | ★★★ | 中 | 中期 | P1 |
-| 中国 | 按新国标征求意见稿方向前瞻性设计，取消非核心备用电源 | ★★★★（标准未正式生效） | 零 | 立即 | P2 |
-| 中国 | 国产柴发作为备用选项，无需恐慌抢购 | — | 低 | 长期 | P3 |
+欧盟AI法案高风险系统合规截止日期推迟至2027年12月，集中释放"合规悬崖"效应。中国新建智算中心近100%液冷覆盖，AI训练服务器液冷渗透率 reportedly 74%（2026年Q1）。液冷降低PUE但需高纯度水处理设施；中国西部（东数西算枢纽所在地）水资源稀缺构成新约束。
+*EU AI Act high-risk system compliance deadline deferred to December 2027, concentrating "compliance-cliff" effects. China mandates near-universal liquid-cooling coverage in new intelligent-computing centers, with training-server liquid-cooling penetration reportedly at 74% in Q1 2026. Liquid cooling reduces PUE but requires high-purity water-treatment infrastructure; water scarcity in western China (where East-Data-West-Computing hubs are sited) introduces a new resource constraint.*
 
 ---
 
-### L4 半导体材料层——氦气价格冲高后5月回落，ABF载板涨价30%
+## 第二部分：需求验证与四种终局 / Part II: Demand Validation & Four Endgame Scenarios
 
-**氦气方面：**
+**传导链条：** 七层供给约束 → 算力稀缺 → 算力成本高企 → Token价格上涨 → 下游应用ARR与Token成本剪刀差 → CAPEX可持续性。
+*Transmission Chain: Seven-layer supply constraints → compute scarcity → elevated compute cost → token-price inflation → downstream-application ARR vs. token-cost scissors → CAPEX sustainability.*
 
-【推】本轮氦气短缺受多重因素叠加影响。卡塔尔拉斯拉凡天然气及氦气生产设施受中东局势影响，叠加俄罗斯宣布氦气出口管制延长至2027年底，同时霍尔木兹海峡航运受阻导致中东出口至东北亚的海运通道不畅，共同推高氦气现货价格。
+**需求侧核心对冲力量：**
+*Demand-Side Counterweights:*
 
-【锚】（2026年5月20日联网更新）上海钢联数据显示，4月份以来氦气价格加速上涨，进口价格一度冲高至550元/立方米。工业级管束氦气（5N）4月底均价约350-400元/立方米，5月1日跳涨至450-500元/方。然而，进入5月份后市场心态明显转弱，氦气价格呈现回落态势。截至5月中旬，5N管束高纯氦气主流报价已回落至460-490元/立方米，较4月高点有所回调，但同比仍处于历史高位。下游企业观望气氛升温，采购节奏放缓。
+1. 开源集群模型效率提升（MoE架构、HBM绕过、异构计算）
+   *Model-efficiency gains via open-source clusters (MoE architectures, HBM bypass, heterogeneous compute)*
+2. 闭源模型商业化爆发
+   *Closed-source model commercialization*
+3. 具身智能/机器人产业化
+   *Embodied intelligence / robotics industrialization*
+4. 全国一体化算力网调度优化
+   *National integrated computing-network scheduling optimization*
 
-【推】韩国对卡塔尔氦气依赖度达64.7%，三星和SK海力士据公开报道持有约4-6个月的库存缓冲。Q3若航运仍未恢复，将面临实质性供应压力。国家氦气战略储备库建设正在规划落地。山西吕梁液化提氦二期项目预计于2026年12月建成投产，届时将新增年产48万吨液化天然气和40万方氦气的产能。
+**四种终局框架：**
+*Four Endgame Framework:*
 
-**ABF载板方面：**
+| 路径 / Pathway | 条件 / Condition | 当前信号强度 / Current Signal Strength | 关键监测指标 / Key Monitoring Metrics |
+|---------------|-----------------|--------------------------------------|--------------------------------------|
+| 软着陆 / Soft Landing | AI ARR持续超越Token成本增长；FCF转正 / AI ARR persistently exceeds token-cost growth; FCF turns positive | 中等偏强 / Moderately Strong | Anthropic Q2盈利；阿里FCF拐点；北美CAPEX收敛 / Anthropic Q2 profitability; Ali FCF inflection; NA CAPEX convergence |
+| 效率革命 / Efficiency Revolution | 开源模型集群将HBM需求降至当前1/3以下 / Open-source clusters reduce HBM demand to &lt;1/3 of current | 高度警惕但未定价 / High Alert, Not Priced | 多模型商用HBM需求；异构训练渗透率；非NVIDIA占比 / Multi-model commercial HBM demand; heterogeneous training penetration; non-NVIDIA share |
+| 资本断流 / Capital Dry-Up | 连续两季下调CAPEX指引；运营现金流无法覆盖AI基础设施支出 / Two consecutive quarters of CAPEX guidance cuts; operating cash flow fails to cover AI infrastructure spend | 低但上升 / Low but Rising | 亚马逊/微软下季CAPEX指引 / Amazon / Microsoft next-quarter CAPEX guidance |
+| 地缘断裂 / Geopolitical Fracture | 对华HBM/先进制程全面禁运 / Comprehensive HBM / advanced-process embargo on China | 中等 / Moderate | MATCH法案参议院轨迹；韩日出口管制立场 / MATCH Act Senate trajectory; Korea / Japan export-control posture |
 
-【锚】2026年5月，味之素已正式通知IC基板厂商，其ABF积层薄膜新定价将于2026年三季度生效，预计涨幅高达30%。自2026年第二季起，ABF载板平均报价普遍调升5%-10%，部分现货价格涨幅更上看30%以上。AI服务器需求结构转趋长线化，ABF载板供需缺口预计延长至2027年底。美银证券预估，未来3年载板缺口将逐年扩大，2028年达35%，其中AI芯片和服务器CPU相关载板的出货占比更上看85%。大陆厂商方面，深南电路、兴森科技等已公告ABF载板扩产计划。
+**效率革命独立监测指标体系：**
+*Efficiency-Revolution Independent Monitoring Metrics:*
 
-#### 🔄 弹性策略（更新）
-
-- **全球通用冗余度：** 与多国氦气供应商签框架协议，建立3-6个月战略库存。弹性评分：7分 → ★★★ / 成本中 / ROI短期
-- **中国特定制度性防御：** 利用已规划的国家氦气战略储备库，以及山西吕梁液化提氦二期项目（2026年12月投产），降低进口依赖。弹性评分：10分 → ★★★★ / 成本低 / ROI中期
-- **海外特定：** 美国企业可依托本土氦气产能及美卡长协，风险敞口较小。
-
----
-
-## 第二部分：传导链条与需求验证
-
-### 传导链条完整路径
-
-四层供给约束（L1-L4）→ GPU/算力稀缺 → 算力成本高企 → 云厂商提价压力 → Token价格上涨 → 下游应用ARR与Token成本剪刀差 → 资本开支可持续性。
-
-### 需求侧两个核心对冲力量
-
-**对冲力量一：模型效率提升。**
-
-【锚】DeepSeek V4预览版本于2026年4月24日正式上线并开源，华为云首发适配。依托昇腾全栈算力底座，实现了1.50至1.73倍的推理加速。DeepSeek V4完全运行在华为昇腾950PR推理芯片上，底层代码从CUDA全面转向华为CANN Next框架，成为全球首个在国产算力底座上完成训练与推理验证的万亿参数级模型。适配的昇腾推理芯片采购价格仅为英伟达芯片的四分之一，单卡算力较英伟达对华特供版提升2.87倍。高盛研报指出，随着华为昇腾950芯片于2026年下半年大规模供货，模型定价有望进一步下降。
-
-**对冲力量二：全国一体化算力网建设。**
-
-【锚】全国约七成智能计算算力已纳入统一监测调度。工信部已印发通知推进"1+M+N"国家算力互联互通节点体系建设。算力正在向跟电力一样的"一网互通"方向发展。
-
-### 阿里案例：重资产消耗阶段的典型
-
-【锚】阿里2026财年Q4财报首次披露AI相关年化收入358亿元，连续11个季度三位数增长。但全年FCF净流出466亿元，Q4单季FCF净流出173亿元（上年同期为净流入37.43亿元），全年净利润同比下降19%至1021亿元。判断需求验证成功所需的条件是：真实ARR持续超越Token成本涨幅。
+| 指标 / Metric | 基线（2026 Q1）/ Baseline | 触发阈值 / Trigger Threshold | 阈值设定依据 / Threshold Rationale |
+|--------------|--------------------------|----------------------------|-----------------------------------|
+| 开源模型HBM需求弹性系数 / Open-source model HBM-demand elasticity coefficient | ~15–25%年降幅 / ~15–25% annual decline | 持续两季度年降幅&gt;40% / Sustained &gt;40% decline for two quarters | 基于HBM卖方市场结构推导 / Derived from HBM seller-market structure |
+| 异构计算训练渗透率 / Heterogeneous-compute training penetration | &lt;5% | &gt;20% | GPU历史渗透曲线（2016→2018）/ Historical GPU diffusion curve |
+| 非NVIDIA芯片占超大规模云商新增训练集群比 / Non-NVIDIA share of hyperscaler new training clusters | &lt;10% | &gt;30% | 类比Intel服务器CPU定价权侵蚀历史案例 / Analogous to Intel server-CPU pricing-power erosion |
 
 ---
 
-## 第三部分：外生冲击矩阵与利益相关方决策矩阵
+## 第三部分：多极双向博弈矩阵 / Part III: Multi-Polar Bidirectional Game-Theoretic Matrix
 
-### 外生冲击矩阵（更新）
+**核心规则：** 每识别行为体A对产业链施加的一项约束，必须同步追问——A的成本是什么？其他行为体对A有何反制？
+*Core Rule: Every constraint imposed by Actor A on the supply chain must be paired with (a) the cost to Actor A of enforcing it, and (b) the counter-constraint available to other actors.*
 
-| 冲击类型 | 具体事件 | 影响层级 | 时间窗口 | 当前方向 | 关键监测节点 |
-|----------|----------|----------|----------|----------|--------------|
-| 劳工冲突 | 三星劳资调解破裂，5月21日启动全面罢工 | L1 HBM | 即期-3周 | 已升级为确定性事件 | 罢工实际规模及持续时间；政府是否行使紧急调整权 |
-| 中美博弈 | H200出口"美批中阻" | 政策外生 | 即期-3个月 | 僵持—中方拒购 | 中方是否批准进口；实际交付量 |
-| 地缘航运 | 霍尔木兹航运受阻 | L4 材料 | Q3临界点 | 恶化（有缓冲） | 海峡复航；氦气库存消耗速度 |
-| 制裁立法 | MATCH法案 | 政策外生 | 12-24个月 | 推进中，遇荷兰正式抗议 | 盟国对齐进度；参议院表决 |
-| 宏观利率 | 降息预期消失 | 融资成本 | 6-12个月 | 边际恶化 | 美联储利率决议 |
+**核心行为体双向制约一览：**
+*Core Actors & Mutual Constraints:*
 
-### 利益相关方决策矩阵（更新）
+| 行为体 / Actor | 对产业链施加的约束 / Constraint Imposed | 反向约束/脆弱性 / Reverse Constraint / Vulnerability | 博弈均衡特征 / Equilibrium Character |
+|--------------|----------------------------------------|-----------------------------------------------------|-----------------------------------|
+| 美国 / United States | 技术源头管控；出口立法 / Technology-origin controls; export legislation | 内部鹰派/硅谷分歧；盟国反弹；中国关键矿物反制 / Internal hawk/Silicon Valley split; allied backlash; China critical-mineral countermeasures | 内部博弈决定升级节奏 / Internal factional dynamics gate escalation speed |
+| 中国 / China | H200进口审批权；关键矿物管制；市场杠杆 / H200 import-approval authority; critical-mineral export controls; market leverage | 先进制程/材料依赖；FCF压力 / Advanced-process / material dependence; FCF pressure | 以非对称反制争取时间窗口 / Asymmetric countermeasures to buy time |
+| 日本 / Japan | 半导体材料主导权 / Semiconductor-material dominance | 对中国镓、锗、稀土高度依赖（现有效流量归零）/ Dependence on China gallium, germanium, rare earths (now effectively zero flow) | 相互卡脖子态势 / Mutual choke-point deterrence |
+| 韩国 / Korea | 三星HBM全球~40%份额；SK海力士HBM4首年供应主导 / Samsung HBM ~40% global share; SK Hynix HBM4 first-year supply dominance | 对华出口依赖；罢工脆弱性；美方施压 / China export dependence; labor-strike vulnerability; U.S. pressure | 中美之间走钢丝 / Tightrope between U.S. and China |
+| 欧洲/荷兰 / Europe / Netherlands | ASML光刻机垄断；AI法案域外效应 / ASML lithography monopoly; AI Act extraterritorial effect | 中国DUV维保收入；市场替代风险 / China DUV maintenance revenue; market-substitution risk | 规则制定者身份是双刃剑 / Rules-arbiter identity is double-edged |
+| 中国台湾省 / Taiwan Province | 台积电先进制程~90%全球份额 / TSMC advanced-process ~90% global share | 中国AI产业同样高度依赖台积电产出 / China AI industry equally dependent on TSMC output | 双向脆弱性=相互威慑 / Bidirectional vulnerability = mutual deterrence |
 
-**美方：** 筹码（MATCH、H200抽成），约束（荷兰正式抗议、ASML营收），最优策略：降级为行政协定+个案审查。
+**美方内部分解：**
+*U.S. Internal Factional Decomposition:*
 
-**中方：** 筹码（H200审批权、昇腾950批量出货），约束（DUV维保、CXMT HBM3尚未量产），最优策略：以不批H200换DUV维保容忍，加速昇腾+CXMT。
+| 子行为体 / Sub-Actor | 筹码 / Leverage | 约束 / Constraint | 主导策略 / Dominant Strategy |
+|---------------------|----------------|------------------|----------------------------|
+| 商务部（BIS）/ Commerce (BIS) | 出口管制执行权 / Export-control execution authority | 盟国反弹；硅谷游说 / Allied backlash; Silicon Valley lobbying | 维持"个案审查"灵活性 / Maintain "case-by-case" flexibility |
+| 国防部/鹰派 / DoD / Hawks | 国家安全叙事 / National-security narrative | 企业利润受损 / Corporate profit impairment | 加速MATCH；利用韩国罢工窗口 / Accelerate MATCH; exploit Korea strike window |
+| 英伟达/硅谷 / NVIDIA / Silicon Valley | 技术垄断；游说资本 / Technology monopoly; lobbying capital | 管制升级不可逆 / Irreversibility of control escalation | 阻击MATCH；推动降规版替代 / Block MATCH; push reduced-spec alternatives |
+| 国会MATCH派 / Congressional MATCH Bloc | 立法权；政治周期 / Legislative authority; political timing | 中期选举周期 / Mid-term election cycle | 选举窗口前强推表决 / Force vote before electoral window closes |
 
-**三星：** 筹码（HBM约40%产能），约束（劳资矛盾激化），最优策略：罢工启动后尽快重回谈判桌。若罢工持续超过72小时，客户将加速向SK海力士和美光转移2027年订单。
+**外生冲击矩阵（节选）：**
+*Exogenous Shock Matrix (Excerpt):*
 
-**英伟达：** 筹码（技术垄断），约束（出口管制限制中国市场），最优策略：接受H200不进入中国，通过DGX Cloud间接服务。
+| 冲击类别 / Shock Category | 具体事件 / Specific Event | 受影响层级 / Affected Layer | 时间窗口 / Time Window | 当前轨迹 / Current Trajectory |
+|--------------------------|------------------------|---------------------------|----------------------|----------------------------|
+| 劳资冲突 / Labor Conflict | 三星罢工投票（5月27日）/ Samsung strike vote (May 27) | L1 | 即时 / Immediate | 投票进行中 / Vote in progress |
+| 材料恶化 / Material Deterioration | 中日双向出口管制；镓锗流量归零 / Japan-China mutual export controls; gallium/germanium zero flow | L4 | 活跃中 / Active | 升级中 / Escalating |
+| 军事/物理安全 / Military / Physical Security | 海湾数据中心打击；光缆制度声明 / Gulf data-center strikes; cable regime declaration | L3 | 活跃且持续 / Active & Ongoing | 破坏性变量已兑现 / Destructive variable realized |
+| 制裁立法 / Sanctions Legislation | MATCH法案（众议院外委会4月22日通过）/ MATCH Act (House Foreign Affairs passed Apr 22) | 政策 / Policy | 12–24月 / 12–24 months | 荷兰已提出抗议 / Dutch protest registered |
+| 环境法规 / Environmental Regulation | 欧盟AI法案合规推迟至2027年12月 / EU AI Act compliance deferred to Dec 2027 | L5 | 12–36月 / 12–36 months | 短期缓解；长期悬崖 / Short-term relief; long-term cliff |
 
----
+**红队推演与外生冲击映射：**
+*Red-Team Mapping to Exogenous Shocks:*
 
-## 第四部分：时间锥与决策半衰期
-
-### 时间锥一：1-4周（事件驱动窗口）
-
-| 优先级 | 变量 | 核心问题 | 可观测信号 |
-|--------|------|----------|------------|
-| 最高 | 三星罢工进展（更新） | 5月21日罢工实际规模；是否影响HBM产线；政府是否介入 | 韩联社实时报道；三星股价波动；全球DRAM现货价 |
-| 次高 | H200中方审批 | 中方是否批准进口及首批交付 | 商务部公告；海关进口数据 |
-| 次高 | 氦气供应与价格 | 海峡通行；5月价格回落趋势是否延续 | 钢联数据；AIS航运追踪 |
-
-### 决策半衰期与选项关闭（区域化，更新）
-
-| 战略选项 | 当前可用性 | 半衰期 | 关闭条件 | 弹性行动 | 适用区域 |
-|----------|------------|--------|----------|----------|----------|
-| 锁定2027年HBM产能 | 紧迫度提升 | 2026年Q2（正在关闭） | SK海力士/美光开启2028年定价；三星罢工持续 | 立即签长协锁70% | 全球 |
-| 批准H200进口 | 可用 | 2026年Q3 | MATCH生效+VEU审计 | 提前双源验证 | 中国 |
-| 改用国产柴发 | 可用 | 2026年Q4 | 电网协议锁定+品牌信任固化 | 立即锁定国产柴发 | 海外 |
-| 柴发（中国） | 不紧迫 | — | — | 新国标前瞻设计 | 中国 |
-
----
-
-## 第五部分：证伪条件与红队推演
-
-### 5.5 红队推演：对手如何利用瓶颈（更新）
-
-**红队视角：美方供应链战略办公室**
-
-| 步骤 | 动作 | 论证强度 |
-|------|------|----------|
-| 1 | 推动MATCH法案"全生命周期封锁"条款优先执行 | 确认性 |
-| 2 | 【分析性推断】与卡塔尔协商确保氦气优先供应韩国 | 分析性推断 |
-| 3 | H200谈判设置"25%抽成+物理追踪"条款 | 确认性 |
-| 4 | 【分析性推断】三星罢工若扰乱供给，美方或将此作为施压韩国配合出口管制的杠杆 | 分析性推断 |
-
-**中方反制窗口：** 国产柴发替代率突破40%+BESS替代突破30%；霍尔木兹复航或国产氦气放量（山西项目2026年12月）；CXMT HBM3量产且良率>70%；昇腾950PR已批量出货（2026年计划75万片）。
+| 红队动作 / Red-Team Action | 依赖冲击 / Dependent Shock | 冲击状态 / Shock Status | 可利用窗口 / Exploitable Window |
+|---------------------------|---------------------------|------------------------|-------------------------------|
+| 利用三星罢工施压韩国配合对华HBM出口限制 / Exploit Samsung strike to pressure Korea toward China HBM export restrictions | 劳资投票（5月27日）/ Labor vote (May 27) | 进行中 / In progress | 投票结束前；若投票失败则窗口重开 / Until vote concludes; reopens if vote fails |
+| 加速MATCH"全生命周期封锁"条款 / Accelerate MATCH "full-lifecycle block" provisions | MATCH立法进度 / MATCH legislative progress | 荷兰抗议已提出 / Dutch protest lodged | 12–24月；若欧盟分裂则加速 / 12–24 months; accelerates if EU unity fractures |
+| 确保卡塔尔氦气优先供应韩国 / Secure Qatar helium priority for Korean supply | 霍尔木兹海峡通行 / Hormuz Strait passage | 制度化阻断风险 / Institutionalized block risk | Q3关键；若海峡复航则紧迫性下降 / Q3 critical; de-escalates if strait reopens |
+| 英伟达联盟阻击MATCH / NVIDIA-led coalition to block MATCH | H200审批僵局 / H200 approval stalemate | 僵局 / Stalemate | 若中国持续不批则英伟达中国收入风险上升→游说动力增强 / Strengthens if China continues non-approval, raising NVIDIA China revenue-at-risk |
 
 ---
 
-## 第六部分：反向推演
+## 第四部分：时间锥与决策架构 / Part IV: Time-Cone & Decision Architecture
 
-| 情景 | 触发条件 | 推翻内容 |
-|------|----------|----------|
-| 中美AI技术合作重大突破 | 签署正式AI安全协议；实质性放宽管制 | 制裁路径恶化判断 |
-| HBM供给正常化 | 三星罢工短期内解决；新产能释放 | L1瓶颈核心判断 |
-| 全球AI需求急刹车 | 连续2-3季度头部企业AI资本开支负增长 | 需求传导链条 |
-| 模型效率颠覆性跃升 | 新一代模型将HBM带宽需求降低一个数量级 | HBM刚性依赖 |
-| BESS大规模替代柴发 | 头部项目中BESS替代柴发比例突破30% | L3柴发瓶颈 |
-
----
-
-## 第七部分：当前最不确定的关键问题与角色切片
-
-### 7.5 决策者角色切片（全表格化分层版，区域化）
-
-#### 7.5.1 CIO视角
-
-| 行动 | 大型机构 | 中小机构 | 优先级 | 适用区域 |
-|------|----------|----------|--------|----------|
-| HBM锁定（全球） | 签2027长协锁定70%需求，三星罢工背景下优先非三星产能 | 通过云厂商间接获取 | P0（优先级提升） | 全球 |
-| HBM国产验证 | 投入工程团队验证CXMT | 不投入，关注进展 | P1 | 中国 |
-| 双源算力验证 | 昇腾承载30%训练负载 | 关注API兼容性 | P0 | 中国 |
-| 柴发（海外） | 立即锁定国产柴发产能 | 租赁数据中心空间 | P0 | 海外 |
-| 柴发（中国） | 按新国标方向前瞻性设计 | 同左 | P2 | 中国 |
-
-#### 7.5.2 供应链总监视角
-
-| 行动 | 大型机构 | 中小机构 | 优先级 | 适用区域 |
-|------|----------|----------|--------|----------|
-| 柴发采购（海外） | 立即与2-3家国产厂商签框架 | 联合采购联盟 | P0 | 海外 |
-| HBM长协 | 直接与SK海力士/美光谈判，关注三星罢工影响 | 通过云厂商转售 | P0（优先级提升） | 全球 |
-| 氦气战略 | 与多家供应商签长协 | 依赖分销商 | P1 | 全球 |
-
-#### 7.5.3 政策研究官视角
-
-| 政策领域 | 推荐动作 | 优先级 | 适用区域 |
-|----------|----------|--------|----------|
-| MATCH反制 | 以H200不批准换DUV维保容忍 | P0 | 中国 |
-| 国产HBM | CXMT HBM3量产设为国家级专项（鉴于三星罢工，紧迫度提升） | P0 | 中国 |
-| 氦气安全 | 加快战略储备库建设（关注5月价格回落窗口） | P1 | 中国 |
-| 柴发推广 | "首台套"保险覆盖国产柴发 | P1 | 中国 |
-
-#### 7.5.4 投资者视角
-
-⚠️ **拥挤度风险提示：** 报告逻辑若被大量资金提前交易，可能导致相关标的短期估值溢价超基本面。建议分批建仓，设置10%-15%安全边际。
-
-| 策略 | 大型机构 | 中小机构 | 优先级 | 适用区域 |
-|------|----------|----------|--------|----------|
-| 增持HBM供应商 | 三星罢工或致SK海力士/美光受益 | ETF/行业基金 | P0 | 全球 |
-| 增持国产柴发 | 超配潍柴、科泰 | 个股或ETF | P0 | 海外保供 |
-| 增持昇腾生态 | 产业链深度研究（950PR批量出货验证） | 指数配置 | P1 | 中国 |
+| 时间窗口 / Temporal Window | 性质 / Nature | 关键变量 / Critical Variables |
+|---------------------------|--------------|------------------------------|
+| 1–4周 / 1–4 Weeks | 事件驱动 / Event-Driven | 三星投票；氦气价格波动；H200审批动态 / Samsung vote; helium price trajectory; H200 approval dynamics |
+| 1–3月 / 1–3 Months | 战略布局 / Strategic Positioning | 2027 HBM产能分配谈判；材料库存窗口；API定价 / 2027 HBM capacity allocation; material inventory windows; API pricing |
+| 6–12月 / 6–12 Months | 结构性变化 / Structural Shift | MATCH立法轨迹；效率革命商用验证；全球CAPEX趋势确认 / MATCH legislative trajectory; efficiency-revolution commercial validation; global CAPEX trend |
+| 12–24月 / 12–24 Months | 长期轨迹 / Long-Term Trajectory | 台积电海外3nm爬坡；Anthropic/OpenAI IPO执行；SMR数据中心集成 / TSMC overseas 3nm ramp; Anthropic/OpenAI IPO execution; SMR data-center integration |
 
 ---
 
-## 第八部分：弹性策略综合资产负债表（独立成表，区域化标注，更新）
+## 第五部分：证伪条件与反向推演 / Part V: Falsification Conditions & Reverse Inference
 
-| 瓶颈层 | 当前风险敞口 | 建议弹性动作 | 弹性等级 | 成本 | ROI | 责任角色 | 执行时限 | 适用区域 |
-|--------|--------------|--------------|----------|------|-----|----------|----------|----------|
-| L1 HBM | 三星罢工+产能售罄，2027年可能涨价30-50% | 签订2027长协锁定70%，优先非三星产能 | ★★★★★ | 中 | 短期 | CIO/采购 | P0（紧迫度提升） | 全球 |
-| L1 HBM | 对三星/海力士依赖>90% | CXMT HBM3验证，替代30% | ★★★★ | 高 | 中期 | CTO/战略 | P1（紧迫度提升） | 中国 |
-| L2 光模块 | EML缺货致交付延迟（缺口预计年底前缓解） | 建6个月EML战略库存 | ★★★ | 中 | 短期 | 供应链 | P0 | 全球 |
-| L3 柴发 | 外资交付8-18个月（海外） | 立即锁定国产柴发产能 | ★★★★★ | 低 | 立即 | 供应链 | P0 | 海外 |
-| L3 柴发 | 标准未正式生效（中国） | 按新国标征求意见稿前瞻设计 | ★★★★ | 零 | 立即 | 法务/设计 | P2 | 中国 |
-| L4 氦气 | 进口依赖度高，价格冲高后5月回落 | 建3-6个月战略库存 | ★★★ | 中 | 短期 | 供应链 | P0 | 全球 |
-| L4 氦气 | 无战略储备 | 利用国家储备库+山西二期项目（2026年12月） | ★★★★ | 低 | 中期 | 政策 | P2 | 中国 |
+**证伪触发（任一激活即推翻关联核心判断）：**
+*Falsification Triggers (Any activation invalidates the associated core judgment):*
 
----
+| 情景 / Scenario | 触发条件 / Trigger Condition | 被推翻的判断 / Invalidated Judgment |
+|----------------|---------------------------|-----------------------------------|
+| 中美AI合作突破 / U.S.-China AI Cooperation Breakthrough | 正式AI安全协议；H200管制实质性放松 / Formal AI safety agreement; material H200 control relaxation | 制裁路径恶化论点 / Sanctions-path deterioration thesis |
+| HBM供应正常化 / HBM Supply Normalization | 罢工投票通过+新产能提前释放+三厂扩产超预期 / Strike vote passes + new capacity ahead of plan + three-fab expansion exceeds forecast | L1瓶颈核心论点 / L1 bottleneck core thesis |
+| 全球AI需求急刹车 / Global AI Demand Hard Stop | 连续2–3季顶级超大规模云商AI CAPEX负增长指引 / Two-to-three consecutive quarters of negative AI CAPEX guidance at top hyperscalers | 需求传导链条 / Demand-transmission chain |
+| 效率革命 / Efficiency Revolution | (1)商用多模型HBM需求降至当前&lt;&lt;1/3；(2)超大规模云商HBM采购同比削减&gt;30%；(3)异构训练渗透率&gt;20% / (1) Commercial multi-model HBM demand falls to &lt;1/3 current; (2) Hyperscalers cut HBM procurement &gt;30% YoY; (3) Heterogeneous training penetration &gt;20% | HBM刚性依赖；全链短缺逻辑 / HBM rigid-dependence; full-chain shortage logic |
 
-## 附录一：关键时间节点汇总（联网更新至2026年5月20日）
+**反向推演（不利情景→基础假设崩塌）：**
+*Reverse Inference (Adverse scenario → foundational assumption collapse):*
 
-| 时间 | 事件 | 论证强度 |
-|------|------|----------|
-| 2026年1月9日 | 住建部发布GB50174《数据中心设计标准（征求意见稿）》 | 确认性 |
-| 2026年2月25日 | 英伟达FY2026财报发布，全年营收2159亿美元 | 确认性 |
-| 2026年4月2日 | MATCH法案提交众议院 | 确认性 |
-| 2026年4月22日 | 众议院外交事务委员会通过MATCH法案 | 确认性 |
-| 2026年4月24日 | DeepSeek V4发布并适配华为昇腾 | 确认性 |
-| 2026年5月13日 | 阿里财报发布，AI ARR 358亿元，年底目标300亿元 | 确认性 |
-| 2026年5月13-15日 | 特朗普访华；H200出口博弈升级 | 确认性 |
-| 2026年5月18日 | 水原地方法院裁定；百度Q1财报（AI占比52%） | 确认性 |
-| 2026年5月18日 | 国家数据局：全国约七成智能算力纳入统一监测调度 | 确认性 |
-| 2026年5月20日 | 三星电子劳资调解破裂，工会宣布5月21日启动全面罢工 | 确认性（多源交叉验证） |
-| 2026年5月20日（盘后） | 英伟达FY2027 Q1财报预计发布（市场预期营收791亿美元） | 待观察 |
-| 2026年5月21日 | 三星工会全面罢工计划启动（计划18天至6月7日） | 待观察（高度确定） |
-| 2026年12月 | CXMT HBM3量产节点；山西氦气二期项目投产 | 待观察 |
-| 待定 | 中方是否批准H200进口 | 待观察 |
-| 待定 | MATCH法案参议院听证会 | 待公告 |
+| 情景 / Scenario | 触发条件 / Trigger | 崩塌的假设 / Collapsed Assumption |
+|----------------|-------------------|----------------------------------|
+| 中日材料螺旋升级 / Japan-China Material Spiral | 美日协调扩大对华禁运；中方稀土/钨/石墨全面出口禁令 / Coordinated U.S.-Japan expanded embargo; China rare-earth/tungsten/graphite full export ban | 全球半导体供应链稳定假设 / Global semiconductor supply-chain stability |
+| 韩国出口管制转向 / Korea Export-Control Pivot | 罢工后韩国在美压力下收紧对华HBM出口 / Post-strike Korean alignment with U.S. pressure on China HBM exports | HBM对华可获得性假设 / HBM China availability assumption |
+| 中国台湾省产能严重中断 / Taiwan Production Severe Interruption | 自然灾害或地缘事件致台积电先进制程停产&gt;2周 / Natural disaster or geopolitical event causing &gt;2-week TSMC advanced-process halt | 全球AI芯片供应基准假设 / Global AI chip supply baseline |
+| 海湾系统性基础设施打击 / Gulf Systemic Infrastructure Strike | 伊朗兑现对星际之门级设施的威胁 / Iran realization of threats against Stargate-class facilities | 中东资本AI投资能力假设 / Middle East capital AI-investment capacity |
 
 ---
 
-## 附录二：核心公开信源检索指南
+## 附录A：术语与缩写 / Appendix A: Terminology & Abbreviations
 
-| 数据/策略 | 验证方法 | 检索关键词/信源 | 检索日期 |
-|-----------|----------|-----------------|----------|
-| 三星罢工调解破裂 | 韩联社 | 삼성전자 노사 조정 결렬 2026년 5월 | 2026-05-20 |
-| 三星罢工规模 | 韩联社/RTE/Korea Times | Samsung strike 48,000 workers May 2026 | 2026-05-20 |
-| 英伟达FY2027 Q1预期 | 富途/东方财富/Nasdaq | NVIDIA FY2027 Q1 earnings estimate May 2026 | 2026-05-20 |
-| SK海力士产能售罄 | 21世纪经济报道 | SK海力士 HBM 2026 产能 售罄 | 2026-05-20 |
-| 美光HBM产能售罄 | 富途/美光IR | Micron HBM sold out 2026 | 2026-05-20 |
-| 阿里财报 | 东方财富/36氪 | 阿里巴巴 2026财年 Q4 AI ARR 358亿 | 2026-05-20 |
-| 百度Q1财报 | 新华网/Investing.com | 百度 2026 Q1 AI收入 136亿 占比52% | 2026-05-20 |
-| DeepSeek V4适配华为 | 华为云官网/用友/CSDN | DeepSeek-V4 华为昇腾 适配 CANN | 2026-05-20 |
-| H200出口许可 | 路透社/EET-China/财報狗 | H200 中国 出口 许可 10家 | 2026-05-20 |
-| 黄仁勋H200表态 | EET-China/联合早报 | 黄仁勋 H200 中国 尚未批准 | 2026-05-20 |
-| MATCH荷兰抗议 | 南华早报/搜狐/Chinatimes | MATCH Act 荷兰 抗议 域外管辖 | 2026-05-20 |
-| 氦气价格 | 钢联数据/百川盈孚 | 氦气 5N 管束 价格 2026年5月 | 2026-05-20 |
-| 氦气价格回落 | 证券日报 | 氦气 5月 价格 回落 460-490 | 2026-05-20 |
-| 山西氦气二期项目 | 新华网/山西省政府 | 吕梁 液化提氦 二期 40万方 2026年12月 | 2026-05-20 |
-| ABF载板涨价30% | Digitimes/富途 | 味之素 ABF 涨价 30% 2026 Q3 | 2026-05-20 |
-| ABF缺口预测 | 美银证券/非凡新闻 | ABF 载板 缺口 2028 35% | 2026-05-20 |
-| 光模块EML缺口 | LightCounting | LightCounting EML 需求 超过 供应 30% | 2026-05-20 |
-| 国产柴发出口 | CIDC/曼哈姆动力 | 柴发 国产 出口 2026 交付 2-3个月 | 2026-05-20 |
-| BESS替代柴发 | DataCenterKnowledge | BESS diesel alternative data center 2026 | 2026-05-20 |
-| CXMT HBM3 | Digitimes/Wccftech | CXMT HBM3 mass production 2026 | 2026-05-20 |
-| 昇腾950批量出货 | 成都汇阳投资 | 昇腾950PR 批量出货 75万片 2026 | 2026-05-20 |
-| 全国算力网 | 国家数据局/央视财经 | 全国 七成 智能计算 算力 统一监测 调度 | 2026-05-20 |
-| GB50174标准 | 住建部/中国IDC圈 | 数据中心设计标准 征求意见稿 2026年1月 | 2026-05-20 |
-
----
-
-## 附录三：术语与缩写说明
-
-| 术语/缩写 | 全称 | 说明 |
-|-----------|------|------|
+| 术语 / Term | 英文全称 / Full Form | 说明 / Definition |
+|------------|---------------------|------------------|
 | HBM | High Bandwidth Memory | 高带宽内存 |
-| H200 | NVIDIA H200 GPU | 英伟达H100后继产品 |
+| CoWoS | Chip-on-Wafer-on-Substrate | 台积电先进封装技术 |
 | EML | Electro-absorption Modulated Laser | 电吸收调制激光器 |
-| ABF | Ajinomoto Build-up Film | 味之素堆积膜，载板关键材料 |
-| BESS | Battery Energy Storage System | 电池储能系统 |
+| ABF | Ajinomoto Build-up Film | 味之素堆积膜 |
+| MLCC | Multi-Layer Ceramic Capacitor | 片式多层陶瓷电容器 |
+| SMR | Small Modular Reactor | 小型模块化核反应堆 |
+| AIPI | AI Investment Paradox Index | AI投资悖论压力指数 |
 | ARR | Annual Recurring Revenue | 年度经常性收入 |
 | FCF | Free Cash Flow | 自由现金流 |
 | OSINT | Open Source Intelligence | 开源情报 |
 | MATCH | Multilateral Alignment of Technology Controls for Hardware Act | 硬件技术多边出口管制协调法案 |
 | CXMT | ChangXin Memory Technologies | 长鑫存储 |
 | DUV | Deep Ultraviolet | 深紫外光刻 |
-| CANN | Compute Architecture for Neural Networks | 华为昇腾AI处理器软件栈 |
+| CPO | Co-Packaged Optics | 共封装光学 |
+| Chiplet | — | 芯粒/小芯片互联技术 |
 
 ---
 
-## 附录四：政策性推演与建议（非OSINT事实，仅供讨论）
+## 附录B：核心开源验证指南 / Appendix B: Core Open-Source Verification Guide
 
-1. **氦气战略储备：** 建议加快已规划的国家氦气战略储备库建设，支持山西吕梁二期提氦项目（2026年12月投产），利用5月氦气价格回落窗口建立3-6个月缓冲库存。
-2. **国产柴发推广：** 建议扩大"首台套"保险覆盖范围，在政府采购中设定国产柴发最低使用比例，加速突破品牌信任鸿沟。2026年前两月国产柴发出口激增131.81%已验证海外需求旺盛。
-3. **CXMT HBM3专项：** 建议将HBM3量产提升至国家级专项（鉴于三星罢工确认，紧迫度显著提升），确保2026年底节点，并配套先进封装设备进口绿色通道。
-4. **昇腾生态加速：** 建议进一步加大对昇腾生态的政策支持力度，利用DeepSeek V4已全面适配昇腾的窗口期，加速构建"国产模型+国产算力"全闭环。
-5. **DUV维保备件：** 建议支持国内企业建立DUV备件逆向工程能力，与第三方国家建立维保合作渠道，防范MATCH法案升级风险。
-6. **GB50174标准推进：** 建议加快《数据中心设计标准》正式发布，为行业提供明确的制度性防御依据。
-
----
-
-**报告结束。**
-
-本报告严格遵循纯OSINT原则，所有关键事实均可通过附录二检索指南独立复现。区域差异已全面融入各核心模块。本次联网更新时间：2026年5月20日。涉及未来预测的内容仅供战略参考，不构成投资建议。
-
-*⚠️ 特别声明：三星电子罢工事件为本报告截止时间前的最新发展（5月20日调解破裂/5月21日计划启动罢工）。该事件进展迅速，建议读者通过韩联社（yna.co.kr）等权威信源持续跟踪最新动态。本报告中基于此事件的所有战略推断均为分析性推断，将随事态发展持续修正。*
-
----
-
-*SSR Shadow Strategic Research | AI Supply Chain Framework L2 | 2026.05.20*
-*Distribution: L2 Report | L3 Full Parametric & Framework Calibration available via scanwang@gmail.com*
+| 数据/断言 / Data / Assertion | 检索关键词/来源 / Search Keywords / Sources |
+|-----------------------------|------------------------------------------|
+| 三星罢工叫停与投票 / Samsung strike suspension & vote | 韩联社 / Yonhap News / 삼성전자 노사 잠정합의 2026년 5월 |
+| 英伟达FY2027 Q1财报 / NVIDIA Q1 FY2027 earnings | Nasdaq EDGAR / NVIDIA Q1 FY2027 earnings $81.6B |
+| 日本半导体设备管制（2023年7月）/ Japan semiconductor equipment controls (Jul 2023) | 日本经产省 / METI Japan / Japan semiconductor equipment export control July 2023 |
+| 日韩材料管制（2019年7月）/ Japan-South Korea material controls (Jul 2019) | C&EN / Japan South Korea semiconductor materials export curbs 2019 |
+| 中国镓锗对日出口（2026年1–2月）/ China gallium/germanium exports to Japan (Jan–Feb 2026) | 中国海关 / China Customs / metaltechnews |
+| 伊朗打击AWS数据中心（2026年3月1日）/ Iran AWS data-center strike (Mar 1, 2026) | AWS声明 / AWS statement / Reuters / Tom's Hardware |
+| 欧盟AI法案合规延期 / EU AI Act compliance extension | 欧盟委员会 / EU Commission / Digital Omnibus high-risk AI December 2027 |
+| MATCH法案众议院通过（2026年4月22日）/ MATCH Act House passage (Apr 22, 2026) | House.gov / MOFCOM statement |
+| PJM容量拍卖电价飙升 / PJM capacity auction price spike | PJM Interconnection / PJM capacity auction 2026 |
+| 中国台湾省旱情/地震影响 / Taiwan drought / earthquake impact | 台湾中央气象局 / Taiwan Central Weather Bureau / TSMC monthly revenue reports |
+| 液冷渗透率 / Liquid-cooling penetration rates | IDC中国 / IDC China / MIIT four-department notice 2026 |
+| 氦气价格趋势（中国）/ Helium price trends (China) | sunsirs / chemnet / Shanghai distributor quotes |
 
 ---
 
-**[FRAMEWORK REDACTED]**
-*SSR专有框架结构说明：本报告的分析组织方式、四层瓶颈传导模型的具体权重配置、利益相关方决策空间矩阵的量化校准方法、弹性评分三维度加权算法、以及L3级对冲校准参数属于SSR核心方法论资产，不在L2公开分发范围内。L1级概念定义与框架概述可通过 Methodology/ 目录查阅。*
+## 附录C：机构版方法论说明 / Appendix C: Methodology Note on Institutional Edition
+
+本L2机构版完整呈现了分析框架、多极均衡图谱及证伪架构。已省略内容：
+*This L2 Institutional Edition presents the analytical framework, multi-polar equilibrium map, and falsification architecture in full. It omits:*
+
+- 利益相关方特定战术手册（CIO/供应链/政策/投资者角色切片）/ Stakeholder-specific tactical playbooks (CIO / Supply Chain / Policy / Investor role slices)
+- 后悔值热力图与策略优化表（EL-XX-XX系统）/ Regret-value heatmaps and strategy-optimization tables (EL-XX-XX system)
+- 定向政策建议（完整L3决策简报Part 8）/ Directed policy recommendations (Part 8 of the full L3 decision brief)
+- 实时AIPI敏感性表与阈值校准日志 / Real-time AIPI sensitivity tables and threshold-calibration logs
+
+上述内容保留于L3完整量化权限层级，面向需要定向情景建模及利益相关方特定决策支持的机构开放。
+*These elements are retained in the L3 Full Quantitative Access tier, available under direct engagement for institutions requiring directed scenario modeling and stakeholder-specific decision support.*
+
+---
+
+**报告结束 / End of Report**
+
+*所有关键事实均可通过附录B列出的检索路径独立复现。联网更新时间：2026年5月23日。*
+*All key facts in this document are independently reproducible via the search paths listed in Appendix B. Network update timestamp: May 23, 2026.*
+
+*⚠️ 特别声明：三星电子工会薪资协议投票正在进行中（5月22日启动，5月27日上午10时截止）。投票结果将直接决定L1瓶颈走向及AIPI供给刚性维度。建议机构读者通过韩联社（yna.co.kr）实时跟踪。*
+*⚠️ Special Notice: The Samsung Electronics union wage-agreement vote is in progress (commenced May 22, concludes 10:00 KST May 27). The outcome will directly determine the L1 bottleneck trajectory and the AIPI Supply-Rigidity dimension. Institutional readers are advised to monitor Yonhap (yna.co.kr) for real-time results.*
+
+**更新周期 / Update Cycle:** 月度简报（每月首个工作日）/ Monthly brief (first business day of each month)；季度完整版 / Quarterly full edition。极端事件补充报告按S级（72小时内）/A级（一周内）触发。下次完整版预计：2026年8月。/ Extreme-event supplements triggered at S-level (within 72 hours) or A-level (within one week). Next full edition expected: August 2026.
+
+**L3完整量化权限 / L3 Full Quantitative Access:** scanwang@gmail.com
