@@ -39,6 +39,11 @@ Current case study: Front D (AI Investment Paradox) — Full-chain inflation vs.
 
 Status: v2.0 baseline delivered. Active monthly calibration. AIPI = 0.64 ± 0.08 (Moderate Pressure). 20+ falsifiable conditions under observation.
 
+**SINT 1.0 — Five-Layer Bottleneck-Conduction Chain**
+A structured expert judgment (SEJ) framework for industrial chain strategic decomposition and resilience quantification under open-source intelligence constraints. Integrates five-layer bottleneck cartography (L1–L5), three-horizon growth matrix (H1–H3), three-track parallel logical audit, and falsifiable verification protocols with upward/downward conduction-chain dynamics.
+Current case study: General Industrial Chain Application — Full-stack bottleneck identification, congestion transfer law validation, and competitive species classification across upstream resources to policy/compliance layers.
+Status: v1.0 baseline delivered. Active quarterly applicability review. Four-layer closed-loop OSINT architecture operational: Input (source hierarchy) → Processing (logical audit) → Output (argument grading) → Feedback (falsification & backtracking). Resilience quantification: 3D weighted scoring (Supply Stability 40%, Substitution Speed 30%, Cost Absorbability 30%).
+
 ---
 
 ## Three-Tier Output Structure / 三层输出结构
