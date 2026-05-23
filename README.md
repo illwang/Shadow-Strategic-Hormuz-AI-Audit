@@ -32,6 +32,7 @@ A structured expert judgment (SEJ) framework for quantifying crisis escalation u
 
 
 **AIPI 2.0 — Seven-Layer Strategic Pressure Architecture**
+
 A structured expert judgment (SEJ) framework for quantifying AI supply-chain strategic pressure and demand-validation endgames under open-source intelligence constraints. Integrates seven-layer bottleneck cartography, multi-polar bidirectional game-theoretic equilibrium analysis, and falsifiable scenario planning.
 
 Current case study: Front D (AI Investment Paradox) — Full-chain inflation vs. efficiency deflation strategic传导 (May 2026).
