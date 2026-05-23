@@ -5,7 +5,7 @@
 > **报告日期 Report Date:** 2026年5月23日 / May 23, 2026  
 > **版本 Version:** v2.2 (Source-Quality Scrubbed + Cross-Verified)  
 > **密级 Classification:** 公开(基于纯OSINT交叉验证) / Open Source (OSINT-Cross-Validated)  
-> **完整PDF下载:** [AI_v2.2_PDF](./AI_Investment_Paradox_v2_2_Final_Institutional_L2_20260523.pdf)
+
 
 ---
 
