@@ -88,7 +88,7 @@ A structured expert judgment (SEJ) framework for quantifying industrial supply-c
 
 ### Methodology / 方法论
 - [HEI 5.3 Methodology](/Methodology/HEI_5.3_Methodology.md) 
-- [产业链OSINT战略分析框架](/Methodology/OSINT_Framework_v1.0.md)
+- [产业链OSINT战略分析框架](/Methodology/OSINT_Framework_v1.1.md)
 - [AI投资悖论](/Methodology/AI_Supply_Chain_Framework.md)
 
 ### Case Studies / 实证案例
