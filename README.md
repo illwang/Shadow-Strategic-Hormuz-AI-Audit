@@ -89,7 +89,7 @@ A structured expert judgment (SEJ) framework for quantifying industrial supply-c
 ### Methodology / 方法论
 - [HEI 5.3 Methodology](/Methodology/HEI_5.3_Methodology.md) 
 - [产业链OSINT战略分析框架](/Methodology/OSINT_Framework_v1.0.md)
-- [AI投资悖论](/Methodology/AI_Supply_Chain_Framework.md)
+- [AI投资悖论](Methodology/SSR_OSINT_AI_Supply_Chain_Framework_V3.0_EN.md)
 
 ### Case Studies / 实证案例
 - [Hormuz Crisis V15 (L2)](/Public_Audit_L2/2026-05-22_Hormuz_V15_L2.md) — De-sensitized case study sample / 霍尔木兹危机战略审计脱敏版
