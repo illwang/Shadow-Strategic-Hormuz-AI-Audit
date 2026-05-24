@@ -254,7 +254,7 @@ Every core inference must withstand a **Red Team challenge**:
 **Framework Usage Guide**: Replace the (Example) placeholders in this template with specific variables of the target industrial chain to generate a complete OSINT strategic analysis report. It is recommended to review framework applicability quarterly and upgrade the methodology version annually.
 
 
-
+---
 
 
 # 产业链OSINT战略分析框架 v1.0
