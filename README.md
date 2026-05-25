@@ -41,15 +41,15 @@
 
 ---
 
-## Our Mission: Open-Source Methodology Validation / 我们的使命：开源方法论验证
+## Our Mission: Institutional-Grade OSINT Analysis / 我们的使命：机构级开源情报分析
 
-This repository is maintained as an **independent, open-source research laboratory**. Our primary goal is to study, build, and test quantitative risk-monitoring models using purely public, verifiable datasets (OSINT).
+This repository maintains an **independent research framework** for quantifying cyber-physical and supply-chain risks using purely public, verifiable data (OSINT).
 
-All published works are developed strictly as **methodological case studies** to validate the accuracy of discrete-state modeling under open-source information constraints. We do not provide any form of commercial investment advice, non-public material non-public information (MNPI).
+All outputs are developed as **structured strategic analyses** to test the precision of constraint-based modeling under open-source information limits. We do not provide investment advice, trade recommendations, or non-public material non-public information (MNPI).
 
-本仓库是一个**独立的、开源的研究实验室**。我们的核心目标是利用 100% 公开、可验证的公共数据集（OSINT），进行数据科学、物理约束与地缘风险量化模型的学习、构建与测试。
+本仓库维护一个**独立研究框架**，利用100%公开、可验证的数据（OSINT），对网络-物理与供应链风险进行量化分析。
 
-本实验室产出的所有分析报告，均严格定位为**"用于验证开源数据建模精准度"的学术实证案例分析（Case Studies）**。不接触任何未公开数据（Non-MNPI）。
+所有产出均定位为**结构化战略分析**，用于测试基于约束的建模在开源信息条件下的精准度。不提供投资建议、交易推荐或任何未公开信息（Non-MNPI）。
 
 ---
 
