@@ -11,6 +11,12 @@
 
 ---
 
+##  Guide of the Week
+
+ [Guide of the Week](/Public_Audit_L2/Insight.md)
+ 
+---
+
 ## Our Mission: Open-Source Methodology Learning / 我们的使命：开源方法论学习与验证
 
 This repository is maintained as an **independent, open-source academic laboratory**. Our primary goal is to study, build, and test quantitative risk-monitoring models using purely public, verifiable datasets (OSINT).
