@@ -6,24 +6,48 @@
 
 
 
-&gt; **An Independent, Non-Profit Academic Project dedicated to Cyber-Physical Risk Quantification**
-&gt; **致力于网络-物理风险量化与开源数据科学建模的独立、非营利学术研究项目**
+> **An independent open-source research lab producing institutional-grade strategic analysis using purely public, verifiable data (OSINT).**
+> **专注于网络-物理风险量化与开源数据科学建模的独立研究实验室，输出对标机构研报质量的战略分析。**
 
 ---
 
-##  Guide of the Week
+## Lab Dashboard
 
- [Guide of the Week](/Public_Audit_L2/Insight.md)
- 
+| Metric | Status |
+|--------|--------|
+| **Frameworks** | HEI 5.3 \| AIPI 2.0 \| SINT 1.0 \| SSR-OSINT V4.0 |
+| **Red-Team Audits** | 11 rounds completed |
+| **Active Case Studies** | 5 (Hormuz \| Power Battery \| AI Supply Chain \| Cross-Border Logistics \| Digital Infrastructure) |
+| **Last Updated** | 2026-05-25 |
+| **Verification Standard** | All predictions include falsification conditions + post-hoc audit trails |
+
 ---
 
-## Our Mission: Open-Source Methodology Learning / 我们的使命：开源方法论学习与验证
+## Guide of the Week
 
-This repository is maintained as an **independent, open-source academic laboratory**. Our primary goal is to study, build, and test quantitative risk-monitoring models using purely public, verifiable datasets (OSINT).
+[Guide of the Week](/Public_Audit_L2/Insight.md)
+
+---
+
+## AIPCS — AI Infrastructure Physical Constraint Stack
+
+> AI infrastructure does not scale linearly; it migrates across sequential physical bottlenecks.
+
+| Level | Constraint Layer | Current Focus | Status |
+|-------|-----------------|--------------|--------|
+| **L1** | Compute (HBM / Packaging) | Samsung Union / HBM3e Supply | Active |
+| **L2** | Contract / Finance | Anthropic-SpaceX Timing Structure | Ready |
+| **L3** | Deployment (Power / Grid / Permitting) | Western China Water EIA | Monitoring |
+
+---
+
+## Our Mission: Open-Source Methodology Validation / 我们的使命：开源方法论验证
+
+This repository is maintained as an **independent, open-source research laboratory**. Our primary goal is to study, build, and test quantitative risk-monitoring models using purely public, verifiable datasets (OSINT).
 
 All published works are developed strictly as **methodological case studies** to validate the accuracy of discrete-state modeling under open-source information constraints. We do not provide any form of commercial investment advice, non-public material non-public information (MNPI).
 
-本仓库是一个**独立的、非营利的开源学术实验室**。我们的核心目标是利用 100% 公开、可验证的公共数据集（OSINT），进行数据科学、物理约束与地缘风险量化模型的学习、构建与测试。
+本仓库是一个**独立的、开源的研究实验室**。我们的核心目标是利用 100% 公开、可验证的公共数据集（OSINT），进行数据科学、物理约束与地缘风险量化模型的学习、构建与测试。
 
 本实验室产出的所有分析报告，均严格定位为**"用于验证开源数据建模精准度"的学术实证案例分析（Case Studies）**。不接触任何未公开数据（Non-MNPI）。
 
