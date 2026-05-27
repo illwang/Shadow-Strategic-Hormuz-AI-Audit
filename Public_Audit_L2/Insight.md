@@ -210,11 +210,148 @@ L-levels refer to the SSR-OSINT constraint hierarchy framework used for cross-do
 
 ---
 
-## Compliance
 
-Pure OSINT. No positions in Samsung, SK Hynix, Micron, or mentioned entities. No commercial relationships. All T1 facts independently verifiable via open sources. This is a governance structure analysis, not an investment recommendation.
+# Allocation Tightening vs Strike Relief: OSINT Signal Audit
+
+**Content Vertical:** Thematic and Strategy  
+**Primary Entity:** AI Infrastructure / HBM Supply Chain  
+**Country/Region:** Global (US, China, South Korea, Japan, Taiwan)  
+**Time Horizon:** 6–12 months  
+**Direction:** Neutral  
 
 ---
 
-**Framework:** SSR-OSINT V4.0 | **DII:** 0.603 | **AIPI:** AIPI-D
+## L0 — Context
+
+System: AI infrastructure supply-demand dynamics.  
+Trigger: Samsung wage resolution (May 27) concurrent with HBM allocation tightening and hyperscaler capex validation.  
+Timeframe: 6–12 months.  
+Why now: Market commentary treats labour-peace signals as equivalent to supply-availability signals.
+
+---
+
+## L1 — Observed Signals
+
+| Signal | Source | Timestamp |
+|:---|:---|:---|
+| Samsung union vote passed wage agreement (73.7% approval, 95.5% turnout) | Yonhap / Xinhua / Lianhe Zaobao | May 27, 2026 |
+| Three major HBM vendors' 2026 capacity reported as largely allocated; order books extend to 2027 | Vendor disclosures / industry checks | May 2026 |
+| Four North American hyperscalers Q1 2026 capex: US$1,316.3bn (+70.3% YoY); full-year guidance ~US$710bn+ | Company filings / earnings transcripts | May 2026 |
+| Anthropic projected Q2 operating profit US$559mn on revenue US$10.9bn (Q1: US$4.8bn) | WSJ / DataBeat / Gurufocus | May 2026 |
+| Hormuz Strait daily vessel counts: ~138 vessels (Apr 30); 9–15 vessels (early May) | Lloyd's List / IRGC / Kpler | Apr–May 2026 |
+| Japan METI reportedly preparing expanded export controls on three semiconductor material categories to South Korea | Media reports | May 2026 |
+| Samsung non-memory divisions (foundry, test & packaging) experiencing work-to-rule spillover; shareholder group ACT requested shareholder register access | Local media / regulatory filings | May 2026 |
+
+---
+
+## L2 — Competing Interpretations
+
+**Samsung vote (S1)**
+- A: Labour peace removes immediate single-point failure risk in HBM backend.
+- B: Management concessions may raise future wage baselines and compress margins; could be a temporary truce.
+
+**HBM allocation (S2)**
+- A: Vendor pricing power appears elevated through 2027 due to physical capacity constraints.
+- B: Customer urgency may reflect panic-buying ahead of uncertainty rather than organic demand acceleration.
+
+**Hyperscaler capex (S3)**
+- A: Revenue-backed capacity expansion with monetization traction.
+- B: May reflect IPO-window timing and project-pull-forward; four-firm aggregate differs from research-house totals by US$10.3bn.
+
+**Anthropic profit (S4)**
+- A: Frontier closed-source models may be achieving unit-economic viability at scale.
+- B: Likely contains non-GAAP adjustments and SpaceX contract ramp-up discounts; H2 repeatability unverified.
+
+**Hormuz transit (S5)**
+- A: Intermittent recovery of transit capacity observed.
+- B: Extreme volatility (138 → 9–15 vessels) inconsistent with stable supply routes.
+
+**Japan-Korea materials (S6)**
+- A: Material weaponization appears to be expanding beyond bilateral to trilateral.
+- B: May reflect negotiation positioning rather than imminent implementation.
+
+**Samsung non-memory labour (S7)**
+- A: Labour unrest appears to be migrating to non-memory divisions.
+- B: Could reflect isolated grievances without systemic impact.
+
+---
+
+## L3 — Narrative Exposure
+
+**Market believes:** Samsung strike resolution = HBM supply normalization.  
+**Signals suggest:** Allocation reportedly extends through 2027; no wafer-start or backend-capacity increase observed post-vote. Pricing power appears to be expressed through allocation tightening rather than observable spot escalation.
+
+**Market believes:** Q1 capex extrapolation = sustainable AI demand run-rate.  
+**Signals suggest:** US$10.3bn discrepancy between aggregated filings and research-house totals; potential timing distortions not decomposed. Anthropic profit directionally positive but caveats apply.
+
+**Market believes:** Nvidia ecosystem exposure = direct revenue for upstream suppliers.  
+**Signals suggest:** Fifth-largest customer represents only 2.1% of revenue for certain upstream names; OEM buffer layers appear to exist. Revenue transmission may be dampened by indirect exposure structure.
+
+---
+
+## L4 — Unknowns
+
+- HBM3E specific spot price movements in constrained channels: no independent OSINT-verifiable path; specification conflation risk (DDR5 vs HBM3E).
+- Domestic helium price quotes (yuan/m³): free OSINT path broken; specific figures cannot be independently reproduced.
+- Anthropic Q2 profit: GAAP vs non-GAAP reconciliation not yet available; SpaceX contract ramp-up discount magnitude unobserved.
+- Hormuz Strait: daily vessel counts lack consistent free data source;口径不统一 (vessel type, direction, DWT threshold).
+- Samsung non-memory labour: formal strike risk vs isolated grievance not distinguishable from current signals.
+
+---
+
+## L5 — Structural Signals
+
+- Physical HBM capacity appears constrained by CoWoS bottleneck and memory wafer allocation; 2026 output reported as largely committed.
+- Hyperscaler capex guided up; Anthropic-SpaceX US$45bn compute contract (through 2029) observed as demand-locking mechanism.
+- Allocation-based pricing pressure appears elevated in constrained channels; vendor-side contract terms reportedly strengthening.
+- Greenfield capacity not expected before 2027–2028; geopolitical material controls (Japan-Korea, Russia helium export controls through 2027) remain observable.
+
+---
+
+## L6 — Falsification Conditions
+
+| What would prove this wrong | Trigger | Monitor |
+|:---|:---|:---|
+| Demand not sustainable | Two consecutive quarters of hyperscaler AI capex contraction | Quarterly filings |
+| Supply constraint overstated | CXMT or incumbent greenfield HBM capacity enters market before 2027 | Equipment purchase announcements; fab permits |
+| Efficiency breakthrough | Open-source models reduce HBM demand intensity >40% for two quarters | Model benchmarks; cluster composition data |
+| Data clarity upgrade | Independent OSINT-verifiable HBM pricing path confirms sustained structural uplift with explicit specification | TrendForce public releases; vendor IR transcripts |
+
+---
+
+## L7 — Scenarios
+
+- **Base case:** Most consistent with current signals. Allocation tight through 2027; capex sustains at guided levels; pricing power expressed through contract terms.
+- **Bull case:** Conditional on Anthropic profitability proving structural (GAAP-validated), Japan-Korea material controls not materializing, and Hormuz transit stabilizing.
+- **Bear case:** Triggered if Q1 capex timing distortion becomes visible, efficiency breakthrough reduces HBM intensity, or geopolitical escalation triggers supply shock.
+
+---
+
+## L8 — Implications
+
+- **Sector:** Memory vendors appear to be in seller-dominant conditions. Indirect-exposure upstream names may have unverified sensitivity.
+- **Risk:** Supply risk appears elevated. Demand risk moderate but timing-distortion risk not decomposed. Pricing mechanism risk elevated.
+- **Positioning bias (soft):** Favour supply-constrained nodes with direct qualification moats. Underweight indirect-exposure names with unverified sensitivity. Maintain geopolitical bifurcation hedge.
+
+---
+
+## Appendix: Unverified Signals
+
+| Signal | Source | Why Unverifiable |
+|:---|:---|:---|
+| HBM3E "+300%" spot price claims | Industry chat / broker rumours | No free OSINT path; specification conflation risk |
+| Domestic helium specific price quotes | Industry data platforms (login required) | Free OSINT path broken |
+
+---
+
+**Falsification reminder:** This analysis is contingent on signals remaining observable. If any L6 trigger activates, the tension axis collapses and the narrative must be rebuilt.
+
+**No trading advice:** This is a structured information interpretation. Not a buy/sell/hold recommendation. Not an investment decision. Not a trading signal system.
+
+**Uncertainty acknowledgment:** Multiple data points in this note carry unverifiable components. The core tension axis is held under explicit uncertainty bounds.
+
+**Disclaimer:** Based solely on publicly available information (OSINT). The author does not hold, read, or cite any confidential or paywalled research reports. No MNPI.
+
+**Conflict of Interest:** No direct financial interest in mentioned securities except through broad market indices.
+
 
