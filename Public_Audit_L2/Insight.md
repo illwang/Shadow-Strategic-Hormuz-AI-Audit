@@ -1,245 +1,231 @@
-**AI Infrastructure Constraint Stack (AICS v1.0）
----
+# Node / Report
+## AI Investment Paradox: Supply Chain Inflation vs. Efficiency Deflation
+
+**Date:** 2026-05-28 | **OSINT Cut-off:** 2026-05-28 20:00 KST
+
+**AICS System Disclosure**  
+This note is a node within the AICS v1.0 constraint mapping system. Nodes are not standalone opinions and are intended for informational purposes only.
+
+### Executive Summary
+
+The AI supply chain remains in the AIPI-C pressure band, with attribution shifting from a "three-pole active" state to supply rigidity dominant (easing direction).
+
+Samsung’s wage deal passed with 73.7% approval on 27 May, removing the most immediate supply disruption risk — the single largest change this period.
+
+On the demand side, Anthropic’s $43–47B compute framework contract with SpaceX remains the dominant incremental anchor for AI capex expectations.
+
+Geopolitically, China’s rare earth export halt to Japan continues into its fourth month, while Japan is reportedly considering expanding semiconductor material controls to South Korea.
+
+Overall: system pressure is easing, but structural uncertainty remains elevated.
+
+### 1. Verified Signal Set
+
+#### 1.1 Supply
+- **T1 Confirmed:** Samsung union wage deal passed (73.7%, 46,185/57,290). Strike crisis formally resolved. Turnout: 95.5% (Yonhap, Donga Ilbo)
+- **T2 Inferred:** 2026 HBM capacity fully sold out across Samsung / SK Hynix / Micron. No intra-year supply elasticity remains.
+- **T2 Inferred:** Immediate bottleneck remains HBM3e 12H for Blackwell Ultra deployment.
+- **T1 Confirmed:** TSMC Q1 impacted by 2025 earthquake (-11.3% MoM Feb revenue). AMD >$10B Taiwan investment reinforces L0 concentration.
+
+#### 1.2 Demand
+- **T2 Inferred:** Anthropic committed $43–47B compute framework contract with SpaceX (2026–2029).
+- **T2 Inferred:** Funding structure and payment guarantees remain unverified via public financial disclosures.
+- **T3 Speculative:** Frontier AI labs may accelerate similar compute pre-commitments, tightening mid-cycle demand elasticity.
+
+#### 1.3 Geopolitics / Materials
+- **T1 Confirmed:** China exported zero heavy rare earths to Japan since Dec 2025; APEC request rejected (Reuters)
+- **T2 Inferred:** Japan considering expansion of semiconductor material export controls to South Korea (pending METI confirmation)
+- **T3 Speculative:** Multi-node material control regimes may emerge across Northeast Asia, increasing systemic fragmentation risk.
+
+#### 1.4 Physical Layer
+- **T1 Confirmed:** Strait of Hormuz transits recovered to 23/week (~15% pre-crisis baseline)
+- **T2 Inferred:** Helium supply remains structurally tight due to Russian export controls (through 2027)
+- **T3 Speculative:** Any Hormuz disruption would immediately re-tighten global helium logistics.
+
+### 2. Constraint Map
+- **HBM (L1–L2):** Demand rigid, capacity fully allocated
+- **Advanced Packaging:** CoWoS-L lead time remains extended
+- **Optical Interconnects:** EML supply deficit ~30%
+- **Helium (L4):** Russia + Hormuz dual constraint
+- **Geopolitical Materials (L4):** China–Japan + Japan–Korea emerging axis
+
+### 3. Actor Exposure Map
+
+**Exposed:**  
+- NVIDIA, AMD (chip designers reliant on HBM supply)  
+- Hyperscalers (compute cost escalation)  
+- Japanese material producers (rare earth input dependency)  
+- Global helium users
+
+**Constraining:**  
+- US (export controls)  
+- China (rare earth policy)  
+- Japan (material policy)  
+- Russia (helium export controls)
+
+### 4. Risk Decomposition
+
+System shifts from “three-pole active” → supply rigidity dominant (easing mode).
+
+- **Most underestimated:** efficiency-driven HBM intensity reduction (no validation yet)  
+- **Most overestimated:** near-term Rubin/HBM4 cost shock (18+ months away)  
+- **Emerging:** Japan–Korea material controls as next L4 shock vector
+
+### 5. Watch Signals
+- **Japan METI** Korea material control announcement  
+- **Anthropic Q2** financial disclosure  
+- **China May** rare earth export data (5th consecutive zero export risk)  
+- **HBM per compute** efficiency regression (>40% threshold)
+
+**Disclaimer:** This report is an independent OSINT-based strategic analysis for informational purposes only. It does not constitute investment advice.
 
 ---
 
-## AICS SYSTEM DISCLOSURE
-This publication is part of a continuously updated OSINT constraint mapping system (AICS v1.0). Each note is a node in an evolving analytical graph of AI infrastructure stress.
+# Node / Report
+## Samsung Electronics: Strike Deal Passes, HBM Supply Focus Shifts to Structural Tightness
 
-Nodes are not standalone opinions.
+**Date:** 2026-05-28 | **OSINT Cut-off:** 2026-05-28 20:00 KST
 
----
+**AICS System Disclosure**  
+This note is a node within the AICS v1.0 constraint mapping system. Nodes are not standalone opinions and are intended for informational purposes only.
 
-**AI Investment Paradox: Supply Chain Inflation vs. Efficiency Deflation**
-**Date:** 28 May 2026 | **OSINT Cut-off:** 28 May 2026, 20:00 KST
+### Executive Summary
 
----
+Samsung’s labour dispute is formally resolved following 73.7% approval of the wage agreement (27 May).
 
-#### Executive Summary
-The AI supply chain remains in the **AIPI-C pressure band**, with attribution shifting from a "three-pole active" state to **supply rigidity dominant (easing direction)**. Samsung's wage deal passed with 73.7% approval on 27 May, removing the most immediate supply disruption risk — the single largest change this period. On the demand side, Anthropic's $43–47 billion compute contract with SpaceX is the largest new anchor, reinforcing AI capex momentum. Geopolitically, China's rare earth export halt to Japan has entered its fourth month, and Japan is reportedly considering expanding material controls to Korea. Overall system pressure has eased but remains highly uncertain.
+This removes the primary short-term supply disruption risk in the global HBM chain.
 
----
+However, structural constraints remain unchanged:
+- 2026 HBM capacity is fully sold out
+- No intra-year supply elasticity exists
+- Geopolitical material constraints are shifting outward
 
-#### 1. Verified Signal Set
+Focus shifts from “strike risk” → “yield + geopolitics”
 
-**1.1 Supply: Strike Risk Removed, Tight Balance Eases**
+### 1. Verified Signal Set
 
-- **T1 Confirmed**: Samsung's union wage deal vote result was announced at 10:30 on 27 May. **Approval rate: 73.7% (46,185 of 57,290 voters).** The deal passed, and the strike crisis is formally resolved. Turnout reached 95.5% (62,616 participants). (Yonhap, Donga Ilbo)
-- **T2 Inferred**: All three major memory makers have sold out their entire 2026 HBM capacity. With the strike resolved, the tight balance has eased, but hard capacity constraints remain — no additional supply elasticity within the year. The immediate bottleneck is HBM3e 12H for the Blackwell Ultra platform.
-- **T1 Confirmed**: TSMC's Q1 revenue was impacted by the January 2025 earthquake (February revenue -11.3% MoM). AMD's recent >$10 billion investment in Taiwan further deepens L0 advanced node concentration.
+#### 1.1 Labour
+- **T1 Confirmed:** Wage deal passed 73.7% approval (Yonhap / Donga Ilbo)
+- **T1 Confirmed:** Vote turnout 95.5%
+- **T2 Inferred:** Near-term strike probability collapses, but structural labor tension persists via internal bonus distribution gaps
 
-**1.2 Demand: Anthropic-SpaceX Deal Anchors Capex Momentum**
+#### 1.2 Supply (HBM)
+- **T2 Inferred:** 2026 HBM capacity fully allocated across top 3 suppliers
+- **T2 Inferred:** Bottleneck remains HBM3e 12H for Blackwell Ultra
+- **T2 Inferred:** HBM4 volume production unlikely before 2027–2028
+- **T3 Speculative:** Yield improvement trajectory may shift competitive balance (no confirmed data)
 
-- **T2 Inferred (multi-source)**: Anthropic has committed to a $43–47 billion compute framework contract with SpaceX through May 2029. This reinforces the narrative that leading AI firms are shifting from "experimentation" to "strategic capacity lock-in."
-- **T2 Inferred**: Anthropic's ability to fund this obligation requires verification via official financial disclosures. The payment structure and potential shareholder backstop remain key unknowns.
+#### 1.3 Geopolitics
+- **T1 Confirmed:** Strike geopolitical pressure factor reduced (0.75 → 0.70 in model)
+- **T2 Inferred:** US export controls remain structural constraint on Samsung China exposure
+- **T2 Inferred:** Japan considering semiconductor material controls targeting South Korea
+- **T3 Speculative:** Dual US–Japan pressure could constrain Samsung’s allocation flexibility
 
-**1.3 Geopolitics: Rare Earth Stalemate Persists; Japan-Korea Material Control Risk Emerges**
+### 2. Constraint Map
+- **Immediate:** resolved strike risk
+- **Structural:** full HBM capacity allocation
+- **External:** US export controls + Japan material risk
+- **Internal:** compensation imbalance friction persists
 
-- **T1 Confirmed**: China has exported zero heavy rare earths to Japan since December 2025, marking four consecutive months. Japan's request to lift the ban was rejected at the 22 May APEC trade ministers' meeting. (Reuters)
-- **T2 Inferred**: Multiple media reports indicate Japan is considering expanding semiconductor material export controls to South Korea. Pending formal METI announcement. If implemented, this would widen the geographic scope of "material weaponisation."
+### 3. Actor Exposure Map
 
-**1.4 Physical Layer: Strait of Hormuz Marginally Improves**
+**Exposed:**  
+- NVIDIA, AMD (HBM supply dependency)  
+- Hyperscalers (compute cost exposure)  
+- KOSPI index (Samsung systemic weight)
 
-- **T1 Confirmed**: Weekly vessel transits through the Strait of Hormuz rose to 23, a marginal improvement from April's single-digit levels, but still only ~15% of pre-crisis baseline. Helium supply remains structurally tight, compounded by Russian export controls through end-2027.
+**Constraining:**  
+- US (export control regime)  
+- Japan (material control policy)  
+- SK Hynix / Micron (competitive supply pressure)
 
----
+### 4. Risk Decomposition
 
-#### 2. Constraint Map
+**Shift:** Suspended stress → structural constraint regime
 
-- **HBM Supply**: Strike resolution removes near-term disruption risk, but sold-out capacity remains.
-- **Advanced Packaging**: TSMC CoWoS-L substrate lead times remain extended.
-- **Optical Interconnects**: EML chip demand exceeds supply by ~30%.
-- **Helium**: Dual shock of Russian controls and Hormuz risk sustains structural tightness.
-- **Geopolitical Materials**: China rare earth halt and potential Japan-Korea controls create multi-directional L4 squeeze.
+- Strike risk removed (short-term tail risk cleared)  
+- Supply tightness remains hard-bound  
+- External geopolitical friction becomes dominant marginal driver
 
----
+### 5. Watch Signals
+- **Japan METI** material controls (Korea)  
+- **Samsung HBM3e** yield curve  
+- **Bonus distribution** execution path  
+- **US-China HBM** export restriction trajectory
 
-#### 3. Actor Exposure Map
-
-**Exposed**: AI chip designers (NVIDIA, AMD) reliant on TSMC and Samsung HBM; hyperscalers and AI firms facing compute cost escalation; Japanese material suppliers caught in tit-for-tat restrictions; global helium consumers.
-
-**Constraining**: The US (export controls and potential MATCH Act); China (rare earth and critical mineral export restrictions); Japan (potential material control expansion to Korea); Russia (helium export controls through 2027).
-
----
-
-#### 4. Risk Decomposition
-
-System attribution has shifted from "three-pole active" to **supply rigidity dominant (easing direction)**. The strike resolution (+0.04 in the S dimension) is the single largest change this period. Geopolitical and demand dimensions remain active but non-dominant.
-
-The most underestimated risk remains **efficiency revolution** — open-source model advances could structurally reduce HBM demand density, though commercial-scale validation data is absent. The most overestimated risk is the short-term cost impact of Rubin/HBM4, which remains 18+ months from volume production. The emerging Japan-Korea material control risk is the most noteworthy potential supply shock for the next monitoring cycle.
-
----
-
-#### 5. Watch Signals
-
-- **[Watch] Japan METI formal announcement on Korea material controls**: Would expand the L4 geopolitical risk map.
-- **[Watch] Anthropic Q2 official financials**: Key validation point for demand-side revenue quality and capex sustainability.
-- **[Watch] China May rare earth export data**: A fifth consecutive month of zero exports would cement the institutionalised stalemate.
-- **[Watch] Efficiency revolution commercial validation**: Multi-quarter data showing HBM demand per unit of AI compute declining >40% would structurally challenge current supply tightness assumptions.
-
----
-
-**Disclaimer:** This report is an independent OSINT-based strategic analysis for informational purposes only. It does not constitute investment advice. All inferences are strictly confined to facts and signals contained in the underlying research note and are subject to verifiability boundaries. Readers should exercise independent judgment.
-
+**Disclaimer:** This report is an independent OSINT-based strategic analysis for informational purposes only. It does not constitute investment advice.
 
 ---
 
+# Node / Report
+## Semiconductor Materials: China–Japan Rare Earth Stalemate and Expanding Material Control Risk
 
+**Date:** 2026-05-28 | **OSINT Cut-off:** 2026-05-28 20:00 KST
 
----
+**AICS System Disclosure**  
+This note is a node within the AICS v1.0 constraint mapping system. Nodes are not standalone opinions and are intended for informational purposes only.
 
-## AICS SYSTEM DISCLOSURE
-This publication is part of a continuously updated OSINT constraint mapping system (AICS v1.0). Each note is a node in an evolving analytical graph of AI infrastructure stress.
+### Executive Summary
 
-Nodes are not standalone opinions.
+China’s rare earth export halt to Japan has entered its fourth consecutive month, while Japan is considering expanding semiconductor material controls to South Korea.
 
----
+This signals a transition from bilateral trade friction → regional material weaponisation architecture.
 
-**Samsung Electronics: Strike Deal Passes, HBM Supply Focus Shifts Back to Structural Tightness**
-**Date:** 28 May 2026 | **OSINT Cut-off:** 28 May 2026, 20:00 KST
+Simultaneously, helium supply remains structurally tight due to Russia + Hormuz constraints.
 
----
+Result: L4 materials layer fragmentation intensifies.
 
-#### Executive Summary
-Samsung Electronics' labour dispute has formally concluded. The vote result announced at 10:30 on 27 May showed the tentative wage deal passed with **73.7% approval**, removing the full-scale strike risk. This eliminates the most immediate supply disruption threat to the global HBM supply chain. However, Samsung's 2026 HBM capacity remains fully sold out, and the structural tightness persists. Market focus now shifts from "will the strike resume?" to Samsung's HBM3e 12H yield and shipment progress, as well as external geopolitical variables — particularly the potential expansion of Japanese material controls to Korea.
+### 1. Verified Signal Set
 
----
+#### 1.1 Rare Earths
+- **T1 Confirmed:** Zero exports of dysprosium / terbium / gallium since Dec 2025
+- **T1 Confirmed:** Japan APEC request rejected (Reuters)
+- **T1 Confirmed:** China dual-use export controls expanded to 1,030 tariff codes
+- **T2 Inferred:** Stalemate has become institutionalised rather than cyclical
 
-#### 1. Verified Signal Set
+#### 1.2 Japan–Korea Risk
+- **T2 Inferred:** Japan may extend material export controls to South Korea
+- **T3 Speculative:** Potential cascade into regional semiconductor decoupling regime
+- **T3 Speculative:** Secondary retaliation from Korea possible (low probability but high impact tail)
 
-**1.1 Labour: Deal Passed, Strike Crisis Formally Resolved**
+#### 1.3 Helium / Physical Layer
+- **T1 Confirmed:** Russia helium export controls (2026–2027)
+- **T1 Confirmed:** Hormuz transit recovery remains partial (~15% baseline gap)
+- **T2 Inferred:** Helium pricing remains structurally elevated (RMB 310–360/m³)
+- **T3 Speculative:** Logistics rerouting cannot fully offset supply rigidity
 
-- **T1 Confirmed**: Samsung's union wage deal vote result was announced at 10:30 on 27 May. **Approval rate: 73.7% (46,185 of 57,290 voters).** The deal passed, and the strike crisis is formally resolved. Turnout reached 95.5% (62,616 participants), reflecting a strong mandate from high participation. (Yonhap, Donga Ilbo)
-- **T1 Confirmed**: The union had suspended a full-scale strike on 20 May and held the ratification vote from 22–27 May.
-- **T2 Inferred**: The high turnout and clear approval margin give the deal strong binding force; the probability of another full-scale strike in the near term has dropped sharply. However, underlying inter-division bonus disparities remain a structural source of tension that could manifest through other channels (e.g., slowdowns, talent attrition).
+### 2. Constraint Map
+- **Rare earths:** structural supply cutoff
+- **Gallium/germanium:** zero-flow regime
+- **Japan–Korea:** emerging control axis
+- **Helium:** dual-shock supply constraint
 
-**1.2 HBM Supply: Sold-Out Capacity Unchanged, Focus Shifts to Yield and Shipments**
+### 3. Actor Exposure Map
 
-- **T2 Inferred**: Samsung, SK Hynix, and Micron have sold out their entire 2026 HBM capacity. While strike risk is resolved, the hard capacity constraint persists — no additional supply elasticity within the year.
-- **T2 Inferred**: The immediate bottleneck remains HBM3e 12H for the Blackwell Ultra platform. Samsung's yield and shipment progress on this product will be the core metric for monitoring effective supply.
-- **T2 Inferred**: Next-generation HBM4 volume production is not expected before late 2027–2028; the medium-term supply tightness is unlikely to reverse fundamentally.
+**Exposed:**  
+- Japanese materials firms (rare earth input dependency)  
+- Korean foundries (Samsung, SK Hynix)  
+- Global semiconductor supply chain
 
-**1.3 Geopolitics: Japan-Korea Material Control Risk Is the New External Variable**
+**Constraining:**  
+- China (rare earth export regime)  
+- Japan (trade policy)  
+- Russia (helium export controls)  
+- Hormuz logistics (shipping disruption risk)
 
-- **T1 Confirmed**: The "Korea strike geopoliticalisation" sub-factor in the AIPI Geopolitical Fissures dimension has been adjusted from 0.75 to 0.70 (strike resolved, pressure eased).
-- **T2 Inferred**: Samsung, with ~40% of global HBM supply, remains at the nexus of the US-China tech contest and faces US pressure to restrict China-bound HBM exports.
-- **T2 Inferred**: Multiple media reports indicate Japan is considering expanding semiconductor material export controls to South Korea, pending formal METI announcement. If implemented, this would create a new direct material supply risk for Samsung, partially offsetting the supply improvement from the strike resolution.
+### 4. Risk Decomposition
 
----
+**Shift:** Bilateral friction → multi-node supply constraint system
 
-#### 2. Constraint Map
+- Rare earth stalemate becoming structural baseline  
+- Material controls expanding geographically  
+- Constraints increasingly compounding (not independent)
 
-- **Immediate Supply**: Strike crisis resolved; near-term disruption risk removed.
-- **Hard Capacity**: 2026 HBM capacity fully committed; no flexibility within the year.
-- **Geopolitical**: Potential Japan material controls and US export restrictions exert a pincer effect from equipment and materials.
-- **Internal Labour**: Inter-division bonus disparities remain an institutionalised tension source, though near-term eruption probability has declined.
+**Most important dynamic:** cross-layer reinforcement of L4 bottlenecks
 
----
+### 5. Watch Signals
+- **Japan METI** Korea export control announcement  
+- **China May** rare earth export data (5th consecutive zero export risk)  
+- **Hormuz transit** recovery trend  
+- **China helium** domestic capacity ramp (Shanxi Phase II)
 
-#### 3. Actor Exposure Map
-
-**Exposed**: NVIDIA, AMD, and other AI chip designers reliant on Samsung's ~40% HBM share; global AI compute users facing potential cost escalation; the KOSPI index, where Samsung carries systemic weight.
-
-**Constraining**: The US (export control pressure); Japan (potential material controls); SK Hynix and Micron (competitive share pressure).
-
-**(Note: Samsung's union is removed from constraining parties; strike risk is resolved.)**
-
----
-
-#### 4. Risk Decomposition
-
-Samsung has transitioned from a state of **"suspended high pressure"** to **"pressure eased, focus shifted."** The passage of the wage deal eliminates the most acute supply disruption tail risk. Strategy EL-HBM-01's regret value has decayed from ★★★★★ to ★★★☆☆, and its execution priority has been downgraded from P0 to P1.
-
-Supply pressure has eased but not disappeared. The hard reality of sold-out HBM capacity, the new geopolitical variable of Japan-Korea material controls, and ongoing HBM3e 12H yield uncertainty form the key observation windows for the next phase. Samsung's HBM competitive trajectory now returns to the industrial competition dynamics of technology, yield, and customer qualification.
-
----
-
-#### 5. Watch Signals
-
-- **[Watch] Japan METI formal material control announcement to Korea**: The most urgent external variable. If enacted, would materially tighten Samsung's L4 material constraints and could push supply pressure higher again.
-- **[Watch] Samsung HBM3e 12H yield and shipment progress**: Against sold-out capacity, yield fluctuations directly determine effective supply.
-- **[Watch] Implementation of specific strike deal terms**: The pace of bonus payouts and inter-division allocation could trigger follow-on internal tensions.
-- **[Watch] South Korean government stance on US-led HBM export controls to China**: Holds medium-to-long-term implications for Samsung's China business.
-
----
-
-**Disclaimer:** This report is an independent OSINT-based strategic analysis for informational purposes only. It does not constitute investment advice. All inferences are strictly confined to facts and signals contained in the underlying research note and are subject to verifiability boundaries. Readers should exercise independent judgment.
-
-
----
-
-## AICS SYSTEM DISCLOSURE
-This publication is part of a continuously updated OSINT constraint mapping system (AICS v1.0). Each note is a node in an evolving analytical graph of AI infrastructure stress.
-
-Nodes are not standalone opinions.
-
----
-
-
-**Semiconductor Materials: China-Japan Rare Earth Stalemate and the Expanding Material Control Risk**
-**Date:** 28 May 2026 | **OSINT Cut-off:** 28 May 2026, 20:00 KST
-
----
-
-#### Executive Summary
-China's halt on heavy rare earth exports to Japan has now entered its fourth month with no signs of resolution, while Japan is reportedly considering expanding its own semiconductor material export controls to South Korea. These two developments signal that "material weaponisation" is becoming a structural rather than cyclical feature of the AI supply chain. Helium supply remains concurrently tight, creating a multi-layered constraint at the L4 materials layer that compounds existing bottlenecks in HBM and advanced packaging.
-
----
-
-#### 1. Verified Signal Set
-
-**1.1 China-Japan Rare Earth Stalemate**
-
-- **T1 Confirmed**: China has exported zero dysprosium, terbium, and gallium to Japan since December 2025, marking four consecutive months of halted shipments. May data is pending customs release.
-- **T1 Confirmed**: Japan formally requested China to lift the rare earth ban at the 22 May APEC trade ministers' meeting. The request was rejected. (Reuters)
-- **T1 Confirmed**: China imposed comprehensive dual-use item export controls on Japan effective 6 January 2026, covering over 1,030 tariff codes. Gallium and germanium exports to Japan dropped to zero in January–February 2026.
-- **T2 Inferred**: The bilateral standoff has entered an "institutionalised stalemate" phase. The scope of China's rare earth restrictions now extends well beyond the initially confirmed gallium and germanium controls, indicating a broadening tit-for-tat dynamic.
-
-**1.2 Japan-Korea Material Control Risk (New)**
-
-- **T2 Inferred**: Multiple media reports indicate Japan is considering expanding export controls on three key semiconductor materials to South Korea. This remains at the media report stage pending formal METI announcement.
-- **T2 Inferred**: If enacted, this would extend the "material weaponisation" geography from China-Japan to Japan-Korea, creating a cascading supply chain constraint across Northeast Asia's semiconductor ecosystem. Samsung and SK Hynix would face direct exposure.
-
-**1.3 Helium: Dual Shock Sustains Tightness**
-
-- **T1 Confirmed**: Russia imposed temporary export controls on helium from 14 April 2026 through end-2027. (CCTV, Shanghai Securities News)
-- **T1 Confirmed**: Weekly vessel transits through the Strait of Hormuz rose marginally to 23, but remain at ~15% of pre-crisis baseline, sustaining supply risk for Qatari helium.
-- **T2 Inferred**: Shanghai tube-trailer high-purity helium is currently priced at approximately RMB 310–360/m³, down from the April peak of RMB 550/m³ but still elevated relative to pre-crisis levels. The combined Russia-Hormuz shock maintains structural tightness in global helium supply.
-
----
-
-#### 2. Constraint Map
-
-- **Rare Earths (L4)**: China's export halt removes a critical input for Japanese semiconductor materials production, with no near-term substitute available at scale.
-- **Gallium/Germanium (L4)**: Zero exports to Japan since early 2026 constrain compound semiconductor and optical component supply chains.
-- **Potential Japan-Korea Controls (L4)**: If formalised, would tighten photoresist, fluorinated polyimide, and hydrogen fluoride supply to Korean fabs, directly impacting Samsung and SK Hynix production.
-- **Helium (L4)**: Dual supply shock sustains tightness; no near-term normalisation expected given Russian controls through 2027 and ongoing Hormuz risk.
-
----
-
-#### 3. Actor Exposure Map
-
-**Exposed**: Japanese semiconductor materials producers reliant on Chinese rare earth inputs; Korean chipmakers (Samsung, SK Hynix) facing potential Japanese material restrictions; global semiconductor equipment and materials supply chains caught in widening tit-for-tat controls.
-
-**Constraining**: China (rare earth and critical mineral export restrictions); Japan (potential expansion of material export controls); Russia (helium export controls through 2027); geopolitical risk in the Strait of Hormuz (sustained shipping disruption).
-
----
-
-#### 4. Risk Decomposition
-
-The L4 materials layer is experiencing a **widening geographic scope of supply constraints**. What began as a bilateral China-Japan rare earth dispute is now showing signs of extending to Japan-Korea dynamics, raising the risk of a multi-nodal material supply shock across Northeast Asia. The institutionalised nature of the China-Japan stalemate — with no diplomatic off-ramp evident — suggests these constraints are transitioning from acute disruptions to semi-permanent features of the supply landscape.
-
-The most significant under-monitored risk is the **cascading effect** of multiple material constraints occurring simultaneously: helium tightness, rare earth absence, and potential Japanese controls combine to create compounding rather than additive supply friction. The most overestimated risk is the short-term impact of carbon fibre restrictions, where domestic Chinese substitution (T1200-grade mass production announced March 2026) partially mitigates the constraint.
-
----
-
-#### 5. Watch Signals
-
-- **[Watch] Japan METI formal announcement on Korea material controls**: Would confirm the geographic expansion of material weaponisation and require reassessment of L4 risk across the entire Northeast Asian semiconductor supply chain.
-- **[Watch] China May rare earth export data**: Scheduled for mid-June customs release. A fifth consecutive month of zero exports would further cement the institutionalised stalemate.
-- **[Watch] Strait of Hormuz vessel transit trends**: Sustained improvement towards pre-crisis baselines would ease helium supply risk; deterioration would compound the L4 constraint.
-- **[Watch] Domestic Chinese helium production ramp**: Shanxi Phase II capacity expected December 2026; any acceleration would reduce import dependency and alter helium price dynamics.
-
----
-
-**Disclaimer:** This report is an independent OSINT-based strategic analysis for informational purposes only. It does not constitute investment advice. All inferences are strictly confined to facts and signals contained in the underlying research note and are subject to verifiability boundaries. Readers should exercise independent judgment.
+**Disclaimer:** This report is an independent OSINT-based strategic analysis for informational purposes only. It does not constitute investment advice.
