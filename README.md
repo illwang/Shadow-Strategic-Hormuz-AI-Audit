@@ -144,7 +144,8 @@ This laboratory operates as a **non-profit academic exploration**. We accept **r
 **Contact**: scanwang@gmail.com (Non-urgent matters, 48-72h response cycle)
 
 ---
-https://papers.ssrn.com/abstract=6741938 AI Capital, Energy, and Labor as Binding Constraints: A Non-Predictive Cognitive Framework
+https://papers.ssrn.com/abstract=6741938 
+AI Capital, Energy, and Labor as Binding Constraints: A Non-Predictive Cognitive Framework
 ---
 
 *Disclaimer: All outputs are methodological case studies for academic validation purposes only. They do not constitute legal, compliance, or investment advice.*
