@@ -81,6 +81,11 @@ This framework is weakened if:
 
 ---
 
+
+
+
+---
+
 # Samsung Labor: 86% Turnout as Governance Constraint Signal
 
 **Date:** May 25, 2026  
@@ -210,6 +215,9 @@ L-levels refer to the SSR-OSINT constraint hierarchy framework used for cross-do
 
 ---
 
+
+
+---
 
 # Allocation Tightening vs Strike Relief: OSINT Signal Audit
 
