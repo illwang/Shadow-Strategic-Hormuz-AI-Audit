@@ -24,7 +24,7 @@ Markets have priced HBM shortage and geopolitical risk as "known knowns." Three 
 
 | Fact | Source |
 |------|--------|
-| Anthropic-SpaceX compute contract: $12.5B/month through May 2029; reduced-rate billing during May–June ramp; full rate from July 1 | Yahoo Finance/WSJ; Bloomberg secondary reporting |
+| Anthropic-SpaceX compute contract: $1.25B/month through May 2029; reduced-rate billing during May–June ramp; full rate from July 1 | Yahoo Finance/WSJ; Bloomberg secondary reporting |
 | Anthropic Q2 projections: $10.9B revenue; $559M operating profit; compute ratio 56% vs. 71% Q1 | WSJ, May 20 |
 | Anthropic valuation: $900B post-money via $30B fundraising round | FT, May 15; Bloomberg, May 24 |
 | Japan proposed 3-category export controls to South Korea (pending METI formal announcement) | Multiple outlets, May 22 |
