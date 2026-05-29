@@ -18,7 +18,7 @@
 
 ## Master Loop Diagram
 
-![AI Infrastructure: System Dynamics — Primary & Secondary Loops](sandbox:///mnt/agents/output/AI_Infrastructure_System_Dynamics_Loops.png)
+![AI Infrastructure: System Dynamics — Primary & Secondary Loops](Public_Audit_L2/ai20260529.png)
 
 *Figure 1: Constraint Migration Loop. Orange = Primary Loop (4 phases). Blue = Secondary A (Power/Physics). Red = Secondary B (Geopolitics). Green = Secondary C (Efficiency). (+) = reinforcing, (-) = balancing, (?) = uncertain.*
 
