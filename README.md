@@ -26,7 +26,9 @@
 ## Guide of the Week
 
 [Guide of the Week](/Public_Audit_L2/Insight.md)
-[Daily State](daily/20260530.md)
+
+
+[Daily State](daily/20260530)
 
 ---
 
